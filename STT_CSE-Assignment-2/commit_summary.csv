@@ -1,0 +1,2086 @@
+Hash,Message,Hashes of Parents,Is a merge commit?,List of modified files
+014a277a97759bbc0e6ec8fba588bc6e6de65a86,A few fixes to initial point_thickness implementation,['c0994ed0a53f06a555ea8d42903c2038fb54db2a'],False,"['constants.py', 'displayer.py', 'mobject.py']"
+ac930952f151acf284f6e01e98e8f7256f29f9f4,"Beginning transform KA article, many small fixes to the mobject refactor",['d294d0f951f01b307805d18679509c4c9d4b7301'],False,"['animation.py', 'meta_animations.py', 'simple_animations.py', 'transform.py', 'extract_scene.py', 'mobject.py', 'complex_multiplication_article.py', 'pythagorean_proof.py', 'scene.py', 'arithmetic.py', 'characters.py', 'combinatorics.py', 'complex_numbers.py', 'geometry.py', 'graph_theory.py', 'number_line.py', 'transform_article.py']"
+2322018875b218cc156f50d30d865a86d4a68a13,quick rgb-should-be-numpy-array bug fix,['c7389e008d3dc79f61e8270ff18758210b7e6a9e'],False,['mobject.py']
+7ae5a0eccb13713b3439d9c0a0b79bcfc96b05be,"Slightly faster sort_points method, and bug fix in fade",['7f45044bafb27c94ae1b3f900014b3fbdc612e5f'],False,['mobject.py']
+f21f6619a5150d193d85ed31ef60ed5b986661ca,Fix to Stars Mobject,['7ae5a0eccb13713b3439d9c0a0b79bcfc96b05be'],False,"['geometry.py', 'three_dimensions.py']"
+68160140233b8f7ebf00aa2894ea57984c504a90,Bug fix to bug fix on Mobject.fade method,['8f8eeea870c2f780cc93950a6de6bd6a168fcfb4'],False,['mobject.py']
+4f57551344e2655e53c9dcf72ee7d17333605f62,Bug in Arrow buffer,['68160140233b8f7ebf00aa2894ea57984c504a90'],False,['geometry.py']
+5964d5206ac15fc0544325728e232b69aa007e4d,Fixed ShowCreation,['84054286824d0ca17219f7d3e11a5f256f098559'],False,['simple_animations.py']
+9e54a5a6802d12994b007434b98c9f82d7dfd085,"Fixed PiCreature mouth, but more work remains",['c0009064d6ee0183f2d36fd15d7442b6efd10f54'],False,['characters.py']
+69be4328ce0a90a25758a7d158b8bc4ee973ce29,Small bug in how displayer had been refactored,['c16abfd6c80268e2656a95d566afb522aa6659ba'],False,['displayer.py']
+ff5075ce7d3db6381fb0e7e44f90af4b8ac47746,Couple scene bug fixes,['e45e20b5b0fc03cf60c2985d59a5b2883c714af1'],False,['scene.py']
+810bcb98133aa1a62efc52c75cc1d285b241293e,Small fixes while putting together Hilbert video,['64ac1426b3f00e85d26001b227542b53543090bd'],False,"['section1.py', 'section2.py', 'stage_animations.py']"
+468303c30912618ceb84cafc9462c37da55b73fe,tuplify bug fix,['75c88375d9b09be6b3021b3b87ba424c51c74fe2'],False,['helpers.py']
+9d94337d9909cceef51d626cab62c9d5b3552b15,fixed tiny config error for Square,['6bb3a2c18194ef1a1e728c869b22794cebe7f3f8'],False,['geometry.py']
+803301e4a181e98099967d701f2ddf034fa017f2,Fixes to multilayered scnes,['9a73fe0d4e953d9ad9f602dd0fe1eab1b284b40d'],False,"['curves.py', 'multilayered.py', 'constants.py']"
+a9f620e2508cf9de4f5a405449673d4d50804d80,"Better interpolation, bezier subpaths, and color bugfix",['c685211484b50a900b2d97bca6f1ecf631ab1ab4'],False,"['camera.py', 'helpers.py', 'image_mobject.py', 'mobject.py', 'point_cloud_mobject.py', 'tex_mobject.py', 'vectorized_mobject.py']"
+74421070bbb898cdf16c6975a5548b8762546ba5,fixed triangle of power mistake,['a4efcdbff2b68a36426f761a9baa5a5cef8e71bd'],False,"['__init__.py', 'end.py', 'triangle.py']"
+337991e8d1578d2f18c90ef40d9b367f116e664d,Bug fixes after last scene update + some renaming,['75aa246570b3fd668d104cc16e25e115ed2c99c1'],False,"['transform.py', 'chapter7.py', 'chapter8.py', 'chapter8p2.py', 'chapter9.py', 'two_d_space.py', 'mobject.py', 'vectorized_mobject.py', 'scene.py']"
+44216ffe0d5c70bc3c4f8a2788dba2bcf907b654,Fixed interpolation problem in ExplainTrigFunctionDistances,['b1eb9a135b410ed2a7e89bd1881c8793fab31b9f'],False,['tattoo.py']
+ac137eb68393752637f63019c43976c3a5312a00,A few bug fixes to the very buggy SVGMobject,['fd5dc238394a658bb001759991ce677efcdc81b6'],False,"['borsuk.py', 'chapter1.py', 'mobject.py', 'svg_mobject.py', 'objects.py']"
+107c24cd4712b2545f19e895170d387e6d6735bb,Fixing some animations as I put together video,['865f5c33bf59296d5051468bd2f0cfca66018916'],False,['borsuk.py']
+ab2b6c2ba4927a0478a216f76f0f7789cb39e29e,"3d stuff is still rudimentary, but slightly less buggy now",['c2eb3606844136a9f73dfe0bf98f84dd6ae02605'],False,['three_dimensions.py']
+6dab7c958fb92a4bcbbbdc9af3e90af99c04f470,Fix to how brace tip is found,['311a22048bff3f7021e2b5a0f61e36f600b90003'],False,['tex_mobject.py']
+22528568079091141f880e254f22c612ef78530b,Bug fix to finding submoject critical point,['c239f1af98d336d074568e3b04dcf8154760309b'],False,['mobject.py']
+0f458594c6f7f3c25cf8d3338efd6b4c3cc7c3e5,fix get_subpath_mobjects() when a submobject has no attribute 'is_subpath',['dc24f0eaf4e664356a72e65407fd6ceec5a302c7'],False,['vectorized_mobject.py']
+109d2efb477fb5c1412fa6e707110cdf595e1fd0,fix problem with integer data type of start_to_end,['0f458594c6f7f3c25cf8d3338efd6b4c3cc7c3e5'],False,['geometry.py']
+8f4b1de8f119825a1b48f8aab6774fe2ad1d5eee,"add support of transform=""matrix(...)"" and fix bugs win lowercase commands",['109d2efb477fb5c1412fa6e707110cdf595e1fd0'],False,['svg_mobject.py']
+0b7e4caf17c085084b6679a10e12140f05b8b24b,Bug fix to AnimationGroup,['e5411ea1f6b6af18e455133f1132bd654f3806e3'],False,['simple_animations.py']
+6ab2d5f3b26e077764f77f860c80dad3530f52d6,Some bug fixes associated with new copy method,['ff0c122d4d0aba1e4acaa81bffdc8ebe37a851dc'],False,"['tex_mobject.py', 'vectorized_mobject.py']"
+f47d7a03f391eb3bad4deb3a81dd105c4edff08f,Debugged problem with Scene.remove,['dc435e5aa3bc1270f9152c54b8034a054c26a7e0'],False,['scene.py']
+e27e7f539fc3a1c1f249e17831300ea1abe4dc14,"Merge pull request #20 from mirefek/master
+
+3 little fixes + SVG matrix transform support","['c3b8b36e4e105d91ab1b2b57e4a90d254d6ea933', '8f4b1de8f119825a1b48f8aab6774fe2ad1d5eee']",True,[]
+cce24ce93a545ccd90919a956f695d111460ba0d,Fixed Riemann rectangle gap bug,['e27e7f539fc3a1c1f249e17831300ea1abe4dc14'],False,"['chapter8.py', 'graph_scene.py']"
+4a9c6a8012a4461dafa5cd51b21fd76ca9d063b4,"Merge pull request #22 from styxtwo/upstream
+
+Fixed ApplyMethod animation going in reverse for nested objects","['14d2d8fecb97db54601cd5fe61ab2e8bed1fb9d1', '21345a62591a51035345871db1741f15ee05f401']",True,[]
+62c43cd306a30c6657be3d5da1db3d60757ab8d8,Fixed issue of buff with curved lines/arrows,['fd20472973415e4ebb0297931859cbe81c4a3b0f'],False,['geometry.py']
+0ec5538ef0f0cb35a1a2a4e720d4d473901e6950,"Handle latex errors when converting to dvi
+
+Whenever latex fails (for example due to a missing package) the code
+continue and ends up failing due to a missing svg file.
+
+Handle latex non 0 exit code.
+Pass to latex -halt-on-error so it does not attempt to ask user for a
+file, that is ignored in batch mode anyway.
+
+Write the latex output to stderr and raise an exception to abort early.
+
+Signed-off-by: Antoine Musso <hashar@free.fr>",['2ea2109694b790a3f6ee0f80d368fb238dc3d2f4'],False,['tex_mobject.py']
+996cb5f36cb2558801b098c99d2b221378a13f1d,Modified sound when done if runtime error (in case of quitting if -p is present),['6bca9952aeb72e03ec91959a93958351cd1d93a4'],False,['extract_scene.py']
+b6a1a6878b4852a4d20ef1b33e81f176e7a96abf,"Merge pull request #26 from hashar/handle-latex-error
+
+Handle latex errors when converting to dvi","['6bb8f1d94af2a4322b913e9baff3a64e90ddcf06', '0ec5538ef0f0cb35a1a2a4e720d4d473901e6950']",True,[]
+f3eb43f96f286a76aef7d9b0b0cbd17b3ea1db69,Fixed -o flag functionality for extract_scene.py,['b1e6c9c916074fcfc6479c92d450d9a1867c6891'],False,"['extract_scene.py', 'scene.py']"
+ea0f2c97f41e7d8bf05eb36e576f1335d22512e5,Deleted the cast error in class TOP,['0092ac9a2a20873c7c077cefc4d68397a6df2ada'],False,['mobject.py']
+d2925adebb19d3b6560138f92ff250b3255feba4,"Merge pull request #31 from rajdakin/master
+
+Deleted the cast error in class TOP","['c214956992b825f6ae3196b8dd636d103ecd1c35', 'ea0f2c97f41e7d8bf05eb36e576f1335d22512e5']",True,[]
+37a47b5d3dd628e1b8781dd3d37189ceabd0e8a3,Some simple typo fixes,['2417c063987aacedbbbaa4f654947987754cb558'],False,"['transform.py', 'constants.py', 'helpers.py', 'image_mobject.py', 'point_cloud_mobject.py', 'region.py', 'borsuk.py', 'complex_multiplication_article.py', 'chapter10.py', 'triples.py', 'wcat.py']"
+f6340f42d7efe06c5436adfbca2723c1737b3022,Fixed bug associated with empty input strings,['c4b4acc69b6640acb36b8b4beaee04f3034670ed'],False,['tex_mobject.py']
+da1751b7c5c41ed1dc7e1d868bb800ec20c5f6e9,Small fixes to Bayes videos,['2b0b16131f266e28392c2b95b4ea1b22f9e08454'],False,"['bayes.py', 'bayes_footnote.py']"
+a954a0985756a8d1a6272033259cd0a94169cf6c,Fixes to ContinualAnimation,['af38dd10958f65deb7e0655a541d0625a3866971'],False,"['continual_animation.py', 'constants.py', 'scene.py', 'waves.py']"
+f8a8d5115d2916ab233e5f1e03f54537748cd2ec,Fixed Line.put_start_and_end_on,['f1c0a341cc21eaac19b46f292ba754eaec5ecc54'],False,['geometry.py']
+151914c1a2e445f697d8423c86f0fe7b4ef45884,Fixed some issues with how EM waves worked.  Quite possibly a few remain,['80c433820cae544fd55cf3161ffa7d091783e350'],False,"['bell.py', 'constants.py', 'geometry.py', 'number_line.py', 'waves.py']"
+1c4da1c4e7e91698485cc40c2469c6d101f80fad,Arrow normal direction bug fix,['151914c1a2e445f697d8423c86f0fe7b4ef45884'],False,"['bell.py', 'geometry.py', 'waves.py']"
+6539160789654a17ef21245d0fa2601cafd5f25f,Fixed constants,['1380d8670b7a87647e1a4f32d670c92d17f58108'],False,['constants.py']
+4c1282af7baf74df4be11f3ecfc19bf63b607c68,Bug fix to MoreFiltersMoreLight,['231df4740fdb3e851de07d294533f90eea3255dd'],False,['bell.py']
+9cd37d99fb0debbf4dec8f30d5dfd809207a3ad3,More bell fixes,['4c1282af7baf74df4be11f3ecfc19bf63b607c68'],False,"['bell.py', 'tex_mobject.py', 'waves.py']"
+8b4d28f43347d1484303061a044c7cab8b98a220,Up to ForgetPreviousActions of Henry fixes,['9cd37d99fb0debbf4dec8f30d5dfd809207a3ad3'],False,"['bell.py', 'three_dimensions.py', 'waves.py']"
+a5e965ba469d50d339d8ee12383c63dd6d57bb58,Small fixes to waves.py,['1966864d20ef14b26882c96a6dc4de7f9588299a'],False,['waves.py']
+b88c6696276c8b30ed7aec26bcf98628268855e3,Further Bell fixes,['a5e965ba469d50d339d8ee12383c63dd6d57bb58'],False,"['transform.py', 'bell.py', 'camera.py', 'vectorized_mobject.py', 'geometry.py', 'waves.py']"
+36cb325e424fb0b85c4104115e0988febc2aabfc,Small bugfix on text_template.tex,['389f8c9c01205707b5c193cb9483262f327d6414'],False,['text_template.tex']
+6fac1a578c0ed596083ab8f65048b8b5fdf67e40,Fixed Mobject.copy to be more efficient and fault taulerent,['7f88a9dae1ebec2337d5134945295d58df4a2be6'],False,"['transform.py', 'mobject.py']"
+cc1767718c9a1fa15d4001f35fe6e34d2e1218c6,NumberLine.apply_function bug fix,['dad04e89c91658d8c923701e570a7239e81df3ac'],False,['number_line.py']
+9f3e23f991d329f9e20232e07dff9c85138f454a,Error message for finding image paths,['ff207a4688d172c93c24c56152b540b0a454dff6'],False,['helpers.py']
+de0e156444f3a102801682ae2d13ed4a4f1d71a5,Slight alterations and bug fixes,['0ba007bf21867f2bfc63352470196de39f95da80'],False,['part1.py']
+3d9d3be1425b98dd943bea8b49f5f6a4f8af21a3,A few scene bug fixes,['de0e156444f3a102801682ae2d13ed4a4f1d71a5'],False,['scene.py']
+fae819695a80888b9c06b42ec3cae5b77155d6e3,There's some (as of yet unresolved) bug associated with fill colors when they become negative during an animation,['24d6c7bbef76131dc5cf5a85a6b1624447ccfcbc'],False,['camera.py']
+589fd5e0281a09d4f13f2466d44990fd61b6c285,Small fix so curved arrows look better,['e5490913a8469739db7e6bfc7cb02f95ded32191'],False,['geometry.py']
+76ea80230d6137e4fe0852eda0e83b5489c7af84,Arrow bug fix,['6625e4ee16784d199df2c42a6d89e060a7ccb18a'],False,['geometry.py']
+07fc70ec8894cf7b80c56d1a42ac6fd9fcdbad0b,"Merge pull request #65 from frozar/constant_setup
+
+[CONST] Fix directories creation","['01f85225d0111d2c0b976632c5f98d285b35c856', '7e1f8e4b47eee9fb8039884ac2b44f98b7781385']",True,[]
+1b0819ce9775cc7ea1780bd687266ab6f62b71d8,Fixed ffmpeg writing issue,['2ee311870fc1220bd5161abe6882015cddce6129'],False,"['.gitignore', 'constants.py', 'playground.py', 'scene.py']"
+3696ce748d55b2c5394aec2521f475c088787089,Fixed zoomed_scene bug,['d8c4021eec9fda8e4d500e4c77d8bf7851e14596'],False,['zoomed_scene.py']
+56505522bd029882c6a46965daf74895431008cc,"Fixed Succession animation, while changing its syntax a bit",['48503fc5affa31446782dadf13684ad093382edd'],False,"['simple_animations.py', 'transform.py']"
+a0fc3ce3241134e65e2adb56ecae4522edaa8f63,Bug fix on CycleAnimation,['62edfbb32fd6bb4fda978fd621a58c97a55ecdf3'],False,['continual_animation.py']
+ae31ee55e74fd99834f208d8c554761c03de0de7,Bug fix to VMobject.fade,['c649a152d70bfa8f4eabadcc53706655d4d51b74'],False,['vectorized_mobject.py']
+6de931968e292724c1907be3fa523d81c9326da0,Small bug fix,['f23fd5444da80408e4e22998ce3d5ccd610277c6'],False,['geometry.py']
+0e961c85e017a85dc68e47c920273b9f8cdeb718,Bug fix to how Succession behave when Scene.play changes its runtime,['016e2c9adafba3b78b16adbd8d791bef4194dbaf'],False,['simple_animations.py']
+5d9eb8d5a0b3ef62aaeb17a53d90d43f16f36c64,Fixed get_merged_array bug,['ec1afdbb835890ed909268ffa6417e948fb78069'],False,"['mobject.py', 'point_cloud_mobject.py']"
+9f977fd23ebdeffae5b0278ab15e9d56bf220020,double drawing of elongated ticks fixed,['54e1584b3d67e6d397e2424ae528219c1950e797'],False,['number_line.py']
+50a65817109bcf92fff8922fb432cec48429ec92,"Merge pull request #67 from 3b1b/number-line-tick-fix
+
+double drawing of elongated ticks fixed","['54e1584b3d67e6d397e2424ae528219c1950e797', '9f977fd23ebdeffae5b0278ab15e9d56bf220020']",True,[]
+f64c076e7ebe70d489e081db43dcd5c5d722a0cb,Changed how functions are applied to vectorized mobjects to handle smoothness issues more cleanly,['1b67abd8a95ab6f0374acc490f1dc8db049d9d15'],False,"['vectorized_mobject.py', 'geometry.py', 'number_line.py', 'objects.py']"
+543d8cb92d42f560665f43423b850272c4e7c8ef,Fixed ChangingDecimal bug based on new scene+mobject structure,['024a9dd3d48659fe565709d35e8fa7fe7c8c47b7'],False,['numerals.py']
+38a1c654fc9e814a45b7f1dcb0c5fd2a3ee21670,Slight bug fix for behavior when scene adds mobject followed by a group containing that mobject,['1332ec9ed1d59955c6b6e4b2fb4af77fcc7f8346'],False,['scene.py']
+fe309ed343616f4d037900f12c2bff2c2720b55b,Fixed how NumberLine leftmost_tick is chosen,['5ac1b874943cc662074e9fc67dd21e7a3f20daa8'],False,['number_line.py']
+00713b7971b5056b53fe9dc6b4d7857e527bcad3,Fixed bug associated with continual_animations being removed accidentally,['b41e1fc562ab82033cbe0dd1e48d7afdcf91f033'],False,['scene.py']
+eb149bef2ea512d95770065cc7f1dc6f04d01674,Fixed the bug with negative 0 displaying,['0c30d31dfffff4f6e56c925d26fa120b6a323f32'],False,['numerals.py']
+d74127bb7fb221f08788586514d2f7b71c118820,Bug fixes to implementation of Succession animations,['2d34b2e28be0cf16a39d66b6d0e5919506ab11cd'],False,"['simple_animations.py', 'helpers.py']"
+4919dbf652f144cf7ff6599bf8ff30d452b6e716,Fixed ContinualUpdateFromFunc issue,['22d6d2dba588520704894d328e8e568a48461047'],False,['continual_animation.py']
+123bae00a67575b01dafbc1ce6cf00c9d3e1cf04,Further fixes to Succession animations,['7bcde6713d48f4045c159125dfa1bef700f0c872'],False,"['simple_animations.py', 'helpers.py']"
+6e293782ffbb79696facfdc40515fd21d961884c,Incremental progress on WindingNumber (equation solver 2d),['123bae00a67575b01dafbc1ce6cf00c9d3e1cf04'],False,['WindingNumber.py']
+78b660bb923ca5c990b8c163e61f582e4372a5f4,Fixed bug with creating image directories,['a28d13fc3e5f2791601eb111ff15f2b26a828b88'],False,['scene.py']
+e6df91d03e7ae8b714684f1e42c9720367b3ffa2,Small bug fix to foreground mobject behavior during an animation,['78b660bb923ca5c990b8c163e61f582e4372a5f4'],False,['scene.py']
+fcd1e7d6a53d2bae495cfe1eaa11a2c099ed53a5,A few small fixes to new about_point behavior,['48dad34f957abce4cefec06052fefe5325e39ac2'],False,['mobject.py']
+1ffbc77eda0c9d62de5b4196a499f6d42ed03620,Bug fix to ApplyMethod treatment of method kwargs,['7c9f5ca71155d2cc6f88c3bdef844f71005ff11d'],False,"['transform.py', 'mobject.py', 'scene.py']"
+5f3c7749528aed8b637906188c2e9cc0724d8b8f,Fixed bug with how Brace gets created,['925e10396840ad968b8dda4a743c9001f575b0b3'],False,['tex_mobject.py']
+4acc4c2382708f7b1e34d9a6355a1d9960c1f78f,Typo fix,['9916e072aad78ff8fd5349e377eca73429d6f5f0'],False,['README.md']
+c7b140a24d756b675feee0e7e0a66f2d440c8c67,Added error message to indicate people should change MEDIA_DIR,['dc271530d684c41ce70825b651e2948316af17e0'],False,['constants.py']
+22c11286b76ebcc44012f87ff0821c8579a53760,"Merge pull request #83 from Solara570/tex-mobject-fixes
+
+A few improvements on TexMobject","['578099811547ea67fe0234005031c5caf7b268c4', 'ad7a2171cd6a54df1a9febb5c17d212deeb9a4a9']",True,[]
+963956cca71e66127488e9edff222566eaa69093,resolved merge conflicts (#85),['2cbf016dff8192d35c8ef93afd73bbf97f27a236'],False,['numerals.py']
+eabe989eda7d42b6b3ee92ca686a6b196ad48167,Resolved a few merge conflicts,['f6c9c6eec6ff11fb1d17cb510b27843c16690e7e'],False,"['scene.py', 'geometry.py']"
+738d6974b7a0e1283ce5762cf62c3a6e7ac466d2,Resolved conflicts in,"['a4a146a54eecd57b33feb4a4c86e930ef73cc28c', 'b9a292fbfc0dd9347a6ec87ad02638196fdf4cc5']",True,[]
+3c86caa48830119983ec49e31c861c88a2ccc443,Fixed bug with MappingCamera set to allow_object_intrusion,['730c94461f7393c93b4505753e11a56995bbbd4f'],False,['camera.py']
+932d056ff71c3c0505a6088fc0a7023780c7ac31,"Merge pull request #90 from 3b1b/mapping-camera-fix
+
+Fixed bug with MappingCamera set to allow_object_intrusion","['730c94461f7393c93b4505753e11a56995bbbd4f', '3c86caa48830119983ec49e31c861c88a2ccc443']",True,[]
+3e34c29509e804e029e9b215a1eb947a5e164035,Bug fix to PiCreatureScene handling bubbles,['0fa5727d587c64398917ac12c8e223f2b50781d0'],False,['characters.py']
+5718db026e2cdc23ada625bd0fc436c334d93ac0,bugfix: svg handling,['aa73cd65b1f7ed95a68e81f1476934d4b073bcdc'],False,['svg_mobject.py']
+b7091273392ce4975a8b8533a5d424d4319115a1,"Bugfix: VMobject.pointwise_become_partial did not worked properly when 0<a, b<1 and
+they are on the same curve.",['8cf2214d15d6cf7dd37c5f80ccbeebe10b7e8e67'],False,['vectorized_mobject.py']
+a9c1498affddf9beba9b347d5fd1b1b73c3bba9f,Resolve undefined names,['994749ceadf9f87f2ebe40bbb795fbb2b696f377'],False,"['network.py', 'number_line_scene.py']"
+28ba8fea9ce9c16e199ed7738441307d741739b2,Fixed alignment of Decimal unit,['994749ceadf9f87f2ebe40bbb795fbb2b696f377'],False,['numerals.py']
+d52776a0a7ed352f39102945027876e3732d7b1e,Fixed numerals merge issue,"['ad2b1c393384cd39501a733b9763209a236d7a73', '82c14ee6a7a25953c1ac5e82d4e32af0ad72e29d']",True,[]
+55a723a2848c8ea666f3bb40b4482ae77bf2e6a8,"Fixed bugs in Succession and AnimationGroup, and also created purely virtual Container class from which both Scene and MObject derive (conceptually unifying their remove/add methods)",['ad14222d1cd94c82ed83cdf3dd782109fd543831'],False,"['simple_animations.py', 'mobject.py', 'scene.py']"
+24328374daa9c061c2874c149f800a8462f44ca2,"Merge pull request #98 from cclauss/resolve-undefined-names
+
+Resolve undefined names in Python 2 and 3","['ea56569b24d4c2857457a423357f9791b089bea6', 'a9c1498affddf9beba9b347d5fd1b1b73c3bba9f']",True,[]
+10e76fd7d8e3def3cc594d1a300b1479d4b1b11d,"Merge pull request #94 from mirefek/master
+
+Several simple bugfixes and features","['24328374daa9c061c2874c149f800a8462f44ca2', 'bc23fbc3426a536aebb4a412ad6994cf89daf958']",True,[]
+7ad6ccaa49bbd5cbfcc9892609fca5a2aba6708a,Bug fixes to 3d display,['10e76fd7d8e3def3cc594d1a300b1479d4b1b11d'],False,['three_dimensions.py']
+c28b81a2307c032dd94f892cc86722766b355d8a,Fixed bug in set_background_by_color_function,['634b28c485c4408b4c48e3dd92bf5756985fad58'],False,['camera.py']
+c5a93b4c86b5cae25ace670412ebe3035f5913e1,[3D CAMERA] BUGFIX: take into account the camera distance in get_view_transformation_matrix().,['717b3f9b80f261736c1784c33f232e7b024610bf'],False,['three_dimensions.py']
+d9e329e9dd07dbb6187dddf5a316f0debb144d71,"Merge pull request #106 from frozar/3D_zoom
+
+[3D CAMERA] BUGFIX: Zoom","['717b3f9b80f261736c1784c33f232e7b024610bf', 'c5a93b4c86b5cae25ace670412ebe3035f5913e1']",True,[]
+c9e0d8b8392eaf2d7845160e761093fa10c16839,Bug fixes on set_background_from_func (now computes screen dimensions correctly),['5c0e71a728052828a62edc53f0bd5b3bd06002f8'],False,['camera.py']
+6829ff115240c9eb80c39360424b4cd5c74eb187,"Merge pull request #108 from 3b1b/WindingNumber
+
+Z buffer sorting added to camera, set_background_by_func fixed, other small fixes","['19278fe613d6b35e62f6300422ff794a769c1424', 'b1a62a156c4e17df98181fa2f6a06f838ae390b7']",True,[]
+ceccddd262aeaced56140295095f1119299dfbe6,fixed copying problem in animation,['6a0b0c874288c5b45ea522e2701195142134ef24'],False,['scene.py']
+ad5ffc5fdcfce9dbed916a539225ab41abcc19d3,"debugged existing scenes, working on BackToEulerSum",['fa481a1cb870a92d6c77f531feb278f08805dea9'],False,"['basel.py', 'light.py']"
+87b7635988715ac52057b0d2d949e4786156eee1,bug fix session with Grant,['ad5ffc5fdcfce9dbed916a539225ab41abcc19d3'],False,"['basel.py', 'mobject.py', 'light.py']"
+1e88bf3946bfca6db7df4bfcbcba3ecbd257410d,"Merge branch 'master' into lighthouse2
+
+# Conflicts:
+#	topics/light.py -> resolved","['87b7635988715ac52057b0d2d949e4786156eee1', '341fad5e94efdb0f4b3b720b8798717d9a19ed99']",True,[]
+2c4fa36073f1e9da1223046cd24fc788d2652b12,bug fixes in light. Finally working again!,['8e0c84946f78ec9053a72ea37a4dd0d9119bc9cd'],False,['light.py']
+968b0dd811b79879b172b2fbf06a8a7a93a248ee,fixed spacing issue in BackToEulerSumScene,['082d67ec84d8bf9e5479d35ee4c68fa11368a507'],False,"['.gitignore', 'basel.py']"
+29962068dbb36a081398593d936e4500ce1d76f8,Bug fix to Line.insert_n_anchor_points,['dca03648ad0a1d580e066244e74ac7bb2055857c'],False,['geometry.py']
+7871e557d2d5802806c72ab9b395e197e64ede8f,bug fixes,['4a11d8f42df09ac2860fce90aa2d50aa5fc2b103'],False,['light.py']
+87811976d4d9d27fa0d446eb5d40e4893fc5be25,"Merge branch 'master' into lighthouse2
+
+# Conflicts:
+#	.gitignore -> resolved","['7871e557d2d5802806c72ab9b395e197e64ede8f', 'ff32a7c6a4113a0bd1bd15a98f2e9b4a5f1de902']",True,[]
+e1a5667ec07a33ffe9802bbda3d7d591b4801087,fixed issue with finding the angles of left-oriented spotlights,['5b395853b719f7a0c8373e5c7ff237c32aea7a20'],False,['light.py']
+cf9156a3cc5c824b1c58a877a07bc24598422ba9,Fixed shadow issue,['512caa90c6c32449f8fd4ce8d77de4791affdff9'],False,['light.py']
+e07fecc2f94569aa878e871cd098a4eaec807fc8,ThreeDMobject color fix,['e78cb80701693cad48994147f1dc51f6de204ad8'],False,['three_dimensions.py']
+e98252dfa6588fc75d835907c91bf8e0f5ae4eea,"Merge pull request #120 from mirefek/master
+
+yet another simple fixes / improvements","['3f6f23cae4e65c1cdd2e9b2d7685872a24fd60df', '6b39ba0502786d63d13671325a78351f89dfd3be']",True,[]
+4c6af541c13a13550987f26145a97ee92fbb922d,"Switched WindingNumber to use np.linspace; also, fixed missing colon in extract_scene.py",['5c0bbbc4be4faa1269ef52541f32b7780843d676'],False,"['WindingNumber.py', 'extract_scene.py']"
+13a45224a0a5b4e99cd4951c48064f8ad67ed113,"Fixed display of vmobjects with a background color array, and sped up overlay_rgba by a bit",['d5aeeb0e8c1d3a2b67ba73002b4a7b9b34464862'],False,['camera.py']
+b4b47c8439e7a9c2935f37f93fe88536f2e47467,Fixed Succession bug which had resulted in incompletely drawn subanimations,['b06e8818f4116a42c9059c9af719a192fce10b15'],False,['simple_animations.py']
+95357f90a11880bc3863dc3633b11589cc4056d8,Fixed how continual animations are handeled when skip_animations is set,['e632be304d07e1ca5fa69363c7fefb3131c37b1a'],False,['scene.py']
+fe1c3ca0f9cc6d372d12e9daaf511a2b3a65cd99,3D anims of LightSource fixed (everything faces the camera again),['2d93c45624080b24a9b08d84359a400b1fcc01c6'],False,['light.py']
+4982a44fb6e1dbd24a7afd6336dd43e13fa3b794,Fixed bug where nested AnimationGroups did not propagate configs correctly,['d509335210a0a228fe9c0072bab515d84ac0848c'],False,['simple_animations.py']
+c2b9417c6a84a699e10150967751a334c7b95ca0,Fixed division by zero bug in alpha compositing,['652dab7f232eacc8040471ac4118ffd53f562e99'],False,"['camera.py', 'helpers.py']"
+5e64508c40f0361059e682ef62f072aa93676ec2,"Merge pull request #133 from 3b1b/WindingNumber
+
+Fixed division by zero bug in alpha compositing","['652dab7f232eacc8040471ac4118ffd53f562e99', 'c2b9417c6a84a699e10150967751a334c7b95ca0']",True,[]
+3bdeeafe2dc2ab22d07e970d56b7c783af15ffd0,"resolved conflict
+
+# Conflicts:
+#	topics/light.py","['59deed97aa5bc69dd0107a059f7a962bf44ff589', '79a51cc7953e181648f3574a9641d6e3ad30f0a4']",True,[]
+f76a34c273e94193893c1dfc68cd47f25dd65d19,Fixed deepcopy segfault issue with Camera,['d3a39f2e65ba1a448846776f26926f4de06de708'],False,['camera.py']
+6ff937e89385e7f84d78861efcf3be6d666c7fcd,"Fixed one-off error for number of frames rendered during an animation, and made it so that a final frame is always rendered after the construct method is called",['47d1f8d4464a2862c74eab4d3e579c15f6bd19e8'],False,['scene.py']
+1d09e5e9607cff6527a262beb599bcfbe6f85259,Fixed bits of funny behavior with skip_animations,['6ff937e89385e7f84d78861efcf3be6d666c7fcd'],False,['scene.py']
+9927f226453161431a8309cd53f5d33382208ab2,"Fixed small bug in Arc, where end and start were swapped in adding tips",['f7f359ffafd9e5cfcaa790892fec6597e88317b2'],False,['geometry.py']
+c329fa5914bcc3246a7669bec7b4103e4bbde73d,Fixes small run_time and added some warnings to Succession,['1c095a7f07dd5ca02d1e7aaa34ea384a01a071d6'],False,['simple_animations.py']
+4c1934fe4fd26700b2a729ea411169d771c6fdd0,Fixed typo,['f93679fa47253074396605068969d5e2b389e0e0'],False,['camera.py']
+1b9cde00d95d1c75d65e831160f7e5fff9a01fca,"Minor fix to camera.py, making SplitScreenCameras work again after some change to background handling made them crash",['2966c1c31e503fa131a9427f785094ee32effd6a'],False,['camera.py']
+1a8266b5a348ab252efaba100ed72c03b36f32ae,"Incremental WindingNumber changes (and hopefully fixes to merge snafu now removed frmo history)
+
+For reference: There had been a giant merge snafu (a merge on the Master branch of changes from Lighthouse2 that somehow overwrote many other files to older versions), apparently fixed on the Master branch by doing a reset to an older version and then a push -f. Before it was fixed, the merge snafu from Master was pulled into Sridhar's local WindingNumber, and then pushed to the remote WindingNumber as well. This was fixed by also doing a reset on Sridhar's local WindingNumber to the last good version and a push --force-with-lease. (There were some uncommitted changes on WindingNumber.py lost in the process, but luckily, by manually saving the file, those changes were reinserted, in this very commit).",['07214127d8c083f06c2028ceca5d2f0e9250a97b'],False,['WindingNumber.py']
+342d6eaa8272045b084cd1acf08a94b7d25d4eff,resolved conflicts,['74742ce5b4c97a305fc2cb8b6869e071ca2a2ab5'],False,"['camera.py', 'helpers.py']"
+ec4bf7b504b15d6f3edbe1518edcc80dde6f931a,Fixed(?) Spotlight.update_sectors,['ad13082b73f0b29b1e615440a94011f4a81d2461'],False,['light.py']
+0975f323db2ad36125bb78620ed08f4eb9e703d6,Fixed fade to behave over Groups of objects exactly as over the subobjects individually,['3b0332902d91b18514486c0ab99cf854974d81e7'],False,"['transform.py', 'mobject.py', 'vectorized_mobject.py']"
+8e5196aa8d1bd3e0d95cd62fe2d08c94ecc1e820,Fixed typo/grammer in readme.,['0c7c324271522b75cafc3d1f5624a843d66adefa'],False,['README.md']
+93b5679a11acf5a9a559098a7e924a4eb47f3e0b,"Merge pull request #144 from efroim102/patch-1
+
+Fixed typo/grammer in readme.","['0c7c324271522b75cafc3d1f5624a843d66adefa', '8e5196aa8d1bd3e0d95cd62fe2d08c94ecc1e820']",True,[]
+b1b53e40fcb6d36d8ca511be57d7304a27ba8de3,Incremental (the end of my messing with EquationSolver1d for time being),['9e6e5be7be21e04528a4f1e373c6359769c011e1'],False,['WindingNumber.py']
+8ad9135697f168a7534b4037945c3e1cf1029e5b,Introduce1DFunctionCase and TransitionFromEquationSolverToZeroFinder,['bb04d1e7c6e9036b87c269b0b5d66729e3d9596f'],False,['WindingNumber_G.py']
+9b8fdf3d3b325f124e9fc490a95201fcfa1e0387,Bug fix to change_student_modes,['f208149e9ca5cb5ba222f5217ca0daacd9b103a4'],False,['characters.py']
+2d55673850ef72c5b735a8f7a3f4522f7e7c507f,"Slight changes to zeta implementation, along with SolveZeta Scene",['bf9e28dbb5c55cc6255ad979312971c16627d085'],False,['WindingNumber.py']
+b35304ba013157ec06d0bfe395e62490f14800c2,Fixed import issue,['dd63183308ece88d9a0a268d1a0957a02f98dec8'],False,['uncertainty.py']
+b58b7716788c41e971f20e2f542c4411ea03c057,"EquationSolver2d restructure, en route to implementing BFS",['739807cb66ba81b35b04c3830fd0e96cc0072f8d'],False,['WindingNumber.py']
+10637e1d970dafb72ef4db0f869e6bcc55834dc0,BFS now implemented on EquationSolver2d,['b58b7716788c41e971f20e2f542c4411ea03c057'],False,['WindingNumber.py']
+197287411509c7a2118438c86d24d11c0efc1856,Small fix to TexMobject.add_background_rectangle,['b968f13faa191dacb9382e102933868d72479d36'],False,['tex_mobject.py']
+c43915b3197c38516a801752af80b492fe638ba2,"Fixed DoubleArrow Scaling
+
+Previously, only one tip was kept as self.tip and was scaled properly. This meant the first part of the solutionw as to create a list of all tips.
+
+After this, the issue was that draw_at_end defaults to True, and is not preserved. So the list is now a tuple of the tip VMobject and its add_at_end property. Since these should be identifical except for position, everything that asked for a property from tip now asks for the same property from the first tip.
+
+This isn't pretty, but it should fix the problem.",['9e1b6864f1252a43f74eedee15a42cd72fc8f97f'],False,['geometry.py']
+3a41b77f8b1b8ab9786c68b8e8cd2b183e3004e1,"Merge pull request #174 from DanWaxman/master
+
+Fixed DoubleArrow Scaling","['d0a674780e5d470acf8c9c1526ad8ee916ad484f', '9791751c0b60b8f1d31d829f475b19c86f89b2f2']",True,[]
+0978984541bf99c4a1ff3ac8664c9f3580a19ccb,"Reorganized animations folder.  Warning: While I tried to be systematic, there is a decent chance this will cause import errors somewhere.",['6451f09bd52fa7ab96d6a305087be55ec56b45a2'],False,"['.gitignore', 'bayes.py', 'bayes_footnote.py', 'combinations.py', 'independence.py', '__init__.py', 'composition.py', 'creation.py', 'indication.py', 'movement.py', 'playground.py', 'rotation.py', 'simple_animations.py', 'transform.py', 'update.py', 'big_ol_pile_of_manim_imports.py', 'camera.py', '__init__.py', 'continual_animation.py', 'extract_scene.py', 'image_mobject.py', 'mobject.py', 'point_cloud_mobject.py', 'svg_mobject.py', 'tex_mobject.py', 'vectorized_mobject.py', 'basel.py', 'basel2.py', 'light.py', 'playground.py', '__init__.py', 'moving_camera_scene.py', 'reconfigurable_scene.py', 'scene.py', 'scene_from_video.py', 'tk_scene.py', 'zoomed_scene.py', 'stage_scenes.py', '__init__.py', 'arithmetic.py', 'characters.py', 'combinatorics.py', 'common_scenes.py', 'complex_numbers.py', 'counting.py', 'fractals.py', 'geometry.py', 'graph_scene.py', 'graph_theory.py', 'matrix.py', 'number_line.py', 'numerals.py', 'objects.py', 'probability.py', 'three_dimensions.py', 'vector_space_scene.py', 'bezier.py', 'color.py', 'images.py', 'iterables.py', 'paths.py', 'rate_functions.py', 'simple_functions.py', 'space_ops.py']"
+01ef5fc2c7de7e8bb4e03708b97054522f910684,Several import fixes,['ca7930740bcac1b3d580e6b59ee43763e5e5433e'],False,"['three_d_camera.py', 'geometry.py', 'matrix.py', 'probability.py', 'three_dimensions.py', 'light.py', 'three_d_scene.py', 'vector_space_scene.py', 'color.py']"
+f6afbf54086b6e34b97c1aae65f926fa35ed4814,"Merge pull request #193 from frozar/preview
+
+[PREVIEW] Fix the preview under Linux","['f19a50784baf92de54641a5113f8e8dc60203184', 'dae3b63fd5984292440e91ca7b9a44a0d1affed7']",True,[]
+34d4d4316e380c56f22d27cf904c01d7c062dc53,fixed and expanded GeneralizedPascalsTriangle,['23634dbf110f2761695d80f17d143ebe2b78e144'],False,['combinatorics.py']
+18bac2e186ecd6e5930ed6e6cdfffb0aeb64d8a5,fixed typo,['3eac0c32c59b1390e02fcfd71aa7e9355c120db9'],False,['mobject.py']
+01737a0c4df2748f2f6218262beb40a3930c8d57,workaround for CTEX bug,['b7e2646b47e71bd05611354f5193a470104c95ed'],False,"['template.tex', 'text_template.tex']"
+5a1ba37a9d71557f33feeeab50179c04099411b4,"Update extract_scene.py
+
+Use the ""start"" command on Windows to open files instead of ""open"" on Mac OS or ""xdg-open"" on Linux.
+This helps solving ""The system cannot find the path specified"" issue #173.",['69a091748b003f2b11263e9e070c65ff682ab794'],False,['extract_scene.py']
+c24f7b6926f0e3156009bfa34b60c3888271ee52,fixed pi creature color bug,['15d582e6730f7ef7e559431abdc568a9dd095e20'],False,['pi_creature.py']
+39ba60c452553e8bac61d13989b1a085188ec548,Small stylistic fixes to mobject.py,['69a091748b003f2b11263e9e070c65ff682ab794'],False,['mobject.py']
+d9fde5141afc3e438cdd55d1ae67cd294816f548,"Merge pull request #200 from 3b1b/patreon-animation
+
+Fixed Pi Creature color bug","['39ba60c452553e8bac61d13989b1a085188ec548', 'c24f7b6926f0e3156009bfa34b60c3888271ee52']",True,[]
+5f2aa31fc3759668457d0e56203b75e6a3a21cd1,import bug in SampleSpaceScene,['487f6747e1e94d5eb044b0c856de7fecbc134ccf'],False,['sample_space_scene.py']
+43faec638e4f7aa944cf8e65521a72671f6f0f82,fix for copy bug (again),['e0ff0f2a9f46943b3e154fe9f07d9984f1782ff6'],False,['mobject.py']
+e9f99f1cff16e7bae59575b5067158eb917956f1,expanded (and fixed) Histogram class,['dca4400b09a793be2af8c9bb7c4442a2fd40f0b2'],False,['histograms.py']
+cf5d461aa6b2e867ee7687652e818fa751148362,working fixing SVG import issue (preprocessing fill and stroke),['7e28eff6202910506c2b0778568b2099bf440caf'],False,['svg_mobject.py']
+515257e0b1310d562a3992122d65dae055976ce3,Bug fix for length 0 Dashed line,['1da3b236953a87635b0669a9aa65d9685757f84c'],False,['geometry.py']
+a9b76ebcfa4e66e61797f88e2afb7b9730ec7dc7,Bug fix and PEP8 on svg_mobject.py,['515257e0b1310d562a3992122d65dae055976ce3'],False,['svg_mobject.py']
+cc05a896dd18bbac9d25d3cc577388a371f9a15d,Fixed TeacherStudentScene bug,['aa67913f1527b2f019f35be1b0867e04d44b3732'],False,['pi_creature_scene.py']
+bb0595e3e77d2d130f6f260927741951403f9624,Small bug-fix to DashedLine to ensure get_end works right,['612f0d767432530f27c426a757d3bf9f32e13288'],False,['geometry.py']
+856c7592973f28ea2e7adad66513fdc823fc3724,Fixed BackgroundRectangle color behavior,['cf41cb8917da1b70408dd5032c1e665ce25a9caf'],False,['shape_matchers.py']
+4195c4c6bb8319613fe51bd599d788efb2d125c2,Small stylistic fix to how get_smooth_handle_points is implemented,['03d119da2d2e934362aa4e958432f8f3543f5c0e'],False,['bezier.py']
+76e0f9019e52f8675b7f7608ab7f59b36f9075e7,Tiny bug fix to Laptop,['c983b914771899b244046a1ddcfab520ee258698'],False,['drawings.py']
+c09b09e980d6d724dc669b07f960b92d8b158ded,Fixes to ShowProduct,['b49aa2188691b3f70da8cdb0c3b264667ac36897'],False,['wallis_g.py']
+e75c68b9f24cabb1d08c670fa19f820d14390f5c,quick fix for GraphScene,['ad6b1fee20c7c99a68c9f63308f573ffbbbf34aa'],False,['graph_scene.py']
+bcf90c2b89a76fbdfb810bee6f392d846bf62b45,fix for labels in area model 2,['e75c68b9f24cabb1d08c670fa19f820d14390f5c'],False,['chapter1.py']
+aa178628a88c00c3506256ecf63f8d8d57e3a552,fixed drawing bars of height 0,['bcf90c2b89a76fbdfb810bee6f392d846bf62b45'],False,['histograms.py']
+791b40037d40e7af7c9a8adc26775505aad9e055,fixed centering issue,['6e2a4f4c5d430360088b77009b0f6186d8970561'],False,['chapter1.py']
+e31ede339380a92786d80b043098e9ad0c608c22,Tiny formatting fix,['3be5305f6c2f86761d82bb51004ef8356d433f39'],False,['pi_creature_scene.py']
+5f7810db832a2663c63ab8715a54e7dc6e483990,fixed unit color bug,['9c6bcd6653391418735af0394026f71fa8d4d895'],False,['numbers.py']
+c3c6e72d386d80a9082d69094d031aec72a7f87b,bug fixes in Histogram,['5f7810db832a2663c63ab8715a54e7dc6e483990'],False,['histograms.py']
+5b9bff24056cc50f23a74181efc4c137fae59f37,Animated up to SolvingASystemWithOrthonormalMatrix,['bc03093c81a5ccced6a3c3c0fca98ddcf97c8710'],False,['cramer.py']
+8491e4b8606b3ef6354910588bc2d145055518cf,Small fix to det_text scaling,['664546d44c94ae62defc88a028d118ebc8b7676e'],False,['matrix.py']
+4504fa3819868801a9f0c85b7bdac22487dbd61c,Fixed problem with output_directory_getters.py on new files,['ecca09be72b38b0ba2a2075cb35982722e62e31c'],False,"['extract_scene.py', 'scene.py', 'output_directory_getters.py']"
+85808eb905c8e27151f06f81b72da6ae0242234d,bug in debugging method,['24276ff1f54e0efd3e67cecf780c279fe652776d'],False,"['chapter1.py', 'mobject.py']"
+5f73509264a0dda8d94846fe9956be209f9f68b9,fixed imports in new EoP structure,['229e8d799d31bdccf6fec35addfb536f6d4fefd8'],False,"['__init__.py', '__init__.py', 'area_model_bayes.py', 'area_model_erf.py', 'area_model_expectation.py', 'brick_row_scene.py', 'entire_brick_wall.py', 'intro.py', 'just_randy_flipping_coin.py', 'morph_brick_row_into_histogram.py', 'quiz_result.py', 'show_uncertainty_darts.py', 'show_uncertainty_dice.py', 'show_uncertainty_disease.py', 'various_intro_visuals.py', '__init__.py', 'reusable_imports.py', 'binary_option.py', 'coin_flipping_pi_creature.py', 'histograms.py', 'sick_pi_creature.py']"
+0247224e0799c22951c961566e271825ffd618cc,Fixes and refactoring for TexMobject,['a69a28c71808875c276a36b8ec37fb1a53e82f59'],False,"['mobject.py', 'tex_mobject.py', 'tex_file_writing.py']"
+90504e24e7df4b525865b0bf3084e0788cf2bfdb,fixed bug for reduce_across_dim for mobs with empty submobs,['fb9ce5f518a880fc9b7acb0d9a648a4880941f86'],False,['mobject.py']
+03cb33645f9233e972bb1f66be5de7aa4b694e07,"resolved conflicts…
+
+# Conflicts:
+#	active_projects/eop/chapter1/entire_brick_wall.py","['1a6771f0cd6bed242f8b87299c400aab4733fad6', '84c025aac6179b0acfefcb6df934cef91baa53db']",True,[]
+7ce5674126e48b72e44e6f38be507b09428eceb1,fixed bug for reduce_across_dimension for mobs with empty submobs,['fd002c13e6c310b0f2e90f6265825131750a7d37'],False,['mobject.py']
+ff2b944067ec5950a9bfd28492952a0dc955472a,Better fix to Mobject.reduce_across_dimension,['3b84e43066492007200b624bfc040afcb10fce61'],False,['mobject.py']
+f12370d40e6f91d2fd2821feb1c463473045d30e,Fix to last commit,['ff2b944067ec5950a9bfd28492952a0dc955472a'],False,['mobject.py']
+79db14603d6502eb708525846237803bc910cc03,"Merge pull request #232 from 3b1b/alt-calc
+
+Fix to last commit","['43e87f1f76acdeb79f4f7cc91ebf310956e4b064', 'f12370d40e6f91d2fd2821feb1c463473045d30e']",True,[]
+8703e2336cad7c0a966d26c779ff0830b3fd9529,Fixing various in ZoomedScene,['7ee85faadde0d14352d40f75523dc45bcaa02c84'],False,"['camera.py', 'multi_camera.py', 'zoomed_scene.py']"
+a982b3c1acdf200e90057d94d798704a515a4c41,Some bug fixes to ZoomedScene,['2981fa2b32f0b3827317efc75df56c0585c6c0f0'],False,"['moving_camera_scene.py', 'zoomed_scene.py']"
+2a74f3a687f629e1de793025accd029c093242f2,This try loop was hiding some more legitimate import errors,['bee30c49f9a0930f82080eb3964d34b917f4d553'],False,['extract_scene.py']
+f0b8ae7647fcc50f09935fb8128b0fd3b27b9b32,"Refactoring and bug fixes to moving_camera, multi_camera, zoomed_scene mix",['2a74f3a687f629e1de793025accd029c093242f2'],False,"['moving_camera.py', 'multi_camera.py', 'moving_camera_scene.py', 'zoomed_scene.py']"
+692a2dfd1ff121ce60946fec675412a062965d95,Fixed bug for multipled braces being imbalanced,['c3e173d2812a9a1fe7e7b81731627492689f6e41'],False,['tex_mobject.py']
+e43ccb144dc2f97671d3d1085910249ac7649d27,Up to ShowPhiAsFixedPoint in alt_calc,['aaa8407abb0270afb69a7cea5294b81321abb0f6'],False,"['alt_calc.py', 'numbers.py']"
+f28d58b2f0bac24d6e8c265b2ca1fff824c887df,Fixed ComplexHomotopy,['24c387e7cb5a7a7047cc33e05322c353ad0f9d6d'],False,['movement.py']
+deef7a48640750a3ffbfe43faf11a8aede9456ee,Better fix to \\left \\right issue in TexMobject,['2a65c93918d58cc9b116bacaae3f20218efe68a4'],False,['tex_mobject.py']
+60caf2312c84c0e010334e47c5187f3a3dd3a312,Quick fix to a bug where ImageMobjects of size zero weren't displayed,['6d032bd10f5c3414aec00e005261093ac43bb93d'],False,['camera.py']
+b56ac7a6eda10860c4c54355e45c0c60c34e3fd2,Tiny formatting fixes,['b954b2ef5bccbb2a2aebdc9129e9963f20d255ee'],False,"['geometry.py', 'mobject.py']"
+3550ec3234abff0531c5b48166d1597025bc34c4,Fixed default label direction for Axes y-axis,['18f3b37a1179189cd6b02ad1513b1a619620cb62'],False,['coordinate_systems.py']
+d72483e90972ff50245b1585be940bf74e1ebb6d,Fixed Camera.is_in_frame,['3bfc51541179dc723bf86648e2099987fca5754b'],False,['camera.py']
+71590bc9f2ad44c314e32fe870428ee13291f334,"Update README.md, fix typo.",['1d23a01a3ab8a5aab14163ec5c38e7b30e536e54'],False,['README.md']
+719793790378ab0e2a776489696b62d617854af8,"Merge pull request #245 from dezren39/readme-patch
+
+Update README.md, fix typo.","['1d23a01a3ab8a5aab14163ec5c38e7b30e536e54', '71590bc9f2ad44c314e32fe870428ee13291f334']",True,[]
+bb142f2bad6869df6152a68e3493d69d070cfb7b,"Merge pull request #249 from npetrangelo/fix_imports
+
+math is a good library to have without thinking, right?","['cf5947ba827b7ba51c2fe55fc3557841c980e74a', '90a86821cac963d47f9a9959e9c0f7f0dbb36307']",True,[]
+ce87073164fbd46d2d9c521a3fe423fd2000dab6,"Merge pull request #246 from npetrangelo/fix-requirements
+
+I needed a this version of numpy to satisfy opencv.","['bb142f2bad6869df6152a68e3493d69d070cfb7b', '9c43382a27be89da9af329639d6bcdcae9c4e9f1']",True,[]
+3ebad5a4252fbb707a309c0ecc9afa09de71939f,Style fix to exponential_decay,['393bfc68cedb0b9966c1644ab8f07106f144288a'],False,['rate_functions.py']
+83a92f3bf4ca106f90f89039d045925724460328,Fix small typos.,['4075bb35c6ff2117e0c81d14b3af5dd112882fcf'],False,['README.md']
+79c30859025927ab37107f5341e1fcead3d613f3,"Merge pull request #255 from shalunov/master
+
+Fix small typos in README.md","['4075bb35c6ff2117e0c81d14b3af5dd112882fcf', '83a92f3bf4ca106f90f89039d045925724460328']",True,[]
+f4022d6c750d6cb54dc9f9612695ed9f99939a70,Fixed small bug with FadeInAndShiftFromDirection,['61d5f6f75908e77f4acb9864e98e25a2a59dbbe0'],False,['creation.py']
+22f1be11ef899eca2c3fa8c3e7115a76e308c5ce,Bug fixes to logo generation,['47f16986d7db2f19f3931d17e7b65c4db6d2f000'],False,['common_scenes.py']
+81790cb847b7191ac60ab2bb988d83f3cc383744,Small fixes to matrix.py,['70d7db3b46e00ca4aea7a9148fda9e3b3a31b55d'],False,['matrix.py']
+087715e538700e11bbc78e6acb8d1631fa93b182,"Reimplented svg rendering using cairo, and changed vmobject color model to allow for gradeints and strokes with opacities.  Many errors associated with python 2 to python 3 conversion are likely still present at this point.",['858051a8063215d42719961abff295f77cb5368f'],False,"['camera.py', 'mobject.py', 'svg_mobject.py', 'vectorized_mobject.py', 'requirements.txt', 'iterables.py', 'tex_file_writing.py']"
+5b9afe6e869b12319a43dd94acdc102dfaef9d78,Bug fixes to new VMobject color model,['0a423f77365b6b1d58a186b3856b5c8a45dab3db'],False,"['mobject.py', 'drawings.py', 'vectorized_mobject.py']"
+fb08fc04011db183dac841e2df087ccbbc615a2c,Fixed bubble sort bug,['df5d45e5ae5a417dca8cb7d280cb1ad1e54b2aec'],False,"['drawings.py', 'vectorized_mobject.py', 'dandelin.py']"
+ab0dfe7854cb992baf5279380cec8dbf77c2d36c,Fixed PiCreature.look,['fb08fc04011db183dac841e2df087ccbbc615a2c'],False,['pi_creature.py']
+e11611d48216230522df66cbce947d5285ba5b90,Fixed bugs assoiated with setting fill or stroke using None arguments,['693c98cea77721265ed8966b6eab51cbdf60f486'],False,['vectorized_mobject.py']
+22d889f6dc6576bd2f3838f6ed699a7f71fdb600,Fixed some camera bugs,['e11611d48216230522df66cbce947d5285ba5b90'],False,"['camera.py', 'three_d_camera.py']"
+69207369f292622996a04f0d1499a7d5faa11264,Random fixes to some old_projects,['d551fa6b24da1a94feaa21536ed146b280faa6e0'],False,"['WindingNumber.py', 'WindingNumber_G.py', 'dandelin.py', 'fourier.py', 'lost_lecture.py']"
+6ab8f7f7fc2252b4aba0e97b6d3a1232b2406dee,Random fixes to old_projects,['535522d86b9f35e41de14da52aaed3e12e6e5b0b'],False,"['WindingNumber_G.py', 'cycloid.py', 'complex_multiplication_article.py', 'matrix_as_transform_2d.py', 'image_map', 'mnist_loader.py', 'network.py', 'part1.py', 'wcat.py']"
+3f6376af39597ce885d4171b16cb49095a586d48,Fixed MovingCamera bug where frame was not updated properly,['5b5a83b3162ee938c00fdba8f58753b8a594f1e3'],False,"['camera.py', 'moving_camera.py']"
+b04bddf35b80e979f27fdac19757dbb10ab3750a,Fixed (most) uses of cmp functions for sorting,['7f3b1e624d9061209b2010edda10a53dab471568'],False,"['bayes.py', 'mobject.py', 'WindingNumber_G.py', 'bell.py', 'borsuk.py', 'div_curl.py', 'chapter3.py', 'chapter2.py', 'chapter9.py', 'waves.py']"
+3ba33d543e9443c339cc631844d0af9759b4f29e,Fixed some ThreeDCamera bugs,['b04bddf35b80e979f27fdac19757dbb10ab3750a'],False,"['camera.py', 'three_d_camera.py']"
+56d2dce13365c77b14b709f92dca35eb57575a66,Typo fix,['2006554f936173a8855597e1d2473e78b42f0651'],False,['mobject.py']
+aded69a780edd9fe45844f3391d5419e21aecc7e,"Merge pull request #267 from 3b1b/simple-improvements
+
+Typo fix","['fa37c8b1d41c438cd5e064318416797330fa162b', '0e0a0c1673584f7f8ebe551798f71c4926dbff4e']",True,[]
+d80dbb71d89ed230306e36ffadd842f227b7605f,Bug fix to VMobject.set_sheen,['be52b795df69c4d34ea018a94437111c80588e63'],False,['vectorized_mobject.py']
+daffec0034ab37a1d678de7b22adb52c4266fe0b,Fixed projection,['568d02602cf8d908b8f13c7ef4b29b5483c77a54'],False,['three_d_camera.py']
+32da0771995d491a8dfed403931232f820063c29,Fixed bug associated with ThreeDVMobject,['cba0c78cf76f15c5e1b50bc48e5095c893609b88'],False,['three_dimensions.py']
+8103b723a83d3fb3dfd37a18804c7d97eb5aaced,Fixed bug with VMobject.close_new_points,['98a7f254ee57d0f0a34956f288eba35631da5ba6'],False,"['geometry.py', 'vectorized_mobject.py']"
+7912f6f2d39788838c3729b98330412a395af18e,Implmented ThreeDScene.add_fixed_orientation_mobjects and ThreeDScene.add_fixed_in_frame_mobjects,['0149f4a4964dbde7854396471508299160a8a0a3'],False,"['camera.py', 'three_d_camera.py', 'mobject.py', 'number_line.py', 'three_d_scene.py', 'space_ops.py']"
+98801413e9ad6bbb6e7a0c6eec7000adaace5eaf,Fixed camera bugs,['86bc9cdf72793d5f523826603f03ffb6cc332c86'],False,"['camera.py', 'three_d_camera.py']"
+26b977febef0f29dfd159ebdc801ffb2b89ad3a6,Fix cube,['db6d25280b5ff8ca9042e5c0f709f0bb85293661'],False,['three_dimensions.py']
+781820ba9f48f4ee839608340db6ffa5580c9264,Formating fixes,['26b977febef0f29dfd159ebdc801ffb2b89ad3a6'],False,['config_ops.py']
+90b21a4a8a828fe8089d6be17c6df4ab9b40ebcc,Better ThreeDCamera.add_fixed_orientation_mobjects,['781820ba9f48f4ee839608340db6ffa5580c9264'],False,['three_d_camera.py']
+499080fb97d18b93ccf86df76c98dace0aaf4516,Bug fix to Axes,['f58575cc1168eba2e56b7d0d53ac37fed3a8956e'],False,['coordinate_systems.py']
+6a781d0737c89e301ac2cc85557c73b0aa364fd8,Bug fix to Arrow,['499080fb97d18b93ccf86df76c98dace0aaf4516'],False,['geometry.py']
+c3919d25abbd9abc152c2f148cb6550d583f4966,Fixed -0 issue with DecimalNumber,['30f061ff0165a4f959edff648ef4f1fc333c0208'],False,['numbers.py']
+5fefa6f612ef7e723b1108d78df0784bcc3aa497,Small fixes to Scene bugs,['c3919d25abbd9abc152c2f148cb6550d583f4966'],False,"['scene.py', 'three_d_scene.py']"
+c8469681cd899f1aa93ebf3ca47acbd71755190b,Small fix in fourier file,['52ec0cf8ea8c922c5ad12af6f61cd65a42d0e9a5'],False,['fourier.py']
+817fa065c4edac07216141391e5b96dc4b2f4b6d,Bug fix to pi_creature_scene blinking,['c8da884c5b442154b6bfafb10ffbbfab57cce11b'],False,['pi_creature_scene.py']
+2e64edcffe4225561acebda86fc6c4e74ad68a04,Temporary bug fix on DecimalNumber...not fully figured out,['94b1c9d3af46b937a6455510bd575d08f1d2c283'],False,['numbers.py']
+731748df4c53f600a2d7c83146024f219a489b66,Bug fix,['0b003fff44bb8a0cd158acf8e262e3b155a989f3'],False,['tex_mobject.py']
+8ea4f8fda8c07442e82382dd3157614dc5f8a729,Bug fixes to ThreeDAxes,['35a59474fe8f3a4218b23e075062d631cf48d064'],False,['coordinate_systems.py']
+c4b8f910c8873872aa162032418802c37c4a07d7,Added edge_to_fix to DecimalNumber,['b42e7725632912780b50445c4aff2b2ffe41d9ac'],False,['numbers.py']
+2678669726b5a9f139858b74176e0913f98e9e0a,Fix to parametric surface,['c4b8f910c8873872aa162032418802c37c4a07d7'],False,['three_dimensions.py']
+5e06869caffd1557ba10b4046d4ba8d0029df2b4,Small fix to AnimationOnSurroundingRectangle,['8e163a7bcb4b76ea46d29d1b8ea0bad6ebeeb146'],False,['indication.py']
+289d822a9250f1b23524c2e8789bddeb65d6e3e7,Tiny bug fix,['9a8575401456910e387d650a2796b73848234524'],False,['numbers.py']
+6c590b6de4fb19efab8facaf595d00e7eb27a91d,Fixed Endscreen,['a102cc2cea0cd630f8e4c6687308c954a8ac24ad'],False,['common_scenes.py']
+405d566aa93eae48ccc26787576e63a6153e9d46,Bug fix to svg reading,['e967e472f35e2ed1bf5c147e57f433c6608e2e23'],False,['svg_mobject.py']
+5b9ae8ddb3081374d58d38bc23f64c25bc46ec8a,Fixed flashing 3d dot problem,['405d566aa93eae48ccc26787576e63a6153e9d46'],False,['three_d_utils.py']
+728c025f6fdd6a57fc9f2e9db7e51fc48d6da2c6,Make sure add_fixed_in_frame_mobjects adds mobjects to scene,['b18537b1bbca9cc52e9e8206da5f8cfc7054d205'],False,['three_d_scene.py']
+e344cebf16d45351c3faaf31d074ad7e341a2b7a,Bug fix to rotate_vector,['d683a5c04b29ee3bccf2a39ac15cf16ee350451a'],False,['space_ops.py']
+ce467fabfc0bdd391f9c6d49489a062a11501056,Fix typo in prob_dist_visuals.py,['d683a5c04b29ee3bccf2a39ac15cf16ee350451a'],False,['prob_dist_visuals.py']
+865ef496c326ab837238253e5343ae49a2c790f7,"Merge pull request #288 from Solara570/rotate-vector-fix
+
+Bug fix to rotate_vector","['d683a5c04b29ee3bccf2a39ac15cf16ee350451a', 'e344cebf16d45351c3faaf31d074ad7e341a2b7a']",True,[]
+69013ee8b45981175a3f36784de98c954c62acee,"Merge pull request #290 from cclauss/patch-2
+
+Fix typo in prob_dist_visuals.py","['865ef496c326ab837238253e5343ae49a2c790f7', 'ce467fabfc0bdd391f9c6d49489a062a11501056']",True,[]
+1ca7e8ecdab08a3cc65fa8d50e5b34d15105e4a3,Fixed TextMobject bug,['c2e42c4281a660410e797ee4d12f524fb72f7701'],False,"['tex_mobject.py', 'strings.py']"
+81a906f6839b1fb16ca02665a4ab5d4eb10f0bc2,Fixed ImageMobject fade bug,['1ca7e8ecdab08a3cc65fa8d50e5b34d15105e4a3'],False,['image_mobject.py']
+543c22cc2f97ca7012a21e990785f7b1899a2379,"from utils.space_ops import get_norm
+
+__get_norm()__ is called on lines 259 and 265 but it is never imported or defined.
+
+[flake8](http://flake8.pycqa.org) testing of https://github.com/3b1b/manim on Python 3.7.0
+
+$ __flake8 . --count --select=E901,E999,F821,F822,F823 --show-source --statistics__
+```
+./old_projects/bell.py:222:38: E999 SyntaxError: invalid syntax
+            for here, x in (here1, 0), (here2, 4)
+                                     ^
+./old_projects/borsuk.py:217:11: E999 SyntaxError: invalid syntax
+         y=lambda m: m1.get
+          ^
+./old_projects/eoc/chapter6.py:399:35: E999 SyntaxError: invalid syntax
+                for i, j in (1, 0), (0, 1)
+                                  ^
+./old_projects/nn/network.py:258:16: F821 undefined name 'get_norm'
+        norm = get_norm(gradient)
+               ^
+./old_projects/nn/network.py:264:15: F821 undefined name 'get_norm'
+        print(get_norm(old_pre_sig_guess - pre_sig_guess))
+              ^
+3     E999 SyntaxError: invalid syntax
+2     F821 undefined name 'get_norm'
+5
+```",['6964db2bd58e3d5ad905320a137a39a610e32e61'],False,['network.py']
+ae44093565a9d6d616266a84cc9c431826d24520,"Run free flake8 tests on all new code submissions
+
+Fixes #284
+
+Another attempt at #99 
+
+Add [flake8](http://flake8.pycqa.org) tests to find Python syntax errors and undefined names.
+
+__E901,E999,F821,F822,F823__ are the ""_showstopper_"" flake8 issues that can halt the runtime with a SyntaxError, NameError, etc. Most other flake8 issues are merely ""style violations"" -- useful for readability but they do not effect runtime safety.
+* F821: undefined name `name`
+* F822: undefined name `name` in `__all__`
+* F823: local variable name referenced before assignment
+* E901: SyntaxError or IndentationError
+* E999: SyntaxError -- failed to compile a file into an Abstract Syntax Tree",['6964db2bd58e3d5ad905320a137a39a610e32e61'],False,['.travis.yml']
+1320e2ede21d3aafc3e7229bd5b8d9a66011b298,Fixed link for Dockerfile consultation.,['1490dca713161b72239220d5880800fe524e16ba'],False,['README.md']
+31478c523c9febb85d673219c6451ce545b5e319,"Merge pull request #322 from DanWaxman/master
+
+Fixed link for Dockerfile consultation.","['1490dca713161b72239220d5880800fe524e16ba', '1320e2ede21d3aafc3e7229bd5b8d9a66011b298']",True,[]
+71d5851dd00904b8f4ce41bab3fd01236677b95a,Fixed frame_center bug,['73af2b49717a564158ad343be1ee408bf71f3bf0'],False,['three_d_camera.py']
+4a226e1d226b63234e99a2a0fcb90aab68966b5b,Fixed get_boundary_point and get_points_defining_boundary,['71d5851dd00904b8f4ce41bab3fd01236677b95a'],False,['mobject.py']
+5d6454fcc272cbf3057620b294a35cf2249802a9,Fixed get_points_defining_boundary for VMobjects,['4a226e1d226b63234e99a2a0fcb90aab68966b5b'],False,['vectorized_mobject.py']
+426af6f7fce99f03c567d03011cff31cecb2d847,Tiny bug fix,['e8d2c714e5451cd782650125608ed5d16f1c0b3f'],False,['vectorized_mobject.py']
+da81ed40155f162f5ea16ad1e4bcbf2eb59d805e,"Fixes Dockerfile to delete requirements.txt.
+
+Moved timezone initialization to texlife and made sure to delete
+requirements.txt in Dockerfile.",['08926ad2aa7c651174a135e148199d6a215a9f40'],False,['Dockerfile']
+8077697fc710db71e4e71864c4c94fcbf80ccc12,Fix video output directory bug,['31478c523c9febb85d673219c6451ce545b5e319'],False,['output_directory_getters.py']
+e071ac62a162a19af0def7df44ac700cffded669,Fix streaming issues by migrating from mplayer to ffplay and add Twitch support,['f898644a3cfe1b25fed31af090edf64b964efa03'],False,"['constants.py', 'manim.py', 'scene.py', 'test1.py']"
+db7f8320bd84e9ebbf75adfcd6dfc480881e5849,Fix the idle_stream()'s sleep duration and change the stream FPS to 30,['846a8249472b2ac9c9f6bede7904b574eb406788'],False,"['creation.py', 'manim.py', 'position.py', 'scene.py']"
+62b8a38bf51cd52a51a545dab55e917cd40a00f3,Fixed bug with Mobject family member updaters,['c95fb5fe46465840b1f64923a9f1d94737fc4514'],False,['scene.py']
+6610f53062310e846645c80575082b1931b7c0bd,Fixes to patron scroll,['09815043f4a85d76c34db6986e26656f01ef83d3'],False,['common_scenes.py']
+d12e45aa17e1965c7692d35b154919cd961d6659,"Merge pull request #333 from icreiuheciijc/pr
+
+Fix video output directory bug","['169c443e659c8021d3a8ae1855c0086eaa98515c', '7d5432ce8b98a309f9fbeea0995e9c03d2f1e875']",True,[]
+852058e901a4944ef2044ee24c2e69b510ffe72e,"Prefix the link to the documentation with https:// .
+
+Otherwise GitHub sets the wrong prefix which results in:
+https://github.com/3b1b/manim/blob/master/manim.readthedocs.io",['8dfb6f7632f5746b2df6de08fb977e66f8eaf561'],False,['README.md']
+2ea2cf713d558388657a2c32034ab85be8353992,"Merge pull request #351 from H-M-H/fix_link_readme
+
+Prefix the link to the documentation with https:// .","['8dfb6f7632f5746b2df6de08fb977e66f8eaf561', '852058e901a4944ef2044ee24c2e69b510ffe72e']",True,[]
+585a4ff8648a8a0e7d5e8d77e907b6701191cb22,Bug fix to camera_center,['b1334dd72fbd29b35ec7b0b98580f7e9ac105322'],False,['camera.py']
+277f4c25bad577e01cbe1823fcef83e90ec39837,"Merge pull request #355 from eulertour/pi_creature_revison
+
+Fix fallback to plain pi creature and make once_useful_constructs into a package","['2ea2cf713d558388657a2c32034ab85be8353992', '8015e7a29b9fc72930507d4d9968f8acc287a211']",True,[]
+bbf09e0f441a341bb11498e138ed25b3b3b96142,add templates for issues and pull requests,['277f4c25bad577e01cbe1823fcef83e90ec39837'],False,"['ISSUE_TEMPLATE.md', 'PULL_REQUEST_TEMPLATE.md']"
+b697f04dd7a6f00250276fb9507403437ef23dd4,"Merge pull request #361 from eulertour/templates
+
+Add templates for issues and pull requests","['a4f1e762d6f50577bae49f07911256b80927c690', '7531e43f1968216552950f936bd4fef437db97da']",True,[]
+6740220f16ab8776231227097d9ccb550af8acca,"Merge pull request #362 from eulertour/scaling_fix
+
+Scale SVGMobject about origin","['b697f04dd7a6f00250276fb9507403437ef23dd4', '317cf0166cccfe8a389a501b3666bb56ccd27714']",True,[]
+68033a24691c672eaed5d401277d23078ecc282a,fix livestream flag,['2ebe54ec07012740c9694794ca17016dce04a35a'],False,['README.md']
+2942485e4c8711201a329f10e73655482d16bc4b,add error codes to exits,['e7aff666bd235426c05765549352abde43bc61d7'],False,"['config.py', 'extract_scene.py']"
+e294c6780135d8744953f085abac1ad269d3e965,add error codes to exits,['54b8d0f8ed190230fdd97195366ddfc3e6910c12'],False,"['config.py', 'extract_scene.py']"
+afdf907abc07eb7a7d2dc2331cc2e75046198eb1,"fix imports, remove __init__.py files, some pep8 linting",['854ed3038e04f27f6661667a3c9a70dab550a274'],False,"['__init__.py', '__init__.py', '__init__.py', '__init__.py', '__init__.py', '__init__.py', '__init__.py', '__init__.py', 'composition.py', 'specialized.py', 'transform.py', 'update.py', '__init__.py', 'camera.py', 'mapping_camera.py', 'moving_camera.py', 'three_d_camera.py', '__init__.py', '__init__.py', 'continual_animation.py', 'from_animation.py', 'numbers.py', 'update.py', 'extract_scene.py', 'common_scenes.py', 'pi_class.py', 'pi_creature.py', 'pi_creature_animations.py', 'pi_creature_scene.py', '__init__.py', 'mobject.py', '__init__.py', 'drawings.py', '__init__.py', 'vectorized_mobject.py', 'arithmetic.py', 'combinatorics.py', 'fractals.py', 'graph_theory.py', 'light.py', 'region.py', '__init__.py', 'graph_scene.py', 'scene.py', '__init__.py', '__init__.py', '__init__.py', '__init__.py', '__init__.py', '__init__.py', '__init__.py', '__init__.py', '__init__.py']"
+c71879a159c3e9dc97bbd125636bf853a3e6ecd1,"Merge pull request #379 from 3b1b/lkevinzc-fixes
+
+Change imports to manimlib, remove unused imports, formatting","['d1d099c0a268e4c4aedead3abf1a1469ce10fe8b', 'afdf907abc07eb7a7d2dc2331cc2e75046198eb1']",True,[]
+c1ec471cad73a70edad89ecb4666506207dca7c2,"Merge pull request #381 from 3b1b/no_scene_error
+
+print to stderr for scene not found","['a9c2f5b349a5cd6ad7e584f24b572d55804ead1d', '54d43313bed4aa3dae3bfc3a74d5d0c7fb9a529b']",True,[]
+47d8caa80e482a23941cc1470b25f9cf2b270396,"Use os.devnull instead of utils.tex_file_writing.get_null(); also small typos that cause SyntaxError (#382)
+
+* Update tex_file_writing.py
+
+* Change ""/dev/null"" to os.getnull in utils/sounds.py SoX ""play"" command
+
+* Fix typo",['c1ec471cad73a70edad89ecb4666506207dca7c2'],False,"['sounds.py', 'tex_file_writing.py', 'bell.py', 'borsuk.py']"
+b7cb66fe5d8d9fc6ff36216737abd81194857db8,Tiny PEP fix,['ba881041770fc6fea40b525de9e16abcba4ce49f'],False,['extract_scene.py']
+36495478623e5692a967d578b21093608597ca9b,Small fix to Mobject.fade_to,['5454af3b65518b42c3860b07c0f69a03f6f1c226'],False,['mobject.py']
+641a429e665a316caa08ad163fd6fa8b63cef1d2,"Fixed stage_scenes, which required updating get_scene_output_directory and get_module",['a1c9e8dbb241652f6a686ded6eed5b24ad1c07b8'],False,"['config.py', 'output_directory_getters.py', 'stage_scenes.py']"
+2f6fc82ecb2b7395c19325803b2b94c283d2211c,Small fix to DecimalNumber,['8e0fae4663dfe0d963d67f7dfbabf8a865332607'],False,['numbers.py']
+8931a88b3fc4743f798daf73b7c3c28e3dd0998e,"A few fixes to the last commit, making sure different file extensions don't mess with the system",['2419fbcc53ef8d3055a2b4898c0d32072177504c'],False,"['pi_creature_scene.py', 'scene.py', 'output_directory_getters.py', 'stage_scenes.py']"
+56ed3538f6048e46ee51356a7c1f602138a7a7af,Fix the file problem when combine videos on Windows,['c06f7652cf71e2c67acb18dcbda813c83f7fb0b4'],False,"['scene.py', 'output_directory_getters.py']"
+cb76ec127084b294e5b941529dc33f497a8a282b,Fix file problem when combine videos on Windows,['56ed3538f6048e46ee51356a7c1f602138a7a7af'],False,['scene.py']
+5aa11cf8adec5d68d657e25306dc7317980f3394,"Fixed a problem where in zooming in, stroke widths all grew",['66075aa5d2fa28a4fe3101b855025b47521beb1c'],False,['camera.py']
+f4e3706389c0dd8f8b75454dcd05c4076a842eea,Fixed a ZeroDivisionError when instantiating Axes,['3152def8acde5a03b7833a3ebdaa8938912475cc'],False,['coordinate_systems.py']
+4fa799c4c6083b62d3416b55de33b741b522a6b4,"Merge pull request #409 from Jaspi10/master
+
+Fixed a ZeroDivisionError when instantiating Axes","['3152def8acde5a03b7833a3ebdaa8938912475cc', 'f4e3706389c0dd8f8b75454dcd05c4076a842eea']",True,[]
+c4a0e65089cb0df5b155dfbf770ba213c7305bfe,Fixed ZeroDivisionError for Axes.,['ff87e2bfbcf06d6c8178f698b65c8f58903ec06e'],False,['coordinate_systems.py']
+fc7d67e25fd867ca277503376bba2db41cd6a7fe,Fixed negative decimal issue,['4d899b6c970c3b9adce7243c50e6c9e9f67dac60'],False,['numbers.py']
+748ca4e0f146f81f64d2ea260b97e059b35a24c9,Fixed compile from file list issue,['fc7d67e25fd867ca277503376bba2db41cd6a7fe'],False,['scene.py']
+9c9104dcfab4d63c219d4fcffab5f3476a8d336e,Fixed GrowFromPoint,['748ca4e0f146f81f64d2ea260b97e059b35a24c9'],False,['creation.py']
+eca8d77f83431f2260b7dc279d8bed6443ba0cbd,Small bug fix for starting_animation_number,['a5e25042e2e95a6d474cca6566fc15a2611a8842'],False,['scene_file_writer.py']
+9619ebfd61c9818b5db829b1c56009c503c2c4e2,Fix ThreeDAxes bug,['b70e0a0c75eff3202089918cea8e638b26419536'],False,['coordinate_systems.py']
+47555652e8ec0c94a7665b9761e06485c525f2fb,Fixed no animations bug,['5d5fdef748eba6d8e7bc53166df988dedd5f1a2d'],False,['scene_file_writer.py']
+55081c75ef21e7c208ad96d9a1abfef11c93e86c,Fixed bugs in partial_bezier_points and integer_interpolate,['272c5f4deb471444e6f46cc45400c4f0766650d8'],False,['bezier.py']
+05bd710ebbecea347bee9df2d56f86a9cbc1ac41,Fixed error with how ScreenRectangle inherited from Rectangle,['b7cf5e82e393b4ec1c452b1ded55ceaea6794456'],False,['frame.py']
+30356f39768179ba35dfac9973d53da0ca0e049f,Fix edge case for VMobject.get_subpaths_from_points,['05bd710ebbecea347bee9df2d56f86a9cbc1ac41'],False,['vectorized_mobject.py']
+5ca93b3fe7642645f683405faac192748b7d89d0,Fixed PiCreature pupil handling,['30356f39768179ba35dfac9973d53da0ca0e049f'],False,['pi_creature.py']
+16e8a76c6a767d49a0ae39e2b94db9e4cc3bf8ad,Whoops!  Previous fix had its own bug.  Now it's fixed.,['5ca93b3fe7642645f683405faac192748b7d89d0'],False,['frame.py']
+47f6d6ba38d55d509bcee788ec310a90fb96237f,Rewrote ParametricFunction to have less buggy interpolation,['16e8a76c6a767d49a0ae39e2b94db9e4cc3bf8ad'],False,"['coordinate_systems.py', 'functions.py', 'vectorized_mobject.py', 'graph_scene.py', 'chapter3.py', 'chapter4.py', 'fourier.py', 'uncertainty.py']"
+5c7f1b15c0c1248339bfee6d62e1d20aac901645,Bug fix for VMobject.pointwise_become_partial,['8bb1085051a35bfd8eb26966082e44f4a09350a8'],False,['vectorized_mobject.py']
+9265fc3e417dec06dba26f84f9431fbfe3a64715,Bug fix to put_start_and_end_on,['14550105d440026ccbd7bc885d65a18160108d20'],False,['mobject.py']
+84b07bc347e72f1bfdb76a1580cfa6f1d0b0d69a,Fixed Polygon.round_corners bug,['2449f3a284297638b916615c27ee25f2a0f151b9'],False,['geometry.py']
+ec638de1ec31564a3ffb446d9fa2e170b7f8c26d,Fixed Animation to work for updating mobjects,['bf738b70d74f273f4016252c5d5d5dfc2ace70b8'],False,"['animation.py', 'creation.py', 'transform.py', 'scene.py']"
+eb7f1e21a31ca2620cc10b8a0d01cf5df888030e,Fixed Succession to work when animations share a mobject,['64eb670027ecc1e3673b63cd2c627efe7a7ec2d7'],False,['composition.py']
+85616f00196b0a51545e6e97e0423b9bcbcedb18,Fixed ApplyMethod to only create target once the begin method is called,['eb7f1e21a31ca2620cc10b8a0d01cf5df888030e'],False,['transform.py']
+88e700b5b072bc51b77d693fd10592a515c534cd,Small fixes to AnimationGroup and Succession,['67817e9c6d5d005baf9e72b57f94c61d2d4b6bad'],False,['composition.py']
+ab9effbc3c9c67a0d24389c238a9d5a836a42ece,Small fixes to DrawBorderThenFill and Write,['88e700b5b072bc51b77d693fd10592a515c534cd'],False,['creation.py']
+72a8bd8cc11b4d56c2c3081ce74e53b838ea78e9,Fixed bug with VMobject.align_points,['28d627ba839b7a138a7ff797d42ca8b50b266879'],False,['vectorized_mobject.py']
+9180a687f9bb6647a07eec0ba8da0bf3e9f1a6f5,Bug fix to Succession; it wasn't initializing runtimes,['67a33d2e88e4fc41777f678527c415fe1065d9ff'],False,['composition.py']
+306ee31d44b44a973c6fe26b0aa1e7aa9e9ba11b,Fixed car problems.  Regular mechanic over here,['9550174eba2f455f024db2eb3cb167c0025e4fd9'],False,['drawings.py']
+1f320a39748574c13f7a5a6cbcb37f23820fb976,Fixed small bug with Camera not properly transforming points,['82f0afb4dd6fad96d91bcfcd936610ccf33980d7'],False,"['camera.py', 'three_d_camera.py']"
+cc4256d847fa78b01673223d50a301a4ef3e507d,Fixed formatting issue,['c23f456fd6f462c26c019eb7406589aeb14416a7'],False,['bell.py']
+112c76582e0326b595721e3321fa8f7af3235e72,Fixed formatting error,['4abafe608a2f508cf59ab817fb1420f5a8633273'],False,['borsuk.py']
+ccd11b7fcc21018f43077a548715009b7c7e0aca,Formatting fix,['112c76582e0326b595721e3321fa8f7af3235e72'],False,['borsuk.py']
+9f760632719d9492eaccf8f7428381de66813d93,Fix some bugs with VMobject.align_points,['8877a256f28dd572f04a176814c5597b7b4aa605'],False,['vectorized_mobject.py']
+1735f16d6844ae4a5946877167f492b199a1545c,Fixed NumberLine bug,['86d3ade0ef356d02bc232e509ae12b5b08568331'],False,"['coordinate_systems.py', 'number_line.py']"
+4aa63198d798c76e0722a180c8c5267e31f30e1d,Fixed align_to,['f6d6958c2da8890ecee0ca08ac36b812ada4c7da'],False,['mobject.py']
+4fd27febf9769e9a7c1654d2556ee8aeb61f216c,Fixed OpeningManimExample,['4aa63198d798c76e0722a180c8c5267e31f30e1d'],False,['example_scenes.py']
+4a00161beece64a3d0a102daf711ad6ea4f79a1b,Fixed NumberPlane,['643955ab1c687e876a4ee827e626af269bba8d15'],False,['coordinate_systems.py']
+9b5de02756938f6a597ebeeabb646b7851faaf2c,Fix logo,['a6dd90698383dae8c4e5362fb45c52c7e49a25f0'],False,['drawings.py']
+d943f101230bb9b211498bc267fa8388a45f664c,Fixed make_jagged,['e0ef531f49a80f7592756dc9ab20956f1b6e091e'],False,['vectorized_mobject.py']
+3b9c085cf1e005efdcf06fb0a0bde3b8a0338789,Typo fix,['e1deb770c884b381bd5bdf5b370acb7e923276b6'],False,['mobject.py']
+37164a640ea8a7f3be31b8e7b2d96986f276b5c6,Tiny bug fix to old_projects/clacks/question.py,['b2c7e83843f5de56f9bd5d84b721a435263e2256'],False,['question.py']
+2d552e0aa4878b24cbe2e1c4d23ee7caa32e7e33,"Fix Ellipse constructor: 'width' is not defined
+
+Constructing an ellipse before gave the error ""name 'width' is not defined""
+
+I got this error when running the tutorial at https://github.com/zimmermant/manim_tutorial/blob/master/manim_tutorial_P37.py.
+
+python3 -m manim manim_tutorial_P37.py MoreShapes -pl
+
+Traceback (most recent call last):
+  File ""/Users/jeanwhitmore/Code/python3/manim/manimlib/extract_scene.py"", line 153, in main
+    scene = SceneClass(**scene_kwargs)
+  File ""/Users/jeanwhitmore/Code/python3/manim/manimlib/scene/scene.py"", line 52, in __init__
+    self.construct()
+  File ""manim_tutorial_P37.py"", line 33, in construct
+    ellipse=Ellipse(width=3, height=1, color=RED)
+  File ""/Users/jeanwhitmore/Code/python3/manim/manimlib/mobject/geometry.py"", line 319, in __init__
+    self.set_width(width, stretch=True)
+NameError: name 'width' is not defined
+
+After this fix, the Ellipse can be constructed and the animation is generated.
+
+(Another shape is still broken, and I will try to fix that, too.)",['b2ad5e2173683a9e5d000b674cda6329608d484e'],False,['geometry.py']
+9e96c4db8188d562fe8fd03a533f4992df61ad40,"Merge pull request #447 from jeanimal/patch-1
+
+Fix Ellipse constructor: 'width' is not defined","['b2ad5e2173683a9e5d000b674cda6329608d484e', '2d552e0aa4878b24cbe2e1c4d23ee7caa32e7e33']",True,[]
+7c76b7add816ad255f04709c80f33bc20c743af8,Fixed SVG parsing error with consecutive C or M coordinates.,['9e96c4db8188d562fe8fd03a533f4992df61ad40'],False,['svg_mobject.py']
+5b1f54a89ec5564d12c4086c859f72e192b37741,"Merge pull request #450 from ProgrammingIncluded/master
+
+Fixed SVG parsing error with consecutive C or M coordinates.","['9e96c4db8188d562fe8fd03a533f4992df61ad40', '7c76b7add816ad255f04709c80f33bc20c743af8']",True,[]
+55c442f8fd5d51b1cd74b6b06bc4fdaf067f32c6,"Fixed `temp_file_path` to be more specific in adding the ""_temp."" string to file name (#458)
+
+fixed for paths with periods in it",['5b1f54a89ec5564d12c4086c859f72e192b37741'],False,['scene_file_writer.py']
+61dbad5edd9041c9a1b4fad15eaa0e76942f17cf,"Revert ""Reverted Cleaned Up Arrow Implementation (commit d489b5df5c77...)""
+
+Undoing my revert of another commit because I found a fix.
+
+This reverts commit cd29ff6e0d8e46930da9074e0e2c62799349e16b.",['50da0b6aaee427cbb1ec1b7a9a167d7ceaa61b0b'],False,['geometry.py']
+73a6c2400be756fc4e9c25374c6c3495facc7b3b,"Fixed CurvedArrow constructor by moving get_length() to base class.
+
+I moved get_length() from the Line class to the shared base class,
+TipableVMobject.
+
+TESTED
+
+python3 -m manim manim_tutorial_P37.py MoreShapes -pl",['61dbad5edd9041c9a1b4fad15eaa0e76942f17cf'],False,['geometry.py']
+741ed593b2887732e3b0fde451943e4f91645604,Fix height setting in Ellipse initialization,['03e832af45e16bd0f6d7d8d45739384c22044f3f'],False,['geometry.py']
+88b8bf96661f875f890f95cf431287854d5050bc,Fix the position of the y-axis label,['03e832af45e16bd0f6d7d8d45739384c22044f3f'],False,['graph_scene.py']
+1426e0f0a09342dbe88e8345069fa7247570f64d,"Merge pull request #468 from ggarza/master
+
+Fix the position of the y-axis label","['03e832af45e16bd0f6d7d8d45739384c22044f3f', '88b8bf96661f875f890f95cf431287854d5050bc']",True,[]
+3aca85e47dbd85925e0919900bb81b188c43f900,"Merge pull request #467 from indiejames/Fix-Ellipse-height
+
+Fix height setting in Ellipse initialization","['1426e0f0a09342dbe88e8345069fa7247570f64d', '741ed593b2887732e3b0fde451943e4f91645604']",True,[]
+ae1efc6009e1c24322634c39f5b5b5c8191b8758,Fix alignment of minus sign to numbers,['3aca85e47dbd85925e0919900bb81b188c43f900'],False,['numbers.py']
+528e2d31954503edef53deb318505c26e2bedf36,Fix position of labels on the y-axis,['ae1efc6009e1c24322634c39f5b5b5c8191b8758'],False,['graph_scene.py']
+c12d1cb5485da3e9dbddb928a1fdd7c32b201e47,"Merge pull request #469 from ggarza/master
+
+Fix alignment of minus sign to numbers","['3aca85e47dbd85925e0919900bb81b188c43f900', '528e2d31954503edef53deb318505c26e2bedf36']",True,[]
+992d364913c0de1c281feb60d028ca90407ca0f8,fix get_anchors for VMobjects,['c12d1cb5485da3e9dbddb928a1fdd7c32b201e47'],False,['vectorized_mobject.py']
+ac3740145a5c31c1966356bf20f7d5e690679283,"Merge pull request #470 from 3b1b/area_fix
+
+fix get_anchors for VectorizedPoints","['c12d1cb5485da3e9dbddb928a1fdd7c32b201e47', '992d364913c0de1c281feb60d028ca90407ca0f8']",True,[]
+5c79d80187f3fdbbb8fc3ef6ae2c85aa13474294,Fix to Matrix,['4ec63f22ee468ce169fbf547608822943fffcafe'],False,['matrix.py']
+3e0666aa176559828612db39b1fb65e5c6ebb357,"Merge pull request #473 from 3b1b/ode
+
+Fix to Matrix","['ac3740145a5c31c1966356bf20f7d5e690679283', '5c79d80187f3fdbbb8fc3ef6ae2c85aa13474294']",True,[]
+4d3c511895afce9935f44ea5736d12ac2f44647a,Fix Matrix,['2d473f3b7b142f66534e28b71cbacf10e2ba9fb5'],False,['tex_mobject.py']
+4451e9a26582ce76431fcf48efa2322787f279a6,Fixed configuration of VectorSpaceScene,['5c79d80187f3fdbbb8fc3ef6ae2c85aa13474294'],False,['vector_space_scene.py']
+d07c086bec968d4c7f58d9d8a8b4da995523d80d,Fix Laptop,['fb99ebaeaff992c9b0644d45d0cd2cc033b23881'],False,['drawings.py']
+5a88ad29331ecc48fe6e6a19fa0241f9b976ad0b,Fix get_det_text,['d07c086bec968d4c7f58d9d8a8b4da995523d80d'],False,['matrix.py']
+4b5b492ba32a69cf7490efc902ebd5f6c24243de,Fix change_student_modes,['5a88ad29331ecc48fe6e6a19fa0241f9b976ad0b'],False,['pi_creature_scene.py']
+4bd1e6f3a8d61e83933927d0c919c038d0ad4a47,Bugfix for PiCreatureScene,['b29597d39bd3de62db27fd7ba01cc0b347d79186'],False,['pi_creature_scene.py']
+1ca26fcf1d99ab32efb7b881414831005b703cea,Bug fix for Bubble.pin_to,['4bd1e6f3a8d61e83933927d0c919c038d0ad4a47'],False,['drawings.py']
+ac9c04d3b88ad3fb20acefbddd2ef3a1b26916e4,Bugfix for aligning null VMobjects,['1ca26fcf1d99ab32efb7b881414831005b703cea'],False,['vectorized_mobject.py']
+174094254c62d5eb14b4d88e4614f81a6add412b,fixed wait_until for PiCreatureScene,['36c62b4b556875edacdc03f08db97b550be46002'],False,['pi_creature_scene.py']
+319b256b0c1a4a55a006e34c807494257a141d7a,Fix to Arrow styling,['259c36512fe6ab5e2bb571cc34b67695e66990ae'],False,['geometry.py']
+f4c2c4642a4f1e812a9c9d0b88ce9f52387b721f,Fix bug with applying function to VectorizedPoint,['e567fff8553730d12435b22607b008af4d81530d'],False,['vectorized_mobject.py']
+282dfeedde559c27a027605e622b53c1d56f8cbe,"I don't like this fix, but TexMobjects were breaking if the 'dot' part was left isolated",['677f67cb9d14918a0ccfe3b9ddcb60670d01fd9e'],False,['tex_mobject.py']
+d8896e299e8b200f8b2187236fe4e12fe9d59500,Small bug fixes to NumberPlane,['9cdf35475d4e0b1cb8bec727e0e4c24db6d4dfe2'],False,['coordinate_systems.py']
+97c8ea273885476d821bd1ababe18f8253279563,Small bug fix to NumberLine,['43f214550834cdb93087dd3ebc4d65570b206417'],False,['number_line.py']
+fbcc3b85d3da4a4f7ce0cd7756c93df2075555b7,Fix DrawBorderThenFill,['f5420b24ca4fb070fe77ed28890b380c054dc0ed'],False,['creation.py']
+7ae67fad09da61742cd435b585a2ffe89d76036d,"Quick fix for LaggedStart kwargs confusion, but this needs a better long-term solution",['caf41f43d9d38c7283331a26c121caa17bc1ab03'],False,['composition.py']
+5337dc5ee4e1165f9783d75d2ddd577ea040840f,Fixed name conflict for AnimatedBoundary,['7ae67fad09da61742cd435b585a2ffe89d76036d'],False,['changing.py']
+34851761e294cbb9150f4575b1604e791e5f8c8a,Many more ode1 scenes and fixes as the video gets edited,['ea4df1f41e12897f0ae6b62cd10b5d691877c01e'],False,"['all_part1_scenes.py', 'pendulum.py', 'phase_space.py', 'pi_scenes.py', 'shared_constructs.py', 'staging.py', 'wordy_scenes.py', 'solve_pendulum_ode_sample_code.py', 'stage_scenes.py']"
+e8fe67650aabe0864868eb6432072e5b94b43899,Fixed problem with LaggedStartMap,['34851761e294cbb9150f4575b1604e791e5f8c8a'],False,['composition.py']
+46711a7e3ab1697804d8c4bcbddd97a89decac72,Fixed typo,['9d566de8d1f2a436f7608403498d52ab1cda00e3'],False,['coordinate_systems.py']
+a03de9dde9349f9789744a5f210925073c25c0d9,Fixed tyop,['46711a7e3ab1697804d8c4bcbddd97a89decac72'],False,['mobject_update_utils.py']
+6b59cdcd374721634147308eef2b31574e862655,Fixed issue with numberline last tick vs. arrow conflict,['a03de9dde9349f9789744a5f210925073c25c0d9'],False,['number_line.py']
+86a8cefc0f2122767155d632cce8288617dd2930,Fixed ClockPassesTime animation,['6b59cdcd374721634147308eef2b31574e862655'],False,['drawings.py']
+3393bf616b91e8a1bb6c0d006196ff0198ebe438,Fix --preview on cygwin,['b51d1bf6b12c936853629908be9d9d197356aa5e'],False,['extract_scene.py']
+acde5252eaade39483de436d88d655e358ab4911,"Merge pull request #486 from Pokechu22/cygstart
+
+Fix --preview on cygwin","['b51d1bf6b12c936853629908be9d9d197356aa5e', '3393bf616b91e8a1bb6c0d006196ff0198ebe438']",True,[]
+b0bbb1d07858a6dffcd4df7e5c57767638490086,"Merge pull request #475 from niyiyu2316/master
+
+Fix bug for creating Matrix","['acde5252eaade39483de436d88d655e358ab4911', '2db1dff1cf8af0cab48dbee41fac57178f1e1283']",True,[]
+26c7faabdd4de3c365d98a93973376415bbf5acd,Hacky fix to Arrow scaling issue. There must be a better way to do this...,['5e6dc3b49263a417930ae3568b97afaaa3e5ccd4'],False,['geometry.py']
+fdb85b9120cc1736ac199584d9bb1de377973b48,"Typo fix: remove redundant ""the""",['8be321d1045f957a66c1ccc81f4229171f3a3700'],False,['README.md']
+27a952b664fd6a540193cee4cb9254a758197c26,"Merge pull request #489 from TortelliniLeap/patch-1
+
+Typo fix: remove redundant ""the"" in README","['2e846a667c06cbebf26be36ae76eb7ffc7f84230', 'fdb85b9120cc1736ac199584d9bb1de377973b48']",True,[]
+e98feae43d0eff4d9901c90023d19d0637f6f2b5,"Update README.md
+
+typo fix, im the github grammar nazi",['61b2ddd2e6aa922da060b567cf7dedc8bc808298'],False,['README.md']
+19a98ea6bd94cbcc5a7f0f748852890cb73d6803,fix mishandled relative paths,['5fff18c391869eab22d6be86550299785e5dd43b'],False,"['config.py', 'scene_file_writer.py']"
+be7b259274ab733028ad24c460609e4508fb382b,"Merge pull request #522 from 3b1b/fix_relative_paths
+
+fix mishandled relative paths","['5fff18c391869eab22d6be86550299785e5dd43b', '19a98ea6bd94cbcc5a7f0f748852890cb73d6803']",True,[]
+6f6798f8ba70be9901b63f48ccb90e658111313c,Fix description content type,['1eb8c4d1eb971599a6612569163f5aa1890cc63d'],False,"['.travis.yml', 'setup.cfg']"
+0f5cc33002e0a75e10ee1567678c79cba9c455c9,"Fixed typo in class name in example_scenes.py
+
+Changed UdatersExample to UpdatersExample.",['4d368e85c97e8fadc7b229a602f10e2dbf9a9bf3'],False,['example_scenes.py']
+98696a29f8a602f94457c937e33c66585744fd01,"Merge pull request #542 from kyarik/patch-1
+
+Fixed typo in class name in example_scenes.py","['84514a1f6fa85fc761fa1292f83733cfa0715f92', '0f5cc33002e0a75e10ee1567678c79cba9c455c9']",True,[]
+c62ba223b6847aa4e20d4f2a1c7d30cf917a88d0,Fixed typo in the docs about page (#553),['4447bbd01633eda2519b4465001ac5dc7e8f7a1d'],False,['about.rst']
+17558a4bd516526ec7f7b20adfb9ed489f5d261e,"Update pycairo requirement
+
+Many issues, such as #535, stem from the odd installation procedure of cairo and pycairo on Windows. By changing the pycairo requirement in requirements.txt, pip will no longer attempt to uninstall the working version. This should have no effect on the functionality of manim, though new installations are likely to default to pycairo 1.18.0 now.",['304822fb8c0b4e351d41dc1a136bca1d56953cba'],False,['requirements.txt']
+5dcb113996d22bc02b2d286b6d0d16c903c6cf1c,"Moving the frame_center of camera was not working.  This fixes it, but I suspect there is a need for a deeper fix where everything is handled in transform_points_pre_display properly for the various camera classes",['52054571ab20d6d522bc8351d118711a40ec5528'],False,['camera.py']
+57b96fdd0797e9456ca920bb275f852d1c1bb54c,fix documentation links,['de0d7c907d50d813a059f1431bf5c9d4b97418a1'],False,"['animation.rst', 'SquareToCircle.mp4', 'conf.py', 'learning_by_example.rst']"
+a024916e66654983eeee9b56c9f571f89585c62f,Apply link fix from master,['73a1d37785bebde5b96001d47ad4e56775fa4324'],False,['learning_by_example.rst']
+7f54ac9b3a655efc5d8cb29f816c621b80fb73c7,fix broken link due to misnamed file,['57b96fdd0797e9456ca920bb275f852d1c1bb54c'],False,['AnimationFadeInFromDiagonal.mp4']
+3e2a312f5182671e543a9bded763e9f889eb56a3,"Merge pull request #581 from Kolloom/link_fix
+
+fix broken link due to misnamed file","['aad68a55034f29f345145336427926ec7e7b18d3', '7f54ac9b3a655efc5d8cb29f816c621b80fb73c7']",True,[]
+65c23d9e9fcf0c7dcaf9b5ad419cbc37d46bdd18,"Fix docker install instruction
+
+Env Var used in the compose.yml is INPUT_DIR and OUTPUT_DIR
+
+Clarify the meaning of both variables and output message.
+Note on -p not working.",['1322152391e35b98879f9c402dee36f634eb39dc'],False,['README.md']
+2cbe19af7c0b0cae7cc5e2ea90532f361c567496,Bug fix for the case when the media_dir has spaces,['2ccf83c0aaa85e7252efd0ad3186d55319daa424'],False,['tex_file_writing.py']
+542ea688241b3adf7d62c3888d145d4f2999838e,Fix wording,['2a930ff702baab2776383110172fb37b7b353199'],False,['coordinate.rst']
+43b4508b2ca0128bbc60939ad9d7779b4c938ac4,Fix wording.,['e64a25bd408471b03ad5e6e1ed3f5b59b1527b5c'],False,['README.md']
+a9baae4e988bf3401f5c3fc506f0e3d189771fd3,Fixed(?) eye-tracking for PiCreatureScene,['0e44abe741bda2413752ab38fa18b244a3f6500c'],False,['pi_creature_scene.py']
+f3048eb5741c2e41952bd160d1a4cd5764918194,Fixed bug with Bubble,['48f38b894031fe0ea31e2e1430151c10b2c480e4'],False,['drawings.py']
+985ef4518fab1636ac5288b23c068fd4c23d08c6,Bug fix,['096f03395486520b332387470d8d73a846de78d6'],False,['changing.py']
+9f761822e145c21c300e1b465d1f63f5c58b964a,"Merge pull request #648 from zavden/master
+
+Fix the list of scenes.py","['38432a73e73d6bb86e2dfd3104e850687779dd66', '3cee3de94f2872a5b700d8b27b227f35e13a9cc7']",True,[]
+519f82f1e720e20bda62a5ff47977c16ae5654c5,Fix tqdm display problem in windows,['82a1b05f28fe8779e3055f921a987e69474c5410'],False,['scene.py']
+49582c35919097585699598ad0ca49fe3f2117b5,"Merge pull request #652 from xy-23/master
+
+Fix tqdm display problem in windows","['930e059a16b5045c298a6f3a818d13f9d31353b1', '519f82f1e720e20bda62a5ff47977c16ae5654c5']",True,[]
+06f78bf28f5af7089a901e0f369c9ca73569dcb8,"conda environment bug fix with pyreadline package, closes #662",['49582c35919097585699598ad0ca49fe3f2117b5'],False,['environment.yml']
+91580ed4a356541e01cacc41423d2724abb8c956,conda env bug fix- ffmpeg from conda,['06f78bf28f5af7089a901e0f369c9ca73569dcb8'],False,['environment.yml']
+e498077e6a95b09c78e5d41a71511dac1312ceb5,fixed manim,['49582c35919097585699598ad0ca49fe3f2117b5'],False,['README.md']
+e1c049bece420bc1190eb3ed4d5d9878c431aa5e,"Merge pull request #670 from 0xflotus/patch-1
+
+fixed manim","['49582c35919097585699598ad0ca49fe3f2117b5', 'e498077e6a95b09c78e5d41a71511dac1312ceb5']",True,[]
+d61d540655fecbdbf43bf7327ef5b47d2c213c66,"Update requirements.txt to include pyreadline
+
+This solves #444",['e1c049bece420bc1190eb3ed4d5d9878c431aa5e'],False,['requirements.txt']
+f0cff687aa74e6358b8580777623a803c9f7002e,"Merge pull request #663 from pranjaldhole/master
+
+conda environment bug fix with pyreadline package, closes #662","['73fea6a1977498e50aeda0aeb7e59a6461ccf3e3', '91580ed4a356541e01cacc41423d2724abb8c956']",True,[]
+a19a6317ec187f65efb0c8f46bc613b4a978d22a,"Closes: #720
+
+Fix to interpret subsequent points of absolute MoveTo (M) command as absolute LineTo (L).",['e85beb91dcc65bbd683443208512ad521e5f6921'],False,['svg_mobject.py']
+f66d6e4f972852980645933087e1a11f72a06a01,"Added AddTextWordByWord, but it's not yet working, presumably because of some bug in Succession.",['67f3d1584cd1ecd32fccfa8d08ab59e93c0a924d'],False,['creation.py']
+920d140e4052320c91b3176a0a3057b2f731bee8,"Merge pull request #776 from MathWhiz/patch-1
+
+README.md fixes","['e1e66f3082d9ba28b47895b342fc53b6f8e3feda', 'b163b1b685445dd38dd0e8e300ad567e037c6f5a']",True,[]
+ec9dd06d38d31b132a10578f5709ecf9f5a1601b,"Merge pull request #748 from DzyubSpirit/fix-svg-width
+
+Add default stroke width for the svg mobjects","['920d140e4052320c91b3176a0a3057b2f731bee8', '76c295a60bdf4de78c49f908f8845f0261d086cf']",True,[]
+b1b516e9c41d780342852ea2f2a86e3c57dc520d,Fix simple typo: installtion -> installation,['0e1da5ef28bd939d84dce6142435f729271ee2d2'],False,['windows.rst']
+bcb8824e2c1723458c0f553fc0dbf6324b63e128,"Merge pull request #698 from Elteoremadebeethoven/master_3b1b
+
+Solve issue add sound in Windows 10","['1e3cf9fa788442b1be78df6a7d9880658689abd5', '32abbb9371308e8dff7410de387fe78e64b6fe7a']",True,[]
+2afa079b6ae8ade19dbb166c0ece00f79657d4c1,"Merge pull request #780 from timgates42/bugfix/typo_installation
+
+Fix simple typo: installtion -> installation","['637c48905a9b20859f86dac593cbf3195b127cef', 'b1b516e9c41d780342852ea2f2a86e3c57dc520d']",True,[]
+241030f916fd24fd12ba5157e0a2d93836d25429,"Documentation typo in constants.rst, fixes issue #814",['2afa079b6ae8ade19dbb166c0ece00f79657d4c1'],False,['constants.rst']
+32e4daaeba096cec611116fe76ddd3c09dae60a2,Typo fix to moduli,['aaff13a07958819fac9ffc8acb45f5683d96f909'],False,['moduli.py']
+bc593695f9d64cf926220a35131d87ed4b5ebd84,Fixed old confetti scene,['9811564f709e7119702facfae47876ad69417248'],False,['efvgt.py']
+2e25c4c0a306fd1277a4c28fc546ac8daffb882a,Fixed old snow scene,['bc593695f9d64cf926220a35131d87ed4b5ebd84'],False,['mug.py']
+b7cb9aa9382ba80317ad1fbcefe9c809e46055fb,Typo fix,['259007954b81bd0a88c60f702353f7865e08d63e'],False,['LICENSE']
+84e7bdb2b1f41929dada735094eccc9fc2cdc65c,Added a couple helpful debugging functions,['b7cb9aa9382ba80317ad1fbcefe9c809e46055fb'],False,"['imports.py', 'debug.py']"
+94a388388014c9521902ffab2da1635b9c783986,"Remove Mobject.print_family, as that is now in utils.debug",['84e7bdb2b1f41929dada735094eccc9fc2cdc65c'],False,['mobject.py']
+72006334f598c07045ee4cfa73aa40d873786342,Added a small fix to the issue of Tex inputs starting with a new line,['94a388388014c9521902ffab2da1635b9c783986'],False,['tex_mobject.py']
+c74cfa3c5d3486bcfaf76a544b7b6888c757f74b,Add error message for ApplyFunction,['5cce05fc46d94372375ef688cd7168f4012ea46b'],False,['transform.py']
+a95318f1ab5bbaf50ac5109b543f96963853d2a8,Fix print_family,['5ea6c0f5251856c76df5ea865b294d472330f573'],False,['debug.py']
+1279f040dafa9292cd7e8b2fbdc6a464a574240c,"Temporarily adding input_file_path to SceneFileWrite config.  Not sure why this isn't there already, or if there are problems with setting a default, but it fixed a weird bug that had arisen",['0f71b0a408ccc8de9f29c5bb96f4e76840b3946b'],False,['scene_file_writer.py']
+cf2d8d47e6cf1542622d5fe98494b7bc561bf518,Fixed get_quadratic_approximation_of_cubic to account for cubics with an inflection point between 0 and 1,['7685fd03c62eb00d7bb4881927083698048262a2'],False,['bezier.py']
+db0029c32b467984573249ddcee80a2cedcc720a,Fix error in get_quadratic_approximation_of_cubic,['1a13d32452cfd2c325563c7c252ee7cea68b770a'],False,['bezier.py']
+3634cb712d15437eb8eb4ac24dea68681e882560,Fix triangulation,['f98513dfc2f5c5037db9bdc61e846e64143bcfb3'],False,['vectorized_mobject.py']
+77890384097fd8d918fbdbdd7cab6fc594ea060f,Fix bug with fbo initialization,['53abf506fcaa6e2e4f80018157c0fb8245627deb'],False,['camera.py']
+1a0b0e748ce7239e55b04f033e6bc9491d52edbe,Fixed pixel_coords_to_space_coords,['091204324839bcbb0cca8cbd767726be519fb6f9'],False,"['camera.py', 'set_gl_Position.glsl', 'window.py']"
+49d84fccde5b25f55d430bd8e31a8577ccb8c87b,Fixed edge case in inserting n curves for null curves,['b0b71910a5046a9d2d307d8630bf815d7985c6fb'],False,['vectorized_mobject.py']
+b73ebb9cf5b6c914280909ed3fd0927fededa5b0,"Go back to scene recomputing mobject families on each frame, and fix a bug with skipping",['49d84fccde5b25f55d430bd8e31a8577ccb8c87b'],False,['scene.py']
+d03b32d2492a66f914af4b4dce5dd19c230e6017,Bug fix,['3982303fcc4db645e4d9f2d7403c94f5c6bb3bf9'],False,['pi_creature_scene.py']
+8ad1c58f9e517d1421a8172f375aee4097594ef2,Fix bug with recursive paths,['e9504b7010190d7b00e5cb380f7bc56a3473411d'],False,['svg_mobject.py']
+01cda8a1304847a2b27fc60787159eda4290ad9e,Fix a few problems with PlayingCard,['8ad1c58f9e517d1421a8172f375aee4097594ef2'],False,['drawings.py']
+ba0d677c153486f44823b2a538ee6666ac2b01b2,Small fixes,['b504899714a2226687044e0dd146ce6d1dee06db'],False,['pi_creature_scene.py']
+0be5abceb92b530834701709024720cd80d7407c,Small bug fix,['f1475463fca32b4ba3a959998ceb6bbdeef40148'],False,['creation.py']
+16ea2a01049762eb62db289ff971a7c83441e7fb,Fix bug with pi creature,['c88bcc1a3c5b0150b5500e27c3dcf3d3e02ece2a'],False,"['pi_creature.py', 'svg_mobject.py', 'tex_mobject.py']"
+b825b36b60f5395bbc516de6c29aa7ac5fe12470,Slight fix to triangulation,['6be41fec6d9e62a242fc3e2309ae18f8aeabd0ac'],False,['space_ops.py']
+c8befa5b9a7e4d64ce5cbe0059feeb4b2ac764cb,Fix bug with eyes,['0b0dbcb5d8f41b4aad69017e6808076fea0fea75'],False,['pi_creature.py']
+f4a33c5bfb1a8f67e83b1368553c8749be0763d3,Small fix,['7b198545bb193fd2092c95e46c17315b6f2fc663'],False,['color.py']
+8159f701f44dc75a097b3f886b337e496c97667c,Typo fix,['d794ff8bc9145945c528242948063710f7ee9efc'],False,['mobject.py']
+3cc9bf70528df7b12b1a95afc0722baa858d8ddd,Bug fix to refresh_triangulation,['f4776626e4f95647db2105c9b39dd6bdfe3ab12a'],False,['vectorized_mobject.py']
+6e0ae83685e3dd81c973b981ab14b3fc3e9d0626,Small fixes,['40b651d66166925aa44dd93e54ee40feef685488'],False,['drawings.py']
+f83cfc42b1e4744ff87a5938e3f701c66c1d0736,Fix set_fill,['7785a0644191d34b530b8f88e740c1f54eae858f'],False,['vectorized_mobject.py']
+0ad64329f663aeb466fd77e0848fc39b31c15e17,Fix to NumberPlane,['ace2b7fea4392ee1c0a525ab0d325e2ecefa95bb'],False,['coordinate_systems.py']
+e8b0ecfede36a0c6d667636a92e49afa0bf9e422,Fix endscreen,['5a780dfde3eea1f03d8cf8adccf43bfac0f70eaa'],False,['common_scenes.py']
+99519090fbcb6a20c43c1ee46cd81b12c0ac64e1,Small fix to NumberPlane construction,['422e86e0da5622290e85c9536e262c0e6cfe9271'],False,['coordinate_systems.py']
+ab817c09624f82a94d7c372149e08044f4b166e4,Fix blink,['6c391a7580ef0ef94a048513cc02343b6d7643eb'],False,['pi_creature.py']
+8384b8b46bd9cd9d27182a5733397d19c6d4cba5,Fix bug with clock,['7c0bf2c015f4db35355947434cca87573f976396'],False,['drawings.py']
+1b125df5724b6d83e028653a44a1379c33c241c3,Fixed execution of counting.py,['48f2a1ec3c86f3ad26b6b1292b6917149005cbab'],False,['counting.py']
+6eabbe943bdb67adaaf666f1fbd173c2fc565252,"Changed -1 to -1.0 for broader GPU suppot.
+
+Some GLSL compilers are more sensitive to types than others. With this fix, my Intel HD Graphics 5500 (Broadwell GT2) gives no error on this script anymore.",['2ce0b72c440fadbfba990bdac8bc9c2ea8bff4e7'],False,['quadratic_bezier_fill_frag.glsl']
+229c809a4bd3e412197a3553e37b3a95d4b7f3a0,Fix a bug in extract_scene.py,['2ce0b72c440fadbfba990bdac8bc9c2ea8bff4e7'],False,['extract_scene.py']
+f0cdcd90bae495cedb5e7a7ae87874757ca60658,Fix Text wrong display (#889),['19e3c97589181ffd43ef14d9169af4e40e054664'],False,['text_mobject.py']
+3362f93964cae6f610a47d2da0e076b51a9eab42,"Fix three bugs(shaders/stroke/size) of Text Class (text_mobject.py)  (#1030)
+
+* fix: remove the last M tag in svg files to make Text run in shaders branch
+
+* fix: close the svg path manually to fix the bug of wrong stroke
+
+* fix: remove Space mobjects in Text to fix the bug of TransformText
+
+* feat: make Text and TextMobject equal in size
+
+* this will lead to more bugs of setting color, so I delete it",['af65c9d5d4ecbcffc5e569508053d56d1f7e86eb'],False,['text_mobject.py']
+522a5b3c5f1830dea455625da513698d6ac27845,"Fix space characters problem of Text (#1035)
+
+* Fix Text wrong display
+
+* Fix space characters problem of Text
+
+* Fix a potential bug using height or width in Text
+
+* Update Text
+
+* Fix typo in text_mobject.py",['3362f93964cae6f610a47d2da0e076b51a9eab42'],False,"['svg_mobject.py', 'text_mobject.py']"
+d83fa90606d02d008b9fec7950e62f71e2a6e833,"Fix Text Class's bugs in shaders branch (the same as #1030) (#1031)
+
+* fix: remove the last M tag in svg files to make Text run in shaders branch
+
+* fix: close the svg path manually to fix the bug of wrong stroke
+
+* fix: remove Space mobjects in Text to fix the bug of TransformText
+
+* feat: make Text and TextMobject equal in size
+
+* this will lead to more bugs of setting color, so I delete it
+
+* fix typo in text_mobject.py
+
+* fix conflict of default size and height",['ec4a70ad3511805c3b5ec55b43ac548be85555e8'],False,['text_mobject.py']
+6a571262fd0dd6e385f575bdb56c160e6d192126,Corrected a bug in stretch_to_fit_depth function,['dbdd7996960ba46ed044a773290b02f17478c760'],False,['mobject.py']
+7f1a15b6baaca06fc8e804494b22aaa45effef9c,Fixed ffmpeg 'Impossible to Open' and 'Protocol not found'  (#1057),['dbdd7996960ba46ed044a773290b02f17478c760'],False,['scene_file_writer.py']
+c82b1fc2c97db32a9705b0d9588b8427885d9912,"Fix ""itslef"" to ""itself""
+
+I know this is trivial, but I had to fix it.",['ca0b7a6b06ff7787d1efab5ad3b28cfb88f67c3f'],False,['transform.py']
+4d78e0c63ea35ce983baffd33c0e62eb007df0d0,fix changing coordinates color,['ca0b7a6b06ff7787d1efab5ad3b28cfb88f67c3f'],False,['coordinate_systems.py']
+45c5ec709116c99505ffd04694dc48d26a12275a,"Add missing import to brace.py
+
+Without `import copy` lines 128 to 131 will throw an error. I've tested this edit in my local version of the library and it fixes the bug.",['aff2d21bad7a0dc1cb40abe36b62bcb78e0681ad'],False,['brace.py']
+00ff47855ef15f33f44c5866b3a589aa5133d150,"Merge pull request #1069 from applemonkey496/patch-1
+
+Fix ""itslef"" to ""itself""","['aff2d21bad7a0dc1cb40abe36b62bcb78e0681ad', 'c82b1fc2c97db32a9705b0d9588b8427885d9912']",True,[]
+ccb47db3bb337596bd77ebb0f0061c9c3f0f1ebe,fix pixel_coords_to_space_coords,['965564853b908d827d7e596590e0a550539b2caa'],False,['camera.py']
+435a2631c991ec32c323b787da430216eb68e70e,"Fixed typo from ""depricated"" to ""deprecated""",['3c1a6bb8b10ec5e8c4760c91c9e9f148e81d3b57'],False,['transform.py']
+00dcc14df1f0c52364789e8873beefbe557ae4b0,Fixed the random-dimples-on-zeros bug while fixing up the fill shaders,['270e93f6f0f6810e0acf57f12c1c270a1c553234'],False,"['vectorized_mobject.py', 'quadratic_bezier_fill_frag.glsl', 'quadratic_bezier_fill_geom.glsl', 'quadratic_bezier_fill_vert.glsl', 'quadratic_bezier_geometry_functions.glsl']"
+23bbdc63bac7a295498f08d7d035ead78b2f77fb,"Fix up fill shaders to work when being viewed from different orientations, along with several other little bugs",['adac5690b75c348117c9bd12e047e8d949d14865'],False,"['vectorized_mobject.py', 'add_light.glsl', 'get_gl_Position.glsl', 'get_unit_normal.glsl', 'quadratic_bezier_fill_frag.glsl', 'quadratic_bezier_fill_geom.glsl', 'quadratic_bezier_fill_vert.glsl', 'quadratic_bezier_stroke_geom.glsl', 'space_ops.py']"
+b2137f2746ccbfabfffba98b60f6ed639322f1e8,Fixed z_to_vector for vectors on z-axis,['cacfe67fe14acb2cfae34751f0b19f1017332022'],False,['space_ops.py']
+046caa763215d9b9d35d029c52002583241bb92a,Bug fixes,['4968c7a8a19d685975c15afd369179f3ea5b17f7'],False,['surface.py']
+ccefbc0deaf4483651b9cfd3991e872b8c307702,Add is_fixed_in_frame uniform which allows mobjects to not get rotated by the camera,['5d34cee014e465105a2dee028beba7ead0b08c85'],False,"['camera.py', 'mobject.py', 'surface.py', 'vectorized_mobject.py', 'get_gl_Position.glsl', 'image_vert.glsl', 'position_point_into_frame.glsl', 'quadratic_bezier_fill_frag.glsl', 'quadratic_bezier_fill_geom.glsl', 'quadratic_bezier_fill_vert.glsl', 'quadratic_bezier_stroke_frag.glsl', 'quadratic_bezier_stroke_geom.glsl', 'quadratic_bezier_stroke_vert.glsl', 'simple_vert.glsl', 'surface_vert.glsl', 'textured_surface_vert.glsl']"
+b91284b4aad795bfcee945743342fbf66b20b230,Small shader fixes,['f0a36329b10eab7379490449b5fbeb69479d259f'],False,"['camera.py', 'get_gl_Position.glsl', 'quadratic_bezier_fill_frag.glsl', 'quadratic_bezier_fill_geom.glsl', 'quadratic_bezier_fill_vert.glsl', 'quadratic_bezier_stroke_vert.glsl']"
+ee7218745e51a3082ef5ec187b7d5cb87a6dee6a,Fixed FunctionGraph bug,['b91284b4aad795bfcee945743342fbf66b20b230'],False,['functions.py']
+6a458547c377b8c06e5f571d160f685f0a91185f,Bug fix,['739667f8a90730a1b50ab8399cc2a51e2dd2f605'],False,['camera.py']
+a0006426cc39bac65a82be8d0f70e6b3d1aab905,Fix Line3D,['eee4054da89e86b7e857e00c4871157788bcec65'],False,['three_dimensions.py']
+5d371bfec9bd92e211f88026a6b201bb6b35f3ee,Fix broken import,['4910501ee013be1edf096a171ad7d195532bb4cd'],False,['efvgt.py']
+b443c9e764bc1f220fb689875ad6780725011c60,Fixed bug at a = 1 for partial_bezier,['90db32ee55d2dbc9e645c4bf6341e859d5399c34'],False,['bezier.py']
+feb6a331354be450efc95eb711b3e2e8aad7fea3,Account for fixed_in_frame in set_value,['cd371dc2078a944ba69f30d9d8e6ad4becddd2a5'],False,['numbers.py']
+165bf2fe6e238763c819d4208753f5d192680d04,Small bug fix,['feb6a331354be450efc95eb711b3e2e8aad7fea3'],False,['chess.py']
+46b52a1bbcca8cfe176487a04e46fdbad80e359d,Small fix to VMobject.pointwise_become_partial for cases when points array sizes dont' match,['5e7913fdd440afdf0b0b80cee7601c3ade2e9e54'],False,['vectorized_mobject.py']
+93f7671732becc533656a3f85b27313145a739e4,Fixes to Arrow,['cf0afb0259d026d2d38873cbe2d09ec5842a0810'],False,['geometry.py']
+33d4dd7729e67644210cee00b0537eac9f1b9b31,Fix svg polygon command,['0c37d91af3d0fa1d92a86696723a4ded49b158a6'],False,['svg_mobject.py']
+caca6d0c0e1e6ede796939b16e858b2f30d82684,Fix Eyes,['c1a1b0f1457ff9a7244a14bd3188cf5921e2cf3d'],False,['pi_creature.py']
+26834178e755b752767f349eee85573383aac941,Bug fix to Bubble,['fd17e42c23ea27362c6d7312b5a3201a84e1321e'],False,['drawings.py']
+2708ecfd473f83175585dc00049ad987a7639af8,Fix Arrow.get_start,['9084ddbd062712d6064d89c4cf183de00a4080ea'],False,['geometry.py']
+9f945d994064df0ba14fdda3870cdf5bbfb3296d,"Fixed typo in comment imports.py
+
+I have fixed a very simple typo and would like to commit it.",['9174ec335c13924a52885779e7e2216811f91117'],False,['imports.py']
+a42d9c6ecb4f94542668651b5fe912a5cf9ec032,fixed deprecation warning: tostring -> tobytes,['9174ec335c13924a52885779e7e2216811f91117'],False,['scene_file_writer.py']
+821857afa85db0ad2ad77aba595ff958ba3e557e,Fixed braces on Matrix,['35a2ade9547ef273bb1e5d462b580808202ddeca'],False,['matrix.py']
+e9638aee2efb3ccf51b8593f9c9f6cb9456d92c3,"Merge pull request #1187 from Tony031218/master
+
+A solution to xelatex error converting to xdv","['9174ec335c13924a52885779e7e2216811f91117', '7556b99dc09a281feb90a11c864a5472f0a58e25']",True,[]
+e336cf5ddc1b6766448189e2849b63b055e1e156,"Merge pull request #1217 from dor2727/patch-tobytes
+
+fixed deprecation warning: tostring -> tobytes","['e9638aee2efb3ccf51b8593f9c9f6cb9456d92c3', 'a42d9c6ecb4f94542668651b5fe912a5cf9ec032']",True,[]
+79bf87754aa48c11bd7021a9caede96f1768277e,A solution to 'Latex error converting to dvi' problem (#689),['e336cf5ddc1b6766448189e2849b63b055e1e156'],False,['constants.py']
+d63f61b903e8ea69ae1c5cc842be797843989382,"Merge pull request #909 from Solara570/numberplane-fix
+
+Small fix to NumberPlane construction","['49d53d9a8f2ef5e18659c470793d9a455bf208d9', '99519090fbcb6a20c43c1ee46cd81b12c0ac64e1']",True,[]
+37efc93e9c0ecf037006b3b97019dcbc37bef157,Fix a typo in mobject.py (#847),['d63f61b903e8ea69ae1c5cc842be797843989382'],False,['mobject.py']
+11c451c2e9b12cc05b3ddadb28ec878b2a11fe99,"Merge pull request #1038 from peninha/patch-1
+
+Corrected a bug in stretch_to_fit_depth function","['52c5e32ba5360ca30a89fd11b803dc3c53edaf0f', '6a571262fd0dd6e385f575bdb56c160e6d192126']",True,[]
+08c90c272bcc03ec7e924589b2bdf7992d140fb3,"Merge pull request #1216 from BERENGENITA/patch-1
+
+Fixed typo in comment imports.py","['be8b28dd9dc25f1d6aca872c7a472328a54f30d2', '9f945d994064df0ba14fdda3870cdf5bbfb3296d']",True,[]
+4c42083ffc4924362a82bc0baab8b9783800f900,fix iteration through a dictionary,['08c90c272bcc03ec7e924589b2bdf7992d140fb3'],False,['common_scenes.py']
+186b86cb7077cc965a3d51b3ab6263273c0bbdef,"Merge pull request #1250 from amogh7joshi/patch-2
+
+Fix typo in scene.py","['08c90c272bcc03ec7e924589b2bdf7992d140fb3', 'dec753fc26ea33bc929512a448dfc561ff54914a']",True,[]
+1ecbbbbcd56637644516b67e9dfbc5821b2ce0f8,"Merge pull request #1251 from italosestilon/master
+
+fix iteration through a dictionary","['186b86cb7077cc965a3d51b3ab6263273c0bbdef', '4c42083ffc4924362a82bc0baab8b9783800f900']",True,[]
+30ae89464ed5d0aae6426d1ed55324e7f7eb5f83,Fixed a typo in exapmle_scenes.py,['1ecbbbbcd56637644516b67e9dfbc5821b2ce0f8'],False,['example_scenes.py']
+99952067c1a399e15a197310d35a39bb2864b1af,"Merge pull request #1260 from Abdul1337/master
+
+Fixed a typo in exapmle_scenes.py","['1ecbbbbcd56637644516b67e9dfbc5821b2ce0f8', '30ae89464ed5d0aae6426d1ed55324e7f7eb5f83']",True,[]
+faa52d7dd444291e5503b69536cffbe2bdc6b0ea,"Merge pull request #1264 from niedong/fix-ci
+
+Specify pycairo version to 1.19.1","['99952067c1a399e15a197310d35a39bb2864b1af', 'd797e5f1febf03769aee3cfcbf98c9ba7847b5b2']",True,[]
+0dc8e4389df67ddf52e4d24c959c9822ac7b3c73,"Merge pull request #1268 from niedong/ci-fix
+
+Change Ubuntu version to bionic in .travis.yml","['faa52d7dd444291e5503b69536cffbe2bdc6b0ea', '34ec0f4795e9506ec31de0addd8e4b2d0eb62ba9']",True,[]
+4e54c6de5462aba09faa9f12f959d7ef1e3d2d06,Fix rgb_to_hex bug,['3bc4416655c5225626a120d44d23438f475b9259'],False,['color.py']
+ba405521ced2aa503afe8a8a6402c08523e9bff7,fix typo docstring in scene_file_writer.py,['0dc8e4389df67ddf52e4d24c959c9822ac7b3c73'],False,['scene_file_writer.py']
+f934bdc61e6709cbb7b56045d6194a83d5a985c3,"Merge pull request #1284 from niedong/typo-fix
+
+fix typo docstring in scene_file_writer.py","['0dc8e4389df67ddf52e4d24c959c9822ac7b3c73', 'ba405521ced2aa503afe8a8a6402c08523e9bff7']",True,[]
+102af221822abe7d9ddc2323bd7df67454c88f2b,Typo fix for primitive,['171042b8d70fd931915f2f63f3a35780e10bfaf5'],False,['spirals.py']
+f08003fcb23cdca6c36efd0e20d509555fbaee45,Typo fix for primitive,['102af221822abe7d9ddc2323bd7df67454c88f2b'],False,['shader_wrapper.py']
+b64875fd552b1a4f76f408647510be1c6cceef93,Typo fix for primitive,['6ead1ceca6111e5fcd222b3763bb6f06f18385bc'],False,"['camera.py', 'mobject.py', 'surface.py', 'vectorized_mobject.py']"
+af0948ea15c52c1c29a2d3e6d89456fd47dced74,"Address percent bug a better way, but still witha patch that shouldn't be permanent",['d702396d870e226b6819625e378ce3ea7348291c'],False,"['svg_mobject.py', 'tex_mobject.py']"
+23f7bce427fd15c7d84f240568e10f954e92c729,Bug fix to add_smooth_curve_to,['5a238f15517580046d43db014f48fd0f03ea419f'],False,['vectorized_mobject.py']
+23af9c6c9c954814dfaf9d86f0983df63ba28aef,fix bugs on Windows and ctex,['38b293c2040abb12ae2a0606b243692837fe338e'],False,"['constants.py', 'ctex_template.tex']"
+d28f30dc4a6ba34932b57b6f0b22cf7d365ce8a4,fix bugs of window position on Windows,['23af9c6c9c954814dfaf9d86f0983df63ba28aef'],False,['constants.py']
+8b2785fdc914cd6cf412bb8e7277bb30386b20b2,fix bugs in extract_scene.py,['d28f30dc4a6ba34932b57b6f0b22cf7d365ce8a4'],False,['extract_scene.py']
+123450c3f24b0af08557b4f8cf6da05cb21a652e,"Merge pull request #1301 from Tony031218/shaders
+
+Some cleanups and bug fixes for the shaders branch","['2a6136078661af583e1cc176c4a739019b62a6b6', '5424716877668e42849d30b0383fabb30e07284e']",True,[]
+156ea11537368faa5a176039502e7e51fa7a861f,Fix the but for transforming between VMobjects with different triangulations.  Turns out this is all that's needed,['baff788217840022ace9d81254ff17fdf627a527'],False,['vectorized_mobject.py']
+06f037414365baec2bb072cabb3bb58a2c5af427,Fix typo bug and change default alignment for text,['dde085094fa48ef6f2cc5b94fecc4b52495efca3'],False,['tex_mobject.py']
+2451f024f68557917eafc34ed7b39923d3620c98,"Fix typo in value_tracker.py
+
+""Note meant to be displayed"" -> ""Not meant to be displayed""",['f934bdc61e6709cbb7b56045d6194a83d5a985c3'],False,['value_tracker.py']
+007680a18364560adeb91ca94b177aeefa0c3c13,"Rename substrings_to_isolate to simply isolate, and fix a bug associated with rendering sqrt{",['c2b5595fae5bd4b27d59bd553f832f4f12efcbc9'],False,['tex_mobject.py']
+632c35daef0e41c8888dbb76177f019ec8c66b15,Fix bugs in stroke shader for 3d scenes,['f47f848236e67710e8ff0d0f1197ef6cd6d61537'],False,"['get_gl_Position.glsl', 'quadratic_bezier_geometry_functions.glsl', 'frag.glsl', 'geom.glsl', 'vert.glsl']"
+a429a146c723493291633d1b3eadca94cbe9c4d7,Fix how stroke is scaled for perspective,['ac4755459aaf2eec9e732b3015277c90c524bc17'],False,['geom.glsl']
+8d14b665834a7d9392af96e7f91969ccdfc2594f,Fix previous commit,['92b0953081b1649803cb101c7d28451ed21e9eb6'],False,"['shader_wrapper.py', 'finalize_color.glsl']"
+c5aa330077b57f86998b20e7f64dbc4b6d1ff22f,Small bug fix to Write,['bbe79e002674849c90266ddce50145699127aed3'],False,['creation.py']
+00333d0a4d3a1ea362191e34211ecf25083de222,Bug fix,['ad60b903d0baef0f9355f135a691ed794547e9d7'],False,['vectorized_mobject.py']
+5e09a80c5bbca7626c57ac56396aec1709d85f07,"Bug fix, call super().finish()",['f61dfe7948340554a7302a5ee301102ba7279b00'],False,['transform.py']
+5f69899e65f272a95c9e1bae88f681eef967acc7,Fix bug where all members of a family pointed to the same rgba array,['5e09a80c5bbca7626c57ac56396aec1709d85f07'],False,['mobject.py']
+38b305bb1907dc9af61eb2b8eb0d3fd01110a994,Fix issue with pointwise_become_partial,['8cc484943e0bc2140f453f789c264184e65ebd2d'],False,['vectorized_mobject.py']
+b40a3b5710dcb8b4b3586ef9c8d565994c09e9c7,Buf fix with Arrow,['38b305bb1907dc9af61eb2b8eb0d3fd01110a994'],False,['geometry.py']
+281b38b86004b21418a98b5f2f164766f08f6762,Small fixes to make sure storing the bounding box works,['f90e4147b6002a970adcb1afef793a280580468e'],False,['mobject.py']
+79b81363309d4b9eb1a125d6dac75ee5cd674bc1,fix Text in shaders,['7b67f4556b631334cbb61f9c5bb5428befe1ba3b'],False,"['text_mobject.py', 'directories.py']"
+78848b971cd3f7db0831db58ad4e9c40d1cf61e4,fix a wrong usage of logging.log,['79b81363309d4b9eb1a125d6dac75ee5cd674bc1'],False,['extract_scene.py']
+08e22cf8596d7a077669263d0af25026de96d9e2,Bug fix to apply_points_function,['1f3b058aa9ffbd038e0881ad6e2824e514b6f9d6'],False,['mobject.py']
+bec3ba70eb6b51dd91677be843392b9137ea8827,"Merge pull request #1315 from Tony031218/shaders
+
+Fix some bugs of the shaders branch","['08e22cf8596d7a077669263d0af25026de96d9e2', '7c04edcced38eea1046b934aa853e8500c4b3af9']",True,[]
+c698c6ea444dbf4f99e36eb1e7b3b244a7ac99d6,Fix Point.set_location,['4e4a7b98868c8a90ac13456c2db9b75395eec26a'],False,['mobject.py']
+f6b5edede29a972c2a1b08d035b37119a0a9d2c0,reduce annoying errors,['3d118a5bb6d0dd55111dc8bc496db07d010f26d9'],False,['scene.py']
+b3c8940a1810303096c62e6374fccbf71e8759fa,Bug fix to Mobject.align_family and Mobject.add_n_more_submobjects,['1b1b13886064667d6c54592604be6583e44fdbd4'],False,['mobject.py']
+78ac18496d316f90fc4cc47f87f4c722d74c6c67,Fix CameraFrame interpolation,['59af903f140784ec8a06d3fadeca802ea1e82412'],False,['camera.py']
+090743aacbc4d8a6ebadb2127d1ffe325c6aaecd,Fix how sound files are found,['e4f888fbc46111be180229b99b4f2159d7eb9fc4'],False,"['directories.py', 'sounds.py']"
+a58772db87104ef67c761fc94ca8b8e9253862c5,Fix writing to gifs,['0ac155d15085057f2a35050dcdef2bbcd80d85e6'],False,"['config.py', 'scene_file_writer.py']"
+4494d80a4cc721d8f88f012acd07b82cc7c7e85f,fix path for sphinx-build,['14cbfc0423d0453a50dd2189522ae55597889a1b'],False,['docs.yml']
+c0852eae8805bec75431cfb90336538763ad4864,Fix Action Workflow (#5),['4494d80a4cc721d8f88f012acd07b82cc7c7e85f'],False,"['docs.yml', 'conf.py']"
+f900669bc42c04a71c656d3a4309663953106869,fix bugs and update README,['06ba7031c730ed4d9d387baacb40b6f445621f02'],False,"['README.md', 'about.rst', 'config.rst', 'configuration.rst']"
+baab9ddf02c2d825c3e33cbe075c88d964b6c2b8,"Included fix for Text(%), though the underlying bug for rending these persists.",['c1ebb583c8b1e445ba5ab6c18361a1f151d9f5cb'],False,['svg_mobject.py']
+73edeaa153b4eca1ce6ce5b6e5c8039253ae1d98,Fix TexTransformExample,['375bc2073d9e1640e3b95b2eaec3c4890a760ae1'],False,"['example_scenes.py', 'transform_matching_parts.py']"
+5fb06e77b5cfe3290c1b1d46b8a78883fc2019b7,"Don't save triangulations to file, as this introduces unwanted errors",['d5d13c31747e8d380f44e95da07a124bafd19293'],False,['svg_mobject.py']
+09ae714edbad328b51731c8876f79495d0719025,"fix
+
+add a link to Chinese version in home page
+
+fix a list wrong display
+
+fix color list",['b63ba1c7a4261ed81e89b6f27eb7fdc71c784f28'],False,"['constants.rst', 'configuration.rst', 'index.rst']"
+3dc0c7b0cbc3dd8fd402f6ccedf6a5afdc99d424,fix search,['09ae714edbad328b51731c8876f79495d0719025'],False,['requirements.txt']
+8f9ce57de5682b781ecb08456bd7569ac0690f18,update custom_default doc and fix a list,['1253c18c5412916e7793d4aa7745ea05166671bd'],False,"['custom_default.rst', 'configuration.rst']"
+2061f95ef557977952b0ed8d7f0c73e3f2656f03,Fixed ControlMobject Typo,['fdcac10861f574bb223c3f7c589870a5de6ea923'],False,['interactive.py']
+55e8d3bc552a0859a06eeebe2e592dfe6c9b5811,Update issue templates,['82eb0ae5beb8a93eaccd81d24cd1dac0d9bf07b2'],False,"['bug_report.md', 'error-when-using.md']"
+9916f56fb10b8600856b37e1bb84b57f5cc63ad2,fix a bug after packaging,['fe85d4e02f6935c49fb0b88eebbd492dfff2d324'],False,['config.py']
+c5b00401663e15c8c34a450f4ce05c46cac1d3f9,remove samples to reduce error on some machines,['5b6997aea97de3d2f2ed697c5e60083644f85204'],False,['window.py']
+46309e26c7c44d857148f515330a8ae327611ec5,"Merge pull request #1334 from TonyCrane/templates
+
+Update templates of issues and pull requests","['dcffbe21d5c52077a3d1162f9936b1c3a1939d10', '143634742bda552aae41495a569c49df083a3177']",True,[]
+729dae1376fa72500efe2355a28e80c59dc7dee6,Fix triangulation issue for polygons with many holes,['dcffbe21d5c52077a3d1162f9936b1c3a1939d10'],False,"['svg_mobject.py', 'space_ops.py']"
+c8f4c4972042ae54f2cf4016f9a8ab502f8ee682,Yet another triangulation fix,['3938f81c1b4a5ee81d5bfc6563c17a225f7e5068'],False,['space_ops.py']
+5b9672bb59d0379e6629aaeb3805a89b5a213c0a,"Merge pull request #1328 from abhi-6988/fix-redundant_key
+
+Replace redundant CONFIG key in NumberLine","['c2b2cb3b7eb8e1b2f6b27d8a19e3050af37b5ee2', 'fb8280171b0a7cee46aa3212a75f84b6d275c2f1']",True,[]
+d7e63d907af2bf1e9df25281c1f6bb1d73b1ced1,"Merge pull request #1305 from diracdeltafunk/patch-1
+
+Fix typo in value_tracker.py","['afd1ef65f228909ea9958558a1a424672b97e188', '2451f024f68557917eafc34ed7b39923d3620c98']",True,[]
+46294a5fad6dd3a148b5f1d5a19981a57a57edaa,Fix aliasing issue on filled VMobject by calling get_unit_normal on reduced control points,['d7e63d907af2bf1e9df25281c1f6bb1d73b1ced1'],False,['geom.glsl']
+a45e0afe0ee9daef6291f447ff9232b1e2b471dc,"Merge pull request #1116 from kcheng0222/patch-1
+
+Fixed typo from ""depricated"" to ""deprecated""","['f13c41bcbb5d8508d7d3be3b8e1331ba1407ee0f', '435a2631c991ec32c323b787da430216eb68e70e']",True,[]
+1727d4b86a125c4ce722a5900a53734162837b51,Small hacky tweak to fix more triangulation issues,['f13c41bcbb5d8508d7d3be3b8e1331ba1407ee0f'],False,['space_ops.py']
+269128dfb64df9c29efbccbcb5779249ea3a56fb,fix NumberLine and GraphScene,['820e1840d3d2aa9f2aa730712e9bd621ccc1930c'],False,"['number_line.py', 'graph_scene.py']"
+4de31aba7f0c933413486e29f78c9c8547250b21,"Merge pull request #1356 from sahilmakhijani/master
+
+Fixed prompt_user_for_choice and added number support","['ed0ac3bee4584e61aff39759f8275e6879333e30', 'c0f6e94545b86f2fd24f2155288b7184bc53ea9b']",True,[]
+7a44d66ebc8db0f82ae0be44ffb680a8c9995cc3,"Merge pull request #1355 from TonyCrane/fix-numberline
+
+Fix GraphScene and NumberLine","['4de31aba7f0c933413486e29f78c9c8547250b21', '269128dfb64df9c29efbccbcb5779249ea3a56fb']",True,[]
+25cd846356cdf3a493cf67925de2e4e1757c49a9,Fix and simplify get_smooth_quadratic_bezier_handle_points so that VMobject.make_smooth works better,['43614394a4ca4ca3242ce5a6b173dc18400f29d1'],False,"['vectorized_mobject.py', 'bezier.py']"
+03bea8198c7fd19185e7f7bdb0e5dbb934a23b33,Fix NumberLine's unit_size,['66817c4e2bc56f45f370498c2c93b033c1109951'],False,['number_line.py']
+e677f4027abed3fb68905433a3cd83febe0f1133,Fix Vector orientation in 3d,['66817c4e2bc56f45f370498c2c93b033c1109951'],False,['geometry.py']
+1ab60f1c3edfe65cc413cd6284ecde4978827d72,"Merge pull request #1362 from abhi-6988/fix-unit_size
+
+Fix NumberLine's unit_size","['66817c4e2bc56f45f370498c2c93b033c1109951', '03bea8198c7fd19185e7f7bdb0e5dbb934a23b33']",True,[]
+2493458e4528ef7bf2ac27b0a86d0e4d42853f24,"Merge pull request #1364 from abhi-6988/fix-3d_vectors
+
+Fix Vector orientation in 3d","['1ab60f1c3edfe65cc413cd6284ecde4978827d72', 'e677f4027abed3fb68905433a3cd83febe0f1133']",True,[]
+1084dfb68136bfeb77cf08e787c12f58fd14028d,"Partial fix for Surface.pointwise_become_partial, and hence for ShowCreation() on surfaces",['12e8506841ebd56fc692757be3672fbe42cdf68b'],False,['surface.py']
+e8f288f7530e436eef5da7d6c21577320b76d7fc,"Fix for ShowCreation on SGroups, like Cube",['1084dfb68136bfeb77cf08e787c12f58fd14028d'],False,['surface.py']
+00e9c426ff7d904abd2fb145eb29648b8b8b4018,Fix Surface.pointwise_become_partial bug,['e8f288f7530e436eef5da7d6c21577320b76d7fc'],False,['surface.py']
+de3916424ffd13abcf75584bc21091ba5f8befc1,fix x/y_range of CoordinateSystem,['3bf956871b2a1344b26df72a484b66711af32147'],False,['coordinate_systems.py']
+558f2652a4e76972121a8a2113f4c25aba68c398,fix typo in docs,['de3916424ffd13abcf75584bc21091ba5f8befc1'],False,['whatsnew.rst']
+cbe24daa98278224fe50b8f3f2e4a4fe19a96f83,Fix mistake,['2d83cccc0a316bdd0a3211669f2bbe554dcf5acd'],False,"['example_scenes.rst', 'example_scenes.py']"
+6e2dcae4d711f4bce2af5fc47ffba53aff46dc63,Fix InteractiveDevlopmentExample bug,['17b2efeb71ce29a2fdc8cdcc767eef8166921851'],False,"['example_scenes.rst', 'example_scenes.py']"
+d7f3f5ad24b22ed7bc85ee27df03319498fa863f,Buf fixes for #1378,['17988753966fea964e85c34c114af8ce2d5468c3'],False,"['animation.py', 'creation.py', 'mobject.py']"
+0c3b401d341f784bb6e7c044955377efe5891905,fix docs,['9df136c723e4d81e736bd7dcc58ccc0358437d31'],False,['quickstart.rst']
+a46b7d6931d89b920cab291530bc4fc2c6a3bb00,Fix window size issue,['8f502f279074057a31cef3b5e0fc11480cb0cdeb'],False,['window.py']
+c9e223485c0ef2e2b61c3a928bea7e179e139c55,fix Text incorrect coloring,['9bf51bda02834987ca0e96901a5355c1953d9082'],False,['text_mobject.py']
+1543450a4fef67e25fd3ae310303f267c0fcbd30,"Update changing.py
+
+To fix the error of ""AttributeError: 'TracedPath' object has no attribute 'n_points_per_cubic_curve'"" (because in the CONFIG dictionary of VMobject class, the n_points_per_cubic_curve dose not exist, and now 'n_points_per_curve' is used instead)",['c9e223485c0ef2e2b61c3a928bea7e179e139c55'],False,['changing.py']
+4179c1c3e9ed6b9c6ae973d6daf0b8c000e90ce7,fix bug in example_scenes,['0f95e80798cc96bf41fe036283df6dc2cdfdcf76'],False,['example_scenes.py']
+5008e20b8ec08d24e60b3e3c1c29539dbd39f278,Tiny PEP fix,['448d792473dbc4d6fa795f26a4755d3d6261b8e3'],False,['scene.py']
+9d1c8df095b47b14e5e3143655feb9a52671333e,"Merge pull request #1398 from casperdcl/tqdm-fixes
+
+progress fixes","['1d0b8640018152496a5aa5892004e69a32c0289a', 'c92b6dbd0bf00e23d8246ea01f1f5c44d9295233']",True,[]
+44df81fd7021b239abe535267700c7376266d82a,fix typo,['9d1c8df095b47b14e5e3143655feb9a52671333e'],False,['README.md']
+5636b41dfd6ce2b838f1ebfac57e731808e1919e,bug fix for resize_with_interpolation in the case of length=0,['402c06c99a83364fe190e8075e85f7b70a3e27d0'],False,['iterables.py']
+63b497c352eff38cd5b16b32fd9f385fd902a59f,Fix init of Elbow super class,['531a031b50ef20aa154d68f698e03642a3e011a6'],False,['geometry.py']
+5c427ea287557106773f6a2798b7684e9367a0a0,Fixed typo in example_scenes.py,['531a031b50ef20aa154d68f698e03642a3e011a6'],False,['example_scenes.py']
+8345ca6160126ade1b577f32050a1f5936e43498,Small fixes to NumberLine,['611ac7f44801dd71491d942462f32ca00572c394'],False,['number_line.py']
+fd18e4a21f534f777818f515e45f802da9632edf,Fixed missing arg in self.get_parts_by_text,['2a1b023442333a2009c7cd00b6f5fef0655615a2'],False,['text_mobject.py']
+01d989ba2390cfab6174f6824b1fc5115b5ea0fd,Fix a bug for off-center vector fields,['6c3e4b94eadaf818afa2c3da5d259e8611a54461'],False,['vector_field.py']
+09579fcd3eb94be7f0c6d3963afa2bce74941ecf,"Not a great long-term fix, but flipping should always refresh the triangulation",['01d989ba2390cfab6174f6824b1fc5115b5ea0fd'],False,['vectorized_mobject.py']
+0c61c908b2259b24103b9e09d2ef4847353ea592,Small fixes to Axes defaults,['82658e1db3fe4d0b40c16fefe154dd913cfdb0f7'],False,['coordinate_systems.py']
+cf63dfddf90d9a1858996b92b5a71297450403d7,Fix Lighthouse,['42d8888f8e48046dee41997b7b7f10de588a755b'],False,['light.py']
+12ef0a26d7b8002c2b8c22b1cfa6a48b2d60a4ec,Fix chaining animation in example scenes,['7a11e3d20f2eb6e5fbf7e90abacf4435e7c68762'],False,['example_scenes.py']
+3a992e136d4aee5228dbc4744aea80e9b401b244,"Merge pull request #1437 from williamclavier/patch-1
+
+Fix typo in example_scenes.py","['7a11e3d20f2eb6e5fbf7e90abacf4435e7c68762', '5c427ea287557106773f6a2798b7684e9367a0a0']",True,[]
+22d9c57f6003d4902d00ffebd22c8976cc3b65b7,"Merge pull request #1419 from JWro/patch-1
+
+Fix init of Elbow super class","['3a992e136d4aee5228dbc4744aea80e9b401b244', '63b497c352eff38cd5b16b32fd9f385fd902a59f']",True,[]
+b5e6177afd46f8599ada387ba1572bc20d6fc2ba,"Merge pull request #1408 from Eisenwave/patch-1
+
+Fix typo in README.md","['22d9c57f6003d4902d00ffebd22c8976cc3b65b7', '44df81fd7021b239abe535267700c7376266d82a']",True,[]
+c45ff910f0790a3aeeccf10c855910f231a7f9b5,"Remove double brace convention, since it causes errors with a number of tex strings",['15760cf2532587e7c8c9dbd1f7f894af1ab0d608'],False,"['example_scenes.py', 'tex_mobject.py']"
+41120b096e795bce77ae9f0fb919a24d0bcda1d5,Add support for debugger launch,['1f6e911d60121badd936bcc708d5b9bf3314923c'],False,['__main__.py']
+c1ad893030bb3c80099c95219e36d0c6e9192bcc,Fix a wrong function name.,['65d0826b91375c2ddba59c17c20ade07dd005080'],False,['vector_field.py']
+a44e230a074bc48d7d03f238304f379a99645a20,"CI: install pango so that manimpango install
+
+https://github.com/ManimCommunity/ManimPango/issues/53",['c45ff910f0790a3aeeccf10c855910f231a7f9b5'],False,['docs.yml']
+2bfe7e08ffbd14940fa72b5975cd75e8115ef030,Fix typo in README,['565ff09d58939dd93d5d6fbe185aa5ae952038c6'],False,['README.md']
+29e5a8bc90948429c8de7d75cc508a7a827c4b98,fix issue #1480,['565ff09d58939dd93d5d6fbe185aa5ae952038c6'],False,['tex_mobject.py']
+bf9d797d8427040d511657b513f3f669281f36e6,fix the mismatch between code and video,['565ff09d58939dd93d5d6fbe185aa5ae952038c6'],False,['example_scenes.rst']
+a06d5613f4b4838f44f37b2a1951f2e4aa62b848,fix issue #1509,['bb72718c3bde1450478cc9cc0b8691ff8bf834fd'],False,['window.py']
+bb27a78449216c92738c31b1fbf465e786f95aae,fix: checking whether normal is facing the camera.,['bb72718c3bde1450478cc9cc0b8691ff8bf834fd'],False,['finalize_color.glsl']
+4ea1d6d64fbacfdc9a94df970c228bb79530c595,"Merge pull request #1475 from CodingPower472/master
+
+Fix typo in README","['fd67858bb0034879dbdb5835df87131021cf6188', '2bfe7e08ffbd14940fa72b5975cd75e8115ef030']",True,[]
+2614b34d111c7141f8a34d8fb9dd522d4fc5add2,Merge branch 'master' into readme-fix,"['02bad81fc361fcbd214d0522451302e33ca2ab1f', '4ea1d6d64fbacfdc9a94df970c228bb79530c595']",True,[]
+957eedc32c272023094be54ba2105f3ed23b877a,"Merge pull request #1477 from giacomo-b/readme-fix
+
+Update README.md","['4ea1d6d64fbacfdc9a94df970c228bb79530c595', '2614b34d111c7141f8a34d8fb9dd522d4fc5add2']",True,[]
+51b2984ee3d175978cdbce51b1e57530279f9320,"Merge pull request #1488 from libinglong/lbl-fix-document
+
+Fix document. Fix the mismatch between code and video","['957eedc32c272023094be54ba2105f3ed23b877a', 'bf9d797d8427040d511657b513f3f669281f36e6']",True,[]
+e885ec6ecdd30fb2b2a17b8450c17a4fbdd4324d,Fix the color of tip,['3b3150c3c54a21d0adab6aa9e1caa7858838715e'],False,['geometry.py']
+f16277f10017997db290e804e8a7a8a900b6c187,some fixes of doc,['876f06cc37f6139a687767d08e8e1ae7ab869038'],False,"['custom_config.rst', 'configuration.rst', 'example_scenes.rst', 'structure.rst', 'example_scenes.py']"
+d1a5089acc2b94ed19421825a13fe6182551c6b7,"Merge pull request #1529 from calvinpelletier/window_size_bug_fix
+
+fix issue #1509","['f16277f10017997db290e804e8a7a8a900b6c187', 'a06d5613f4b4838f44f37b2a1951f2e4aa62b848']",True,[]
+e9ea5fbea08a516df5fb0b86e71c3a7692e466e3,"Merge pull request #1481 from libinglong/lbl-fix-tex
+
+fix issue #1480","['7ecfc041b3883db7eb55c79fb29f5b83feb86fdd', '29e5a8bc90948429c8de7d75cc508a7a827c4b98']",True,[]
+b4b4d39ec51cbfce7fafdc5ff0f9f4ddfd26b181,Fixes issues #1436,['1c2942798e1206140e64fcab852d0592df6826e5'],False,['frag.glsl']
+607ef334e9f1de19153426c5ffc27791dd448a01,Fix Lightbulb,['b4b4d39ec51cbfce7fafdc5ff0f9f4ddfd26b181'],False,['drawings.py']
+17d75bd3369d699186fe4a24f1f22ba1a869ac32,Fixed the size of Text on different machines,['23662d093f4fca2596aa9795ff9e0c92e54778d3'],False,['text_mobject.py']
+b8fb69773ea866e0b49ec88186e163baa6e004eb,fix example scenes,['23662d093f4fca2596aa9795ff9e0c92e54778d3'],False,['example_scenes.py']
+798479536da15328ec87f4b294d0c56fbcc1204a,"Merge pull request #1545 from TonyCrane/fix-example-scenes
+
+Fix example scenes","['34d46896721bf389765ce004b886a4617245308d', '226df63d0b0dabe6413029dc958d8f41efae4e2a']",True,[]
+b4f23e8d8ecce42acfb630e541830197c0f12bec,"Merge pull request #1553 from naveen521kk/fix-text
+
+Scale Text Correctly","['5ff8e28ba573ff0365c7f685e476fac1b7113197', '5765ab9055598b756c448e473ad7c594e1cb406a']",True,[]
+846c10a0ffb0625b2d4e0a0703b9586d6f8fc485,"Merge pull request #1543 from TonyCrane/master
+
+Fixed the default size of Text","['b4f23e8d8ecce42acfb630e541830197c0f12bec', '128178b46e631fbd4a424dadaf1dd5c99fb9c26a']",True,[]
+d14f22c5ba2b2ae2a4cc595b33f61a2c2bf255f4,"Revert ""Fixed the default size of Text""",['846c10a0ffb0625b2d4e0a0703b9586d6f8fc485'],False,"['changelog.rst', 'text_mobject.py']"
+663c57ba74a55be103a3c1cec0c0dffe04db77d7,a little fix to TEXT_MOB_SCALE_FACTOR,['892ce2db09c1ebd2bdad932ca442ee3495331111'],False,['text_mobject.py']
+bccc17a3acf7a6d33c65fab0e9d789d12a8dedd8,"Merge pull request #1555 from 3b1b/revert-1543-master
+
+Scale `Text` correctly | Revert ""Fixed the default size of Text""","['26e9b9cd7c75f4c4ac1600473ae4c19073e0e3c8', '892df54c9ffaf7abeb676a5d6c508b82263b50d9']",True,[]
+01670cf8238a4419d108f65ce093693dfe72773f,Fix ControlsExample Scene (#1551),['d384fc1e276cb0a6f16691ecf3fa7d4f5e177c82'],False,"['example_scenes.py', 'mobject.py']"
+5707585d1791bbd8608f244715f3a1a6e544b667,fix typo,['b00d718431284ab750747e1be218a46d68acce73'],False,['init_config.py']
+4940ccac7dd8b488f6f78b1dba7b6aa29feb3966,"Minor fix for zooming
+
+It's weird that when you Scroll Up, the interactive shell zooms out.
+
+So to fix this replace factor -> 1/factor .",['17d7f0b6f0820818f3ff40d9b8746e5d74194d8a'],False,['scene.py']
+45938dd76f7af3ffcab3fa36a52d2f6851441edd,"Merge pull request #944 from Lalourche/fix-counting
+
+Fixed execution of counting.py","['3fe4d6d2d4e6c87549c75fe919970caafc5f4cfa', '1b125df5724b6d83e028653a44a1379c33c241c3']",True,[]
+a3227dda676e463f9b707c73f73909a68fbf17fa,Small formatting fix,['d384fc1e276cb0a6f16691ecf3fa7d4f5e177c82'],False,['space_ops.py']
+7da6179493a20f661500c2d3d9a4e803cede5fad,"Merge pull request #1586 from Wallbreaker5th/master
+
+Fix triangulation","['8aa004b0b182cbaecbde02a7ae2d30ec2d19fc3e', '2ed78c6e0fdce6d1f160f05c32c18236752ac950']",True,[]
+0b3a1b271c9e267fc38d8aed82f5be0e06057322,"Merge pull request #1565 from 3b1b/fix-package-versioning
+
+Transition build method to PEP 517","['fd8904ec831f995f775306e64681c8351669a0fa', '0305582e64bd30650a5a8130e39125d3f826c1ed']",True,[]
+354db4423fc607582864f6310d204d2da4367bc6,"Merge pull request #1578 from nutanstrek/patch-1
+
+Minor fix for zooming","['27344249dedf8570d5b30d2650b3ecca63b9a97f', '4940ccac7dd8b488f6f78b1dba7b6aa29feb3966']",True,[]
+5c0a1e4b762ed339c8c3d9040ec0e57338b55569,fix put_start_and_end_on,['121e6215f874714883637580b4ae9a7caed09861'],False,['mobject.py']
+31119b630e9d44c5d9e017dbfe08c94b59df99c4,"Merge pull request #1592 from AStarySky/patch-1
+
+fix put_start_and_end_on","['121e6215f874714883637580b4ae9a7caed09861', 'b0fd5203829421d59f67044f7dd0a2a8289c1328']",True,[]
+1e621e82781342e4a1e959f7aa99f21801b3ffb4,fix: fix typo spelling grammar,['31119b630e9d44c5d9e017dbfe08c94b59df99c4'],False,"['configuration.rst', 'example_scenes.rst', 'example_scenes.py', 'transform.py', 'mobject.py', 'mobject_update_utils.py', 'shape_matchers.py', 'graph_theory.py', 'region.py', 'scene.py', 'scene_file_writer.py', 'bezier.py', 'iterables.py', 'window.py']"
+da53a6f80844ee89fcc8f1e56d129d85d5c0a03b,"Merge pull request #1594 from slowy07/minor-fixing
+
+fix: fix typo spelling grammar","['31119b630e9d44c5d9e017dbfe08c94b59df99c4', '1e621e82781342e4a1e959f7aa99f21801b3ffb4']",True,[]
+e15133467588869c2f42b29b70f4099be463c835,Alternate fix to Decimal scaling issue,['bbeba108bc760cf0f8a0c2e9d4275cfc87235cdd'],False,"['mobject.py', 'numbers.py']"
+56df15453f3e3837ed731581e52a1d76d5692077,Fix bug with common range array used for all coordinate systems,['d50717a3fcd9979f9efdbd21a857746010c407ad'],False,['coordinate_systems.py']
+7356a36fa70a8279b43ae74e247cbd43b2bfd411,Only call self.throw_error_if_no_points once for get_start_and_end,['f3e3a7c56f606b3416f265fe470d0d780d3cabae'],False,['mobject.py']
+e712951f2d55d9dffed53573d7b73ba9d8c69ceb,Typo fix in UpdatersExample,['1b240743694debc594b7b58167c921aa95b4d648'],False,['example_scenes.rst']
+86458942550c639a241267d04d57d0e909fcf252,Fix CoordinateSystem init bug,['acba13f4991b78d54c0bf93cce7ca3b351c25476'],False,['coordinate_systems.py']
+952a598e3b57acf5380ee793f963988531abf9d5,"Merge pull request #1613 from k1499/fix-example-scenes-doc-typo
+
+Typo fix in UpdatersExample","['1b240743694debc594b7b58167c921aa95b4d648', 'e712951f2d55d9dffed53573d7b73ba9d8c69ceb']",True,[]
+0dc096bf576ea900b351e6f4a80c13a77676f89b,Fix bug for single-valued ValueTracker,['e40a2935b19105237fe7601b66c733496e228a60'],False,['value_tracker.py']
+762f1abef785a6be47603c2d30e0db2f1d8bf893,"Fix the import
+
+Fix the import statement",['952a598e3b57acf5380ee793f963988531abf9d5'],False,['example.py']
+0fd8fdc3cae2441f3c4a0d038075c380da965583,"Merge pull request #1620 from meadlai/patch-1
+
+Fix the import","['952a598e3b57acf5380ee793f963988531abf9d5', '762f1abef785a6be47603c2d30e0db2f1d8bf893']",True,[]
+d19b38641538e647b36d21146c826e8acea6a42e,Fix dots,['17c2772b84abf6392a4170030e36e981de4737d0'],False,['numbers.py']
+54ad3550ef0c0e2fda46b26700a43fa8cde0973f,Fix bug with SVG rectangles,['d19b38641538e647b36d21146c826e8acea6a42e'],False,['svg_mobject.py']
+d45ea28dc1d92ab9c639a047c00c151382eb0131,Fix DotCloud.set_radii,['788775e419e88d8816c3c67069905d51cbee694e'],False,['dot_cloud.py']
+b543cc0e32d45399ee81638b6d4fb631437664cd,Temporary fix for PMobject array resizing,['d45ea28dc1d92ab9c639a047c00c151382eb0131'],False,['point_cloud_mobject.py']
+b4132e3d5e3c9da3ce3fe73801b8b3f60db3c6b2,Bug fix for 0 arrow length case,['e9b404406d3929accae83edff61a2155a2affd9d'],False,['geometry.py']
+5f878a2c1aa531b7682bd048468c72d2835c7fe5,Fix match_style,['9483f26a3b056de0e34f27acabd1a946f1adbdf9'],False,"['numbers.py', 'vectorized_mobject.py']"
+a4afbfd7391de4b5df70558a63e7fe7281a82424,Small fixes to PMobject,['5f878a2c1aa531b7682bd048468c72d2835c7fe5'],False,['point_cloud_mobject.py']
+719c81d72b00dcf49f148d7c146774b22e0fe348,Fix negative path_arc case,['ed1fc4d5f94467d602a568466281ca2d0368b506'],False,['geometry.py']
+c726eb7a180b669ee81a18555112de26a8aff6d6,buf fix with get_lines_parallel_to_axis,['33fa76dfac36e70bb5fad69dc6a336800c6dacce'],False,['coordinate_systems.py']
+fde82e09c025028fc9b67f274295f30b12c2494f,"Merge pull request #1643 from BillyLikesHacking/patch-1
+
+Fixed Simple typo","['0021880fba45688310e7bb1c0682eacb7fb4b101', 'cfd362aa56e4b2cf8202271e01477655cd065452']",True,[]
+7732d2f0ee10449c5731499396d4911c03e89648,Fix ComplexPlane -i display bug,['23ebbb2af1bfc73db1f0f6ae4c74e059f98594bc'],False,['coordinate_systems.py']
+b8584fe5ab9b37903bbb71067f1be37c5147b00c,Fix parameter typo,['b6c23a09e9eaa3c19c6b383924bf08cd56756c32'],False,['mobject.py']
+55e968e17403af9432cd4b105e58a581ab5e3ece,"Merge pull request #1653 from YishiMichael/master
+
+Fix parameter typo","['97d16098494e718cb83d4ff7ff995bf9a7dae46e', 'b8584fe5ab9b37903bbb71067f1be37c5147b00c']",True,[]
+305ca72ebe6b73ba7e06ea2da88260c711633954,Fix the bug of rotating camera,['4d81d3678b847b0c1ae6f4f4581c845553bc59f5'],False,['camera.py']
+872ef67cf713ac209f34e5e1212adf2a94fe3bbd,Fix bug of rotating camera,['305ca72ebe6b73ba7e06ea2da88260c711633954'],False,['camera.py']
+f77e25ff8605450f68a8f7f0db8655989092d31d,"Merge pull request #1655 from widcardw/master
+
+Fix the bug of rotating camera","['4d81d3678b847b0c1ae6f4f4581c845553bc59f5', '872ef67cf713ac209f34e5e1212adf2a94fe3bbd']",True,[]
+82fa6ab125c3dff4c775f68de3de1b3adf9e585e,Temporary hack to fix a bug I don't understand,['7b72fa8ca126fbb10fa4fb6dd0a1f5d5658cca19'],False,['camera.py']
+deb1311e482ff0c73488110f7de3c8d0cf571c70,Fix VideoIcon,['82fa6ab125c3dff4c775f68de3de1b3adf9e585e'],False,['drawings.py']
+f0b5181694b40e23f38e83a7707511aa032244fd,"Update manimlib/mobject/mobject.py
+
+Small bug fix to Mobject.__add__",['77159eea2eccdb9cd69f20f1e2f33345adfdf69c'],False,['mobject.py']
+c73d507c76af5c8602d4118bc7538ba04c03ebae,Fix SurfaceMesh to be evenly spaced,['317a5d6226475b6b54a78db7116c373ef84ea923'],False,['three_dimensions.py']
+82bd02d21fbd89b71baa21e077e143f440df9014,"Fix angle_between_vectors, add rotation_between_vectors",['d065e1973d1d6ebd2bece81ce4bdf0c2fff7c772'],False,['space_ops.py']
+a7173142bf93fd309def0cc10f3c56f5e6972332,Fix VMobject.fade,['0e78027186a976f7e5fa8d586f586bf6e6baab8d'],False,['vectorized_mobject.py']
+fbc329d7ce3b11821d47adf6052d932f7eff724a,Small bug fix for angle_between_vectors,['25045143a1211d58b508574a3d3ca6058fa508ea'],False,['space_ops.py']
+bcd09906bea5eaaa5352e7bee8f3153f434cf606,Fix bug in ShowSubmobjectsOneByOne,['407c53f97c061bfd8a53beacd88af4c786f9e9ee'],False,['creation.py']
+a4f9de1ca173e7a5b8b343445eb5d8e2425fa387,Fix bugs concerned with coloring,['697028cd4c8a9db94c77f2e330c9e0338a663594'],False,['mtex_mobject.py']
+e9afb0ee3356f88604f76b9a05331767757280d3,Fix tiny PEP errors,['bcd09906bea5eaaa5352e7bee8f3153f434cf606'],False,['__main__.py']
+ee1594a3cb7a79b8fc361e4c4397a88c7d20c7e3,Match fix_in_frame status for FlashAround mobject,['e9afb0ee3356f88604f76b9a05331767757280d3'],False,['indication.py']
+ba23fbe71e4a038201cd7df1d200514ed1c13bc2,Make sure Mobject.is_fixed_in_frame stays updated with uniforms,['ee1594a3cb7a79b8fc361e4c4397a88c7d20c7e3'],False,['mobject.py']
+9dd1f47dabca1580d6102e34e44574b0cba556e7,"Create single progress display for full scene render
+
+When a scene is written to file, it will now do a preliminary run of a copy of the scene with skip_animations turned on to count the total frames, which has the added benefit of catching runtime errors early, and allowing an quicker preview of the last frame to be sure everything will render as expected.
+
+The Progress display bars for individual animations are replaced with a more global progress display bar showing the full render time for the scene.
+
+This has the downside that all the non-rendering computations in a scene are run twice, so any scene with slow computations unrelated to rendering will take longer. But those are rarer, so the benefits seem worth it.",['49743daf3244bfa11a427040bdde8e2bb79589e8'],False,"['extract_scene.py', 'scene.py', 'scene_file_writer.py']"
+88030881211ea1d05f7aa2a8714a296bee9608e1,Fix bugs concerned with child environments,['1d466cb2998bfeb486103ab49acb094a6cfb184f'],False,['mtex_mobject.py']
+744916507cef8bba557828136f5c8ee13a522388,Add a debugging method,['88d863c1d7af2376d2406e0d0b849bd9fc8442a3'],False,['mtex_mobject.py']
+0de303d5e0f2273a71dc61deae805fd53de7fbb8,"Some refactors
+
+- Split out `_TexParser` class
+- Replace `math_mode` parameter with `tex_environment`
+- Fix the bug that braces following even number of backslashes aren't matched",['155839bde997b9315ef35733d29c9306c22a37a7'],False,['mtex_mobject.py']
+7023548ec62c4adb2f371aab6a8c7f62deb7c33c,Fix TransformMatchingParts bug,['758f329a06a0c198b27a48c577575d94554305bf'],False,['transform_matching_parts.py']
+b489490f41840ca2e7f02cd23f1b532d221c5959,Fixed things as suggestions,['bbf45f95c673aa1898256f6d5b9aeb8a6a21c3cb'],False,['probability.py']
+f1996f8479f9e33d626b3b66e9eb6995ce231d86,"Small hack for the lightbulb, needs to be fixed properly later",['3adaf8e325518e0a62bdf91c7348e2dbbeb6eaf3'],False,['drawings.py']
+24e3caa072bd2bb4750cf3801e0a151cdf3e2c1f,"fix no ""import copy"" bug
+
+added import copy",['9efd02c500da928a52e4b7ebfef85e74186f2e71'],False,['brace.py']
+2318c9e716ce02318749d93326e93d04cfefc52c,"Merge pull request #1709 from TurkeyBilly/patch-4
+
+Fix ""Code is unreachable Pylance"" warning for NumberPlane","['3ffe300f9625fea563553c4f7d16cbee81e4844e', 'e80dd243f11986d9f6f7b41bfaaa5b20350b0f85']",True,[]
+bbb4fa155c26b8d3fd2f15b5915d1ce15d8421ac,fix the depth of svg tag,['09ced7ce9ad2543098c1c6278fbe28accba5abef'],False,['svg_mobject.py']
+33f720c73a8ce6bc0fc86d901158390e6602e398,fix typo,['bbb4fa155c26b8d3fd2f15b5915d1ce15d8421ac'],False,['svg_mobject.py']
+6a74c241b8929af90522844829a3ef6fb18a14d6,fix bug of node which is not an element,['416cc8e6d518969ae56aa0e570bd1e44692cfc97'],False,['svg_mobject.py']
+05b3c9852e3695f2ed59ccf49cd86f074014f167,fix add_smooth_cubic_curve_to when have only one point,['925f2e123f33f1523686c6d244d5bc9945b7a9cd'],False,"['svg_mobject.py', 'vectorized_mobject.py']"
+8205edcc4c8a28e0ebf13aaeebef0a8b2fa26143,fix a small bug,['05b3c9852e3695f2ed59ccf49cd86f074014f167'],False,['svg_mobject.py']
+790bf0a104b9afd9afe6f568ad514701de6ce077,fix typo,['8205edcc4c8a28e0ebf13aaeebef0a8b2fa26143'],False,['svg_mobject.py']
+07f84e26764eb5aaedea67bb5d6c38aa1f84a124,"Merge pull request #1712 from 3b1b/fix-svg
+
+Improve handling of SVG transform and Some refactors","['2318c9e716ce02318749d93326e93d04cfefc52c', '8db1164ece9c99ba0691e675ac791c8b678f12f7']",True,[]
+ff86b0e378235174a9a39c74aee9c6278ab59f74,fix the bug of outdated relative_point after command Z,['92adcd75d484b4504999e66e9cad74282878aa8f'],False,['svg_mobject.py']
+9df53b8a18e1477bf5161d9147503beae5925f09,fix the bug of M command with more than 2 args,['ff86b0e378235174a9a39c74aee9c6278ab59f74'],False,['svg_mobject.py']
+833e40c2d4b49dcc33209636bf06cc90ef7be625,fix default style,['9df53b8a18e1477bf5161d9147503beae5925f09'],False,"['svg_mobject.py', 'tex_mobject.py']"
+ecb729850aee5114a7ee361b61edf99bfd1b701a,Small style fixes,['a7702910537fc5c3e09fbb8e6fe468807c61fa0c'],False,['svg_mobject.py']
+3b17d6d0ebac2eb8dfa040827737c326e859725d,"Merge pull request #1718 from 3b1b/text-fix
+
+Text fix","['27c666fab528fde75370ff03169b5e86465c7b12', '8a29de5ef0ad667878f8aeaa3346b61e7f31da03']",True,[]
+f0160822babc1ef68d01f4efd6b78d0854785194,fix bug of ref map,['48e07d1817bdc969d55b8e233a15fe6662835dc0'],False,['svg_mobject.py']
+5d2dcec307c8bf816ab3390cda5fcfb8a6953059,Fix color-related bugs,['6c39cac62b7a04e71da1e241b47ce5798c847c2a'],False,['mtex_mobject.py']
+1e2a6ffb8a0b6d3b52f0257fe2b905427f40ef5e,"Merge pull request #1724 from TurkeyBilly/patch-2
+
+Temporarily fix boolean operation bug","['1ec00629a51b22e0c0ecd106720f19360b3ff116', '56e5696163dec4a5b223c90736a64a513aff1ea5']",True,[]
+f9351536e4a45d7c937c1830149693d9599654e8,minor fixes (#1737),['67f5b10626e880587a5816efd4657a58e8a8c308'],False,"['creation.py', 'specialized.py', 'matrix.py', 'svg_mobject.py', 'graph_theory.py', 'vector_space_scene.py']"
+35025631eb01b980e2d11581f1493584cb9eed31,chore: fix type hint of bezier,['6e292daf58da069bfc33618096259f5aa4e24408'],False,['bezier.py']
+b3b7d214adff2088f6c75cbc814cbbf8f1a9b4e4,"Fix Write bug (#1740)
+
+* Avoid division by zero error for calling Write on null objects",['602809758e4def8668aa9c3d35630ed9b378d777'],False,['creation.py']
+a0ed9edb42fe5274f5aa5fbccd2f42b3ee1148e0,resolve conflict,"['960463d143f873306af55e3c9445c2b20f80da25', 'b3b7d214adff2088f6c75cbc814cbbf8f1a9b4e4']",True,[]
+f29ef87bbaa0a7d3d9a3c8771a898e1c0757f0b5,style/docs: fix argument help style and update docs for it,['fc1e916f428fd605b639e6778e815b973cee5260'],False,"['configuration.rst', 'config.py']"
+7fb6f352c4a21e34d149e1d13b2d965707693bc3,fix: fix some bugs caused by type hints and imports,['e39f81ccff6dca2b96941be3e3f02939052a4959'],False,"['event_listner.py', 'mobject.py']"
+559b96e7ce3bb676dd3f5575bdfba457e8566e55,Small bug fix for presenter mode,['b3b7d214adff2088f6c75cbc814cbbf8f1a9b4e4'],False,['scene.py']
+7f9b0a7eac81ec39deb50c07761a4e8ae4a829bd,"Merge pull request #1742 from 3b1b/video-work
+
+Presenter mode bug fix","['f29ef87bbaa0a7d3d9a3c8771a898e1c0757f0b5', '133724d29af0a6a96946d58c71a226e5f4c59464']",True,[]
+3744844efa64697b2204df48f99d7b8b16d9fd7f,fix: fix type hint of set_array_by_interpolation,['773e013af90da9c85e6d8f5969036da0da1d4eff'],False,['bezier.py']
+db71ed1ae9dedd11e67a40ebaa153ed66414adc7,fix: fix type hint of remove_empty_value,['4c16bfc2c02a621f19751df3d6057e5be32174c9'],False,['init_config.py']
+d19e0cb9ab827e7d25d823dca2e2884f9385bfc0,fix: remove import before future,['f085e6c2dd642c47ad994238576df6a7adc7d26c'],False,['value_tracker.py']
+854f7cd2bf80b1484133b32a8816d200eb627a9d,fix: remove type alias import in indication.py,['41c4023986f26f6a2f2a7f27935ec879abc61fcf'],False,['indication.py']
+9f3b404df6279b02c45d5a5bdb56ed648fbf203c,resolve conflict and add type hints for it,"['0e4d4155a3df5c589ea462ca91fa7ce10ddd1e48', '8ef42fae24d8a0854db63ce655d3843cce2c8306']",True,[]
+2d764e12f48de022ddaf98407aad50aa3def2c8e,fix char escaping bug,['d744311f156017a94f435d94c3a5eece9b5a5e08'],False,['text_mobject.py']
+fa38b56fd87f713657c7f778f39dca7faf15baa8,Bug fix in cases where empty array is passed to shader,['06405d5758ba6c87320c248e705df4fabbca321d'],False,['camera.py']
+67f8007764e56155ddb83edef2196faeb97ada31,Fix the width of riemann rectangles,['dfbbb3403530d79b3a5e478a04a348c8aebee43d'],False,['coordinate_systems.py']
+bb3bd41605814bdb19dcf6dbbe59f1b017a794ee,"Merge pull request #1762 from widcardw/patch-1
+
+Fix the width of riemann rectangles","['dfbbb3403530d79b3a5e478a04a348c8aebee43d', '67f8007764e56155ddb83edef2196faeb97ada31']",True,[]
+c51811d2f1bb83ab682990bd15e7be25f1ba3475,Except IndexError for MTex.get_part_by_tex,['2a0709664d17ca380883b69ec6c70f2b62146aef'],False,['mtex_mobject.py']
+305c6e6ee936b82ff00eeba7f629d0c9852a01fc,Resolve conflict for #1765,"['3b01ec48e6aa4dec5411c5ec159e5e048e2fbeda', '6ad8636fab8767ac3111c83a5bcbc8535412d42a']",True,[]
+a3e4246938ece17ed8c0183a573b12ea1f890dfd,use log.debug and display idx+1,['969aa82f0442c4693b053991bb6db7bc5068ac37'],False,['space_ops.py']
+e11c5def6337168c3c19951fd0a2f5c15e864672,style: some style fixes,['a3e4246938ece17ed8c0183a573b12ea1f890dfd'],False,['space_ops.py']
+0e31ff12e2a9d307ae170a38f3c5834998d14451,Tiny fix for TransformMatchingString,['473aaea399d2080100b89b2497c79a46703e32d6'],False,"['transform_matching_parts.py', 'text_mobject.py']"
+89e139009b4ad6bed242f265e8af6526477c8376,Remove an error raising,['45faa9063bd91a74a607fdba16848ffea2ba455e'],False,['mtex_mobject.py']
+a0ba9c8b30dd3dd1eeb9e3af45d9b8bd0d7e24bb,Fix CameraFrame.get_euler_angles to match conventions with set_euler_angles,['b7a3201fb322277a6a8165e1a849ffd961472d94'],False,['camera.py']
+637d7791900dca0db087f4e877c9b04f76c0f197,Fix empty zipping bug,['9bbbed3a83ab205d114f760157afb41d9bb6c93a'],False,['labelled_string.py']
+fc4f64957064198e0116afe25f849e4d1f304736,Fix bugs brought by empty strings,['852da9ac2ac54618e0a4dd5912156345983b5f37'],False,"['__init__.py', 'creation.py', 'labelled_string.py', 'text_mobject.py']"
+461500637e07ac0b6266a85a18b30f3d13810e1d,Fix type bug,['fc4f64957064198e0116afe25f849e4d1f304736'],False,"['labelled_string.py', 'text_mobject.py']"
+724a500cc6d8a281fee434775c19353ab756b82a,Fix shallow copying bug,['461500637e07ac0b6266a85a18b30f3d13810e1d'],False,['labelled_string.py']
+106f2a3837738f3ea46166b18be318c6a3fad2e9,Fix shallow copying bug,['724a500cc6d8a281fee434775c19353ab756b82a'],False,['labelled_string.py']
+84c56b36241cf60d096f25f8aa611b0489dd2d23,Fix typo,['dc816c9f8d1fd57af25627c10e654406a76417f3'],False,['text_mobject.py']
+39673a80d7bbbea258c35ce5a1d37a0911aae4f1,fix: add missing import of annotations,['769a4bbaf94d226350eff7e58a8360093efcefff'],False,['init_config.py']
+7f616987a3c7bafb8c2aabff01abdf74ef14bb96,Fix typo,['648855dae0e44114f8779b1e3d3006c9721e852c'],False,['text_mobject.py']
+b7647912582622cbea2d908247a997b31cbc6a9e,Fix typo (#1777),['648855dae0e44114f8779b1e3d3006c9721e852c'],False,['text_mobject.py']
+f9d8a76767a3cfae79ce96924dc51831e6f59c55,"Remove unnecessary raise statement (#1778)
+
+* Fix typo
+
+* Remove unnecessary raise statement",['b7647912582622cbea2d908247a997b31cbc6a9e'],False,['labelled_string.py']
+1f32a9e674c58ff7ee6456cc383c430803ee1976,"Some fix (#1781)
+
+* fix: reduce warning from numpy
+
+* fix: fix ControlsExample",['d31f3df5af8b064c35f722dee63424ab1b462d3d'],False,"['example_scenes.py', 'space_ops.py']"
+e23f667c3dce4ab5e571ff949082ebba076a704c,Fix bug when handling multi-line tex,['9d7db7aacd7116a8dbce0781f64ba44f065a7e39'],False,"['creation.py', 'transform_matching_parts.py', 'labelled_string.py', 'mtex_mobject.py', 'text_mobject.py']"
+773520bcd9e44f58c5d8d46509da37a37f291ecd,"Merge pull request #1785 from YishiMichael/master
+
+Fix bug when handling multi-line tex","['d26b8a826cd59be561a3c2618ba0c4dc3bd7b529', '12bfe88f40c2fadbfb64b245be845df7a64a233e']",True,[]
+859680d5ab6d511299b92d305250b44686923dc3,"Merge pull request #1788 from 3b1b/interpolate-fix
+
+Interpolate fix","['773520bcd9e44f58c5d8d46509da37a37f291ecd', 'dc4b9bc93c54e07b768aab47b417a95a40c7b85e']",True,[]
+55684af27df956ce3f9d95a3f1fd61a3263ae637,fix: fix ImageMobject by overriding set_color method,['9d7db7aacd7116a8dbce0781f64ba44f065a7e39'],False,['image_mobject.py']
+845ee83f71fe92f247930934eb795d7148ec094d,"Merge pull request #1791 from 3b1b/fix_image_mobject
+
+Fix `ImageMobject` by overriding `set_color` method","['859680d5ab6d511299b92d305250b44686923dc3', '55684af27df956ce3f9d95a3f1fd61a3263ae637']",True,[]
+4f2e3456e2cb987de8f5206d1b3b3041fe47d6be,Raise Specific exception type when running into latex errors,['47636686cb0dd2a1d7addbf94e560c2525e972e2'],False,['tex_file_writing.py']
+e0f5686d667152582f052021cd62bd2ef8c6b470,Fix bug with trying to close window during embed,['581228b08f8bbd31fb0386e46860d76b79a6af98'],False,['scene.py']
+62289045cc8e102121cfe4d7739f3c89102046fb,Fix animating Mobject.restore bug,['3961005fd708333a3e77856d10e78451faa04075'],False,['mobject.py']
+753ef3b74a818b6cffac393d88608dfda26a3bab,"Merge pull request #1796 from 3b1b/video-work
+
+Improved embed, fixes to Mobject.copy","['669182944da040c227ccfd018250ee2bbc49649d', '2ba9243067c55d36339fb5c9de2cc21166cea44f']",True,[]
+205116b8cec964b5619416f6e8acf0d8ac7df828,Fix refresh_selection_highlight,['bd2dce08300e5b110c6668bd6763f3918fcdc65e'],False,['interactive_scene.py']
+d43b5c9bdc17d17d970736b28a5fe805565c88a4,Fix shift + s gather selection bug,['f2b4245c134da577a2854732ec0331768d93ffbe'],False,['interactive_scene.py']
+d75439a60ef3fdd84a79102c911b3205ff511919,Hacky fix to lambda namespace issues with IPython embeds,['1b589e336f8151f2914ff00e8956baea8a95abc5'],False,['scene.py']
+2b104a46fde1e9f75486f0213f1cc5be183278b1,Add error message to LatexError,['d75439a60ef3fdd84a79102c911b3205ff511919'],False,['tex_file_writing.py']
+7c233123a14da309e6cf57bf81cf1150bb56a15a,Tweaks and fixes to InteractiveScene,['c311204993196b01cbd486e9b6ff924c07488062'],False,['interactive_scene.py']
+a791a82111c5df43758f7edd191c034574e00642,Bug fix,['7f94a401a8b8c957333e59e2032295d591f53908'],False,['scene.py']
+354030464ebc3c7621dc896abf42cec83b7e45bd,Bug patch Tex sometimes rendering black,['a791a82111c5df43758f7edd191c034574e00642'],False,['tex_mobject.py']
+602fbd1a9f487a08650fd85a354038f98d7c8e0b,Fix -e for first line of scene,['33ffd4863aaa7ecf950b7044181a8e8e3c643698'],False,['config.py']
+584e259b443b04462a4e80998c5a831e849fa063,Bug fix for mirrored directories,['41b811a5e7c03f528d41555217106e62b287ca3b'],False,['config.py']
+4fdaeb1547d8e226f99a1c140cc18d4e9d9b56f0,Fix(?) issue with numbers forgetting style info when resetting value,['48689c8c7bc0029bf5c1b540c11f647e857d419b'],False,['numbers.py']
+0060a4860c9d6b073a60cd839269c213446bba7b,Bug fix to VMobject.match_style,['4fdaeb1547d8e226f99a1c140cc18d4e9d9b56f0'],False,['vectorized_mobject.py']
+26de7c9ce5b04cb7ef88eeda4c2ca910df65fcf9,Fix a logistic bug,['49723f54cb433047f2a6a304723ca77a24706fb6'],False,['string_mobject.py']
+cfded00f13775d5bbeff8f53f09e8d02487f73bc,Fix a logistic bug (#1815),['49723f54cb433047f2a6a304723ca77a24706fb6'],False,['string_mobject.py']
+ca523c8a5ee0b3f5b77c5540fbcbc9c4f5343759,Fix bubble direction,['ad58a9e6c145913dd7d1537964e212b34aab8ce3'],False,['drawings.py']
+cbffbfa019a86a52bf22add1546d76b683ff2286,"Add back mismatched indices (#1820)
+
+* Fix a logistic bug
+
+* Add back mismatched indices",['07a8274cb17db54ce2deb2de28055186e914371c'],False,['transform_matching_parts.py']
+22a3bef6700510541d6ed29a2b036103d1712625,Resolve conflicts,['9386461d273361d15472f80dff64adddc3980ef4'],False,"['transform_matching_parts.py', 'svg_mobject.py']"
+59eba943e5d921e27d462f394c7d2b857cb6b4b7,Resolve conflicts,"['22a3bef6700510541d6ed29a2b036103d1712625', 'cbffbfa019a86a52bf22add1546d76b683ff2286']",True,[]
+a73bd5d4feb10c4498b26acb831285e47bd0e5ef,Fix popping bug,['97ac8c9953a3ec4a1c15ef619658272f9b0fa199'],False,['svg_mobject.py']
+77309a634b984bd0279a13fd7134c5d7c324b787,Fix to embed insertion,['1b1ba606ed56b3a8cbb3ed5ed5ad5e360ca3e7d9'],False,['config.py']
+3c7a38660af41478e1561073a5319b23fb6b7787,small fix,['606ee5e4f19718ee1d7dcf01cc7ea54cbc14f832'],False,['custom_config.rst']
+650d49c031ec742f9da8a75e4bacc4823c1f67fa,fixed broken link to community edition (versions) (#1840),['3c7a38660af41478e1561073a5319b23fb6b7787'],False,['README.md']
+8bd01d60e43343e489623c70890729bf8868d8b5,fix: add protect attribute to hash_seed,['c2a75e15ccca6d025fb5696f0a9d1c20bccdf479'],False,"['mtex_mobject.py', 'text_mobject.py']"
+eadf611f1ebb388b7a78a59ce16e8b4a69e4800b,fix: fix an incorrect typing,['4dfe8aff86c16967c8c1348591e77bee6adccb1f'],False,['svg_mobject.py']
+3c0abb0b40ae8794274d5e87d80e6830f6f0e50d,fix: add missed imports,['eadf611f1ebb388b7a78a59ce16e8b4a69e4800b'],False,"['indication.py', 'default_config.yml']"
+53c43ee8ea0d63c528985792ed935cd1c4a416df,fix: recover default_config.yml,['3c0abb0b40ae8794274d5e87d80e6830f6f0e50d'],False,['default_config.yml']
+8719107b1825dfcece972b2ee5d00e4ae39e3108,fix the bug that progress bar can't be correctly showed while rendering if scene class name isn't passed in args explicitly.,['650d49c031ec742f9da8a75e4bacc4823c1f67fa'],False,['extract_scene.py']
+603a773847821ef3b08a19e71b94b4b560a941ba,fix: pass args by calling `animate` that borrowed from CE,['2f691355db438216a16e71bb896e1a2099271a8f'],False,['mobject.py']
+fb50e4eb55e05c91c01e55fa1713b3ad69fa42e3,"Fixing a typo (""termnial"" -> ""terminal"") (#1872)",['abe52a61d9f927451a67a1c7008a670e4eb18b13'],False,"['example_scenes.rst', 'example_scenes.py']"
+c3c1d3ec35ac6c4f02defb329aa3d2007e10452a,Typo fix,['e89f193c562c07f3af13493edb05e539dbb2262b'],False,['mobject.py']
+80d34547db816c4b71421f8aff425c35d0d4734a,Typo fix,['ce77f38bf1941aaf668a8d0cfa0bec135d1def15'],False,['mobject.py']
+ee668dc7417b51400779b68d4b0b7c97bfd439d8,"Merge pull request #1858 from IcyChlorine/bugfix_progress_bar
+
+Fix bug with rendering progress bar","['fb50e4eb55e05c91c01e55fa1713b3ad69fa42e3', '8882030136dd05ed5436417724a9665fee0e78e5']",True,[]
+8e6265d35e22d84f8fb5002308e206f2c1bf67a1,"Give set_color_by_gradient more expected behavior
+
+https://github.com/3b1b/manim/issues/1882",['834c806e8302740e145c986cf7b67ee7f5836e47'],False,['mobject.py']
+f8785378141d2765b946f5ed160cb43eea85a272,"Don't have Matrix try to convert lists of Mobject into numpy arrays
+
+https://github.com/3b1b/manim/issues/1878",['8e6265d35e22d84f8fb5002308e206f2c1bf67a1'],False,['matrix.py']
+84fa3de435b5ea7651c156a0f707f565b356205e,"By default, don't let Mobject.become match updaters
+
+This causes the use of Mobject.become in an updater function to make the mobject immediately lose its updater.
+
+https://github.com/3b1b/manim/issues/1877",['f8785378141d2765b946f5ed160cb43eea85a272'],False,['mobject.py']
+8adf99b8a710167eee4d95f65ea13b3c74c85faa,"Fix Circle.point_at_angle
+
+https://github.com/3b1b/manim/issues/1875",['a2606c7e37dfb133ea644e90d6017ec34fbc2dd0'],False,['geometry.py']
+764dec20ebca2c916312eb73a6460ee7a6760b70,"Merge pull request #1889 from 3b1b/bug-fixes
+
+Bug fixes","['834c806e8302740e145c986cf7b67ee7f5836e47', '8adf99b8a710167eee4d95f65ea13b3c74c85faa']",True,[]
+b94e9f3a247709ff01b7242495f644a6fe523bb7,Fix Restore,['764dec20ebca2c916312eb73a6460ee7a6760b70'],False,['transform.py']
+e55dd01081f5a198289788651a6a21d968c32071,"Merge pull request #1890 from 3b1b/video-work
+
+Fix Restore","['764dec20ebca2c916312eb73a6460ee7a6760b70', 'b94e9f3a247709ff01b7242495f644a6fe523bb7']",True,[]
+83393abb22036d836c7d050a3209a27147e78f20,Fix bug deleting i from coordinate labels,['90e8a397b81c69ff6466c7d4cd14d151b864de90'],False,['coordinate_systems.py']
+155cde26daf9e3854374027c48e8c48453ea1d75,"Fix typo in vectorized_mobject.py (#1913)
+
+lenth -> length",['a801aefceaffa083738c885f7e1f7762855851f7'],False,['vectorized_mobject.py']
+a39c65cb5c66de9180b21a3d69f2807d7713fcb1,Fix type,['6c4e028eab285173d2620050967186272a2dbaa8'],False,['space_ops.py']
+d4b6bf40e5f858955cd044b1f0319925eadb9aa3,Small type fixes,['002129e7a263b5d29b7099f2924904d3350a1500'],False,['vectorized_mobject.py']
+a3215d03545398f82b2a42fb2493ad6cfff5cf55,Fix small height bug,['c55374245d55bd733e2061e9f5ae1e0d4e87d377'],False,['tex_mobject.py']
+37786edc99b4914beff56b67ae32364f18913667,Small type fix,['25388b4ad35c3e94881a1cb1b1f64c8fc1b95943'],False,['vectorized_mobject.py']
+e4aebaf7914fa2a5d2c2fa67c8af4ab3c0c22088,"Remove old constructs that were too specific to old 3b1b videos and are not worth fixing
+
+Or rather, move them over to 3b1b/videos repo",['0ad2f18ca60c4ae39d91a51bd898bd2a2f1702cf'],False,"['complex_transformation_scene.py', 'counting.py', 'graph_theory.py', 'light.py', 'reconfigurable_scene.py', 'region.py']"
+b21f5bad007651b6c71f3ea7261105a1f1aee083,Fix small t2c issue,['afab37c2d2893e11401eb4675ad8eb27783a58ce'],False,['text_mobject.py']
+15f03dae7b5f2f9668d384bd2bbcca2c582ecd34,Small fixes to Axes configuration,['c6fc8dcf4537c0099eb8e82965c9e53b1146adb5'],False,"['example_scenes.py', 'coordinate_systems.py']"
+d798f5ebf0e4171f12847a09bc6e75c49ff5001f,Small bug fix,['7510c9808e342a8665fcf6480529bfcd383753e0'],False,['interactive.py']
+2bab16133df18cfb042c770ec09bfe07aa0195ff,Fix textured path bug,['d798f5ebf0e4171f12847a09bc6e75c49ff5001f'],False,['surface.py']
+5625f63ca2a352f081e79c0c58786b49f683f602,Clean up SVG.__Init__ and fix style issue,['cef6506920dc55718d6d10a25b27f01e1f8933a8'],False,['svg_mobject.py']
+8db20cc46078ae5e395f0f226e3c60bf5284898e,Small fix,['5625f63ca2a352f081e79c0c58786b49f683f602'],False,['text_mobject.py']
+3e8738de2a1d43bc2beb70e0884d690cc9a3eebe,Fix output type of VMobject.get_subpaths_from_points,['b817e6f15f2e9c301cbe701de5f32a64a604ab64'],False,['vectorized_mobject.py']
+26ff1a9716baa5329bac4980098985136c04afe8,Fix bug associated with GlowDot having None points list,['d4a29df99cdda7e83aaf027786f1668d5e73d2b3'],False,['dot_cloud.py']
+af471161ea9580595f3441c34d261448b665d24c,"Fix 'Failed to get module"" warning with Scene embed",['e7281968145f9596a8959a9431acd883b7a66e0c'],False,['scene.py']
+e5c13ba9d7466c5e569846027349468610ca9d1d,"Use shell.run_cell instead of paste line magic
+
+Because %paste -q line magic introduces issues with IPython 8.2 and above",['3c04ffc5130d7794561804f9e93b46bf7ee82d84'],False,['scene.py']
+4632228cac7810cecfd96a5a00854571ea1b39a0,"Merge pull request #1937 from 3b1b/video-work
+
+Small bug fixes and refactorings","['07feb33cbb49f490952d8ba7834f6e9ede9e87b6', 'd79e1d6ed80d4d2a4e4997d0ae4bb05ae041262a']",True,[]
+5c0232a5e0581c613cbb7fd34577ffa302d838f5,"Have LatexError show line of error and the next line
+
+This is where undefined control sequence errors will show up.",['ab470c3ee598e335c4f2252a8802d71a8cc59e93'],False,['tex_file_writing.py']
+a53867d8a16326945699f7d5a962eb395799f79a,Fix TexText bug,['b2fd22c53928667010928fbb95a006fcd144b882'],False,['tex_mobject.py']
+78fd6d3f3591e2b2ce89e535ec95c0584a05468c,"Merge pull request #1938 from 3b1b/video-work
+
+Small refactors and bug fixes","['4632228cac7810cecfd96a5a00854571ea1b39a0', 'e0e7e24351f433e981464194fb66cacbfed449e0']",True,[]
+67912e26d3b5356a7f63ab837f49ac6df09445da,"Merge pull request #1941 from 3b1b/video-work
+
+Small bug fixes and refactors","['78fd6d3f3591e2b2ce89e535ec95c0584a05468c', 'a26fe605b3ae96be293f40916b06f051d9d71d5a']",True,[]
+a4d47f64b00642ed9dd43454a664911c20d37c1e,Fix normalize_along_axis,['5af4b9cc653f41a36da80ba8fb1af70ad05d6a49'],False,['space_ops.py']
+3878b8c077cd5054fcea314641d917f32c2ac4dd,Fix rotation_between_vectors,['ef04b9eb013fb376b4d7678a2b5e43094ad97861'],False,['space_ops.py']
+62c9e2b58ff971f0529a6a066f62f246cb0c31d5,"Fix data[""orientation""] alignment issue a separate way",['db52d0a73fee96c71fbcf5e99320c5933a769d2d'],False,"['fading.py', 'vectorized_mobject.py']"
+3bf5ce5776362d0630c06d9481df68a72851d7be,Fix TexMobject.select_unisolated_substring for substrings with escape characters,['db0770a4fd9e2c6c2b938cc2fed5266eca455075'],False,['string_mobject.py']
+34d8ab81f95a30cdc54a1c18ecbbe43bb95fe2f9,Fix for num_tex_symbols,['44dc22e5e4c2336faa386fc337c655e43ad5082d'],False,['tex.py']
+05f02f51546d552c50310e6ca344506a72f85b86,Fix ShaderWrapper.combine_with,['34d8ab81f95a30cdc54a1c18ecbbe43bb95fe2f9'],False,['shader_wrapper.py']
+118093202630fbd789649b5fa0acb626a3cc4719,Fix antialiasing issue with straight lines in text,['e59b3d2ac0c7284e9eb9214a5f26a1fd9ce130e2'],False,['geom.glsl']
+822639638217584c9aa80f35df65cffcaafe626d,"Merge pull request #1950 from 3b1b/video-work
+
+Miscellaneous fixes and tweaks","['fcff44a66b58a3af4070381afed0b4fad80768be', 'e76b673e635a447cec79b756842b23b9af1e85d0']",True,[]
+aedde4dffced81ec999bc3d0f519d5d521952bab,"Merge pull request #1951 from 3b1b/video-work
+
+Small tweaks and fixes","['822639638217584c9aa80f35df65cffcaafe626d', '53f19b6620f4d4998233095ea29302793d77a40e']",True,[]
+9018357d20134289740a1a9b7e2dc0dd33c267e1,Fix Mobject.looks_identical,['4330f78ed6aeb5495f066bc949987d86996186c6'],False,['mobject.py']
+3165a28cd0fe370829b2e27773ff415035b45316,Clean up and fix VMobject.get_shader_wrapper_list,['25ac5f350781463295e5f9f09fb14dbb1e251b85'],False,['vectorized_mobject.py']
+71815fd7de23188545d0073352324b4a2e9cfcad,Add (optional) error sound for exceptions in Scene.embed,['cba101995fb96f70f278aeedc6530e36f8ab52c2'],False,"['config.py', 'default_config.yml', 'scene.py']"
+124c83d94e0e373e4c51a12891fcd8ed92036c06,"Merge pull request #1952 from 3b1b/video-work
+
+More miscellaneous tweaks and fixes","['aedde4dffced81ec999bc3d0f519d5d521952bab', 'd6d75d8f9afbff713ba82a13479b46966e81f9dd']",True,[]
+4db01fd22183c53afa8447e24194d267a9dcf124,Fix Mobject.looks_identical,['5c33c7e4a8d0359cc6985b90490520e47fea5ffe'],False,['mobject.py']
+3b4a233bb144251825f148e5a72e7f6b97a736a4,Fix LaggedStartMap,['4db01fd22183c53afa8447e24194d267a9dcf124'],False,['composition.py']
+7dde368eebf12f7fe33889ae5f1a2cc05cab384b,Ensure error-flash rect is fixed in frame,['8e3378f798c5155b38e4b8c757717b4bb3504d89'],False,['scene.py']
+50960eefd4b61de68e1a6b06d033e8d11ff3ee1e,"Merge pull request #1953 from 3b1b/video-work
+
+More tweaks and fixes","['124c83d94e0e373e4c51a12891fcd8ed92036c06', '66f0a57c6be2bfa88e5edcb371ba573d2da83c07']",True,[]
+abf1dd3d8b936364ebe2901d056f5c6823be92dd,Typo fix,['a31c4ae3c23f060a34f3a4f5062c1d67fc4c268a'],False,['example_scenes.py']
+0d433b075edd4e4d926b16c184eb0ce06abfa76e,"Fix bug associated with orientation data not always getting written
+
+This might reflect a deeper issue with the locked_data sometimes being _too_ locked.",['0c1abebd957f580e0083d9fa75f5666c753597ac'],False,['vectorized_mobject.py']
+0c3367f27bd3d6758f1cee3d8a3d56a5fc48458f,First-pass fix for joints in 3d,['131ecce7c476f0f835bd9dc4a702e9e84537947c'],False,['geom.glsl']
+e5b17aad69ed189003906ee44148d1b29ddcc989,Small bug fix for TransformMatchingShape,['22420b77244b3937b8d83cb408c66ed05e033c08'],False,['transform_matching_parts.py']
+6a18a05a3b30f796102f569b0f38584e5b4b7cfe,Fix arrow for new path behavior,['5fac213fee20b6a00a4ca10b1eb26b926b744e65'],False,['geometry.py']
+a17a57825ebc1da53547fd2d9c67603ac6e3116b,Fix Annulus and sector,['61437b2a7fa985eb99c389f882202052a4d63777'],False,['geometry.py']
+31715ec98a690ff8f18c9e4bf99766f285906925,Fix Arrow,['a17a57825ebc1da53547fd2d9c67603ac6e3116b'],False,['geometry.py']
+5a56a2a5ecfd3b205bd1026eb65fbaea0f79eee0,Remove bad solution to bevel issue,['f04d0ad3507352d99236715532b1ab3686f4ed67'],False,['geom.glsl']
+1f04ba92fbbdb56dd244a977beeb7fc3b33f661c,Fix Polygon.round_corners,['ed26fdfab83403b81e5973dba4df2d2e8405112e'],False,['geometry.py']
+7d90a82317aaaac2b7bf293863d19f4dcb72b069,Fix fill shader vert data,['1a8e923ef2704bd28413375298f6ba8344cc5086'],False,['vectorized_mobject.py']
+24afb2a24f97c412fc29b6ff6f67fa741f99aa49,Fix angle_between,['c6d3a9646c933625a8e3429f919f27c4541e5d75'],False,['geom.glsl']
+de5198196b0f18937b7e99a177e2e6545f21c79b,Fix anti-alias width bug on DotCloud,['a47b95044d1b96440dd8125d509693189c7d52ec'],False,"['frag.glsl', 'geom.glsl']"
+c8a77a352fba4c4af0e45fcd9a28fe94aed0d9b3,Fix Piano,['d2800b6c96d8419f7c869aabe3999333f3c05a7c'],False,['drawings.py']
+e1abae1d96ec6e07788f0cdf3c31630083a9f8c9,Fix typo,['c8a77a352fba4c4af0e45fcd9a28fe94aed0d9b3'],False,['boolean_ops.py']
+da2b13aee914462105fe6e2eeb365c4b012cc17b,Fix triangulation issue for Annulus,['a88b56bb047debacb57a174e22b1a73972adcaf9'],False,['geometry.py']
+e832bb775f8039dfcd2050a0f31bde9c7636b664,Fix small bug with null triangles,['31cc2671e5c511690360178581e139b1a9c7b1f7'],False,['vectorized_mobject.py']
+19a772166188f86f3e92bf9795fa22684147b418,Fix unit normal issue with bezier fill,['c8238f6b39ccfa34f11c8343c5ca147f662fe3b4'],False,['geom.glsl']
+801f449ca0ba6d6eae56110d79fd9e5499787c94,Fix lock_matching_data,['f4c50f61b819eec728e41c756f6a44ab1d489549'],False,['mobject.py']
+e55434925e9da94efbb82be36c29899a366397bc,Fix get_style for null point case,['d868f685dc8b86dd8c1a677fcfd0c3bccd7d6d77'],False,['vectorized_mobject.py']
+77a398468386d40a3ab2f3cb35b32535af9d966d,Fix index buffer bug,['da15eb4ad20064f96a633d119ae8118c09910c77'],False,['camera.py']
+afbc624ac4e23ba58eb5c3b828c12d2652c797be,"Merge pull request #1964 from 3b1b/video-work
+
+Fix index buffer bug","['8e1b23ee98fb60581f33cc9bd4fedf9fff65b505', '77a398468386d40a3ab2f3cb35b32535af9d966d']",True,[]
+0b72bc5d08a46f64688d7e1f51acdab6841b3a44,Fix joint normal issue,['c7e32e847d60c56f098cf64f8c679372ef18d9af'],False,['geom.glsl']
+d39fea0d4dffd793ce48cc79fd77206f361fd0fb,A few small fixes,['96b0ec909421e6d956c37072a8ecec349dacc297'],False,['geom.glsl']
+cd3c5031fa7978e72868ea2555375dba1339c6b5,Fix get_perspective_transform to shift before rotation,['6c2544098bb609ff98f88ee0abf078db42ce6c79'],False,['camera.py']
+981fe009e53d920ae463b4e639d1be4e47a1941a,Fix radius on dots,['22d2819ecf4ef7f88e6d871f4a4c88a30c27cbde'],False,['vert.glsl']
+148898f9836e5d1ce4484259636a1ffd2856b909,Fix insert_n_curves,['981fe009e53d920ae463b4e639d1be4e47a1941a'],False,['vectorized_mobject.py']
+1367e31439c22a758845a7eeb44382ca7502f309,Fix bug with polygon start angle = 0,['e6abff4299365daf4b3b48d5762106acf14f014c'],False,['geometry.py']
+8fee4d1a6642079ecd1936423d7da5e551a16213,Fix straight line fill anti-alias issue,['f2d4313bcfe726c69824cbd2e82de08ebb501810'],False,['geom.glsl']
+2e2e8dfee2178e31455d8be0f74253e9e12d3e88,Fix the fact that Write messes up joint_products,['917481cb2310856e41dd727146197a4c7e05eead'],False,['creation.py']
+0d66981ac770f9ec3cc9af624b6899682f5f88b4,Fix issue with variable stroke width,['2e2e8dfee2178e31455d8be0f74253e9e12d3e88'],False,['geom.glsl']
+9e02796c9ac3f5c3e6b83ed7bfbed435af55b0ef,Fix set_width for variable stroke width,['8e1fdd5a79c668552d58c31e26cc57e37da08b0a'],False,['vectorized_mobject.py']
+ba1b43df1aee10e26f35422fefd800c818d66185,"Merge pull request #1967 from 3b1b/video-work
+
+Miscellaneous fixes","['781e0a980564a8ad04f01b8a66cd306cb6b7844e', '847c27ad234c9528146576fa3cc46d23a95743ca']",True,[]
+d01658bc5b89cf950e5087909014c90cafbea124,Fix multi-color setting,['97789fff35d43048ce776bf56bb57c6f3d6e1be1'],False,['mobject.py']
+945aa9713f49ff300d7107d1dd7f3c2da63925cb,Fix aligned subpaths bug,['87afdac6a4956a9d7455a3aeb55e65a2cbaae75e'],False,['vectorized_mobject.py']
+a33b24310e3b33ab42a5c2e5bbe252dccd1c0d3d,Fix non-winding-fill orientation,['c6c23a1fe79cc15b19159d09ec8d06361bef034b'],False,"['vectorized_mobject.py', 'geom.glsl']"
+37f0bf8c11a556a5462b1e10b3f53ea4d73494db,"Fix winding fill blending
+
+(Using somewhat of a hack)",['3f5df432ce159f2ceac9d295bed20fa7a6257dbe'],False,"['shader_wrapper.py', 'frag.glsl', 'geom.glsl', 'shaders.py']"
+a8da171adbefc9e3b13d989382d5c68f1ff0223c,Make sure a group inherits the fixed_in_frame status of its parts,['65afed1bd172513582994f8c9fff84d7d2ea8b58'],False,['mobject.py']
+adfef4841812a5a169691a5feffb2bcb3b512a7c,"Merge pull request #1973 from 3b1b/video-work
+
+Refactor render out of camera (plus winding fill blending fix)","['a9a3ca08cd66bbdfa90dcdec39ad65b8a9cf3fd2', 'acdc2654d350a4e88f05d4cff98e519c729f1829']",True,[]
+79039bde61f3235377ad310b139b9eec122da210,Fix Arrow,['28636727407a115c01fb5acdd795dc1d787e6665'],False,"['geometry.py', 'geom.glsl']"
+86fb1d82f5bd7b626a810b35f895c91c79f5e570,Typo fix,['de7545e5fac13bb60dbb46447032d6cf5371c688'],False,['mobject.py']
+746b52cda5d1167413de5084f7b9e8a2ba01b144,"Okay, actually fix Arrow",['86fb1d82f5bd7b626a810b35f895c91c79f5e570'],False,['geometry.py']
+35c19fe8a7e0b98a5194e56fe5b598e90e5d91d3,Edit is_fixed_in_frame,['e57ca4e1ee4995714e38a70d21a07914e343a732'],False,"['indication.py', 'mobject.py']"
+38abef88713b09daed26b42a8dc99c10ffceb053,Fix ShaderWrapper.init_textures,['8ecfc2b2cf7af8ffc7ba0801e324b28e561ba86f'],False,['shader_wrapper.py']
+f296dd8df5fb458766d11a454ef55360f5794f85,"Merge pull request #1974 from 3b1b/video-work
+
+Miscellaneous bug fixes","['adfef4841812a5a169691a5feffb2bcb3b512a7c', '047128a6632a82d484379a76a7949885ca16af87']",True,[]
+c08e111911d90ec6caf03cd0cb777fa487b7dffb,Default to applying depth test for non-fixed objects added to a 3d scene,['368f48f8ddd896a8acd35d451591b521fbb7e0ff'],False,['scene.py']
+b3dec3fd51458f930c7c11f2fde3316c2b763740,Small fixes,['68255b1c9a5d43b3e68bf9efb556152d84cdee5d'],False,['vectorized_mobject.py']
+91f69be3e0b9cbe93aef4f15835582c6ea99afc4,Add CameraFrame.to_fixed_frame_point,['da9610b9f9847c44b459f67d60bf6ab1efeadb60'],False,['camera_frame.py']
+901d40ba1144290f682d112342da43733477dd1f,Fix scroll zooming,['0d9bb71d3c745d9483e7b0dfa4103625e423e933'],False,['scene.py']
+2705ba3afa566188bf662f018fccca95da16d547,Fix CameraFrame.to_fixed_frame_point,['901d40ba1144290f682d112342da43733477dd1f'],False,['camera_frame.py']
+abdcb644614223acfc3b190a089ada0376b6438a,Fix panning for off-center frame,['e58aea9e2f716d449eef92a8a4a40c36d0397cc8'],False,['scene.py']
+71bd3edb0973b19a813070c93927c927897d1690,Fix frame scaling,['277c471c90dc3229645607e2f76f64f3f04d9057'],False,"['camera_frame.py', 'scene.py']"
+e7734ca84c8d06efbe464bee8c4abba485459703,Fix TexturedSurface,['5ff44f5850c8844eabcd6149e004d2a54bacb15b'],False,"['surface.py', 'vert.glsl']"
+76ee97adfad776a679c8c274d5f57ac20580ad7b,Possible fix for a type error,['5490b3be19e1236bf317d32d7e62377e498665fe'],False,['vectorized_mobject.py']
+f8cfcfbc6401bf5a56e019dd2f0b7cee9ec4a4cd,Fix EventListener typo,['e7734ca84c8d06efbe464bee8c4abba485459703'],False,"['event_dispatcher.py', 'event_listner.py', 'mobject.py']"
+57deab66179b12ca62542c10fc8f86d682dde60b,Fix ControlsExample,['f8cfcfbc6401bf5a56e019dd2f0b7cee9ec4a4cd'],False,"['example_scenes.py', 'mobject.py', 'scene.py']"
+0645912765daeba6b78d72e6397cb9e5548a8162,"Merge pull request #1979 from 3b1b/video-work
+
+Various bug fixes","['5490b3be19e1236bf317d32d7e62377e498665fe', '57deab66179b12ca62542c10fc8f86d682dde60b']",True,[]
+9e5fca67503e4aa80bfa46847685a890782c3950,Merge branch 'type-error-fix' into video-work,"['5952f9ea747365dbef82d53a3a600b336f1ee61c', '76ee97adfad776a679c8c274d5f57ac20580ad7b']",True,[]
+2d0bdfbdb683359bbdf66fa9cead8de2d4a72a8c,Merge branch 'glitch-fix' into video-work,"['9e5fca67503e4aa80bfa46847685a890782c3950', '2cbad30f45c7181b62fd51c3c177dcd26841d44a']",True,[]
+031adda503ac258b76a27f9d858c27226c10bd55,Small fixes to three_dimensions.py,['0452012d5413e5e0531f2732d314d1369266938d'],False,['three_dimensions.py']
+e8302e60257f9419bfae8bd86bca1b5ef7c35fea,"Merge pull request #1978 from 3b1b/type-error-fix
+
+Possible fix for a type error","['0645912765daeba6b78d72e6397cb9e5548a8162', '76ee97adfad776a679c8c274d5f57ac20580ad7b']",True,[]
+9dc6cce09f28fd1006e14a4c947bb3be2a9c9939,Merge branch 'master' into glitch-fix,"['2cbad30f45c7181b62fd51c3c177dcd26841d44a', 'e8302e60257f9419bfae8bd86bca1b5ef7c35fea']",True,[]
+8e8229b9b8b059e6e538d0b9d26d6540e9faf428,"Merge pull request #1980 from 3b1b/glitch-fix
+
+Change VMobject rendering mode to TRIANGLES","['e8302e60257f9419bfae8bd86bca1b5ef7c35fea', '9dc6cce09f28fd1006e14a4c947bb3be2a9c9939']",True,[]
+fca5770b9f729e2edaeb754947e36e3cebdfb1e4,Fix Camera.blit,['d9c85aac469aec373cf750d745ad167bf910f332'],False,['camera.py']
+c8b65d56218d4e1801883c83e81d31da96eaffa3,"Merge pull request #1982 from 3b1b/video-work
+
+Various bug fixes and tweaks","['5527c0706db14a2e2739f3152c75e664427372ba', 'e76c64ad520359319c8b9a5567d6ae24b74cd85a']",True,[]
+8adf2a6e07e677b9e10f707eb3055729e386d6c7,"Partition render groups based on shader type, fixed_in_frame status, depth_test and whether the mobject is changing",['6eafdc63cc4daa5dcfbb1f4ef4a34bcc80928acd'],False,['scene.py']
+fbcbbc9a5882143cc0872a61d0d87ab12a5e0480,"Merge pull request #1988 from 3b1b/video-work
+
+Several minor fixes","['d263fa23faa80882b2b6d8abef8db00c6fd70044', '1dcc678b2feaae04939376fadd0593aceb19f663']",True,[]
+c4777015fca6a22d34f3f79f254170748e5774b3,FIx Mobject.replace_shader_code,['d10745a3791972341e970ab09328ba84a116309b'],False,"['mobject.py', 'vectorized_mobject.py']"
+d1b1df64a546e7987bf5bc3822800436bdf10b97,"Ensure Window's scene always points back to window
+
+Issues can arise in the few milliseconds of startup otherwise.",['4e90a77fcdb1a886078561d57fb169d8f552442f'],False,['window.py']
+66b78d01a9f16b67e99f3c93dc153c777cb58731,"Merge pull request #1989 from 3b1b/video-work
+
+A few more fixes and tweaks.","['fbcbbc9a5882143cc0872a61d0d87ab12a5e0480', 'd1b1df64a546e7987bf5bc3822800436bdf10b97']",True,[]
+1844f7fd64157b2638b49704658506c2c0f9759a,Fix for https://github.com/3b1b/manim/issues/1991,['66b78d01a9f16b67e99f3c93dc153c777cb58731'],False,['vectorized_mobject.py']
+41f0239e9d5a6868ebb3bb06a45d6527f8b2b4ea,"Merge pull request #1992 from 3b1b/bug-fix
+
+Fix for index -3 error","['66b78d01a9f16b67e99f3c93dc153c777cb58731', '1844f7fd64157b2638b49704658506c2c0f9759a']",True,[]
+557cb66c52d3cabe19a8013e5edfcd24f86231b8,Fix transparent background videos,['01c51dbc6d7bf66d380bddd0e82679442fd513f8'],False,"['config.py', 'scene_file_writer.py']"
+d8428585f84681055fed8aa3fabfb6ae95e4a0ff,"Merge pull request #1994 from 3b1b/video-work
+
+Several bug fixes","['41f0239e9d5a6868ebb3bb06a45d6527f8b2b4ea', '557cb66c52d3cabe19a8013e5edfcd24f86231b8']",True,[]
+1eb819363d1e17c79df52d25bec752c1975387a7,Fix issue with ticks going beyond number line,['a79d4a862f016e82d234d28eccd0510804f882f8'],False,['number_line.py']
+6d0b58659732976e2e78709ac4bbe77439a82a90,Prevent index out of range error for ShowSubmobjectsOneByOne,['b216b8f7e399fd8f2adeffd421a787e5ed0a879f'],False,['creation.py']
+de8e9e5ec1f2c8b43ba536f8c72ea8625a58ae11,Fix error with setting bubble direction,['6b24860bbfa3f46d6363c51e068f6726f2e756bb'],False,['drawings.py']
+bae3b98c0bd4a718f552ca2e46f8a6f0c2678e48,Fixes to Surface,['63f6e9d84ff5685e78dc923e401ac980202263cb'],False,['surface.py']
+7ff45b46378fd6a364cddbbd940b940f0b1fc45b,Having changing decimal match fixed_in_frame status,['4f42ebeb4f7ecb6b2a45319e290f4aa33373400e'],False,['numbers.py']
+ddf2f7d9bd72faabd6c66b6fc23f944bae838eed,Fix typo,['2337be2318b1a28e0dd6a94266979271cd76d70a'],False,['coordinate_systems.py']
+d21b05ae0d5ffd373d7ee72ab892589f6b26afed,Arrow fix,['fc522e5278bf3f7b56c170962d7c85f9ff13a52f'],False,['geometry.py']
+4be7f611ec424ab9cf57651cde3ff04c3085c787,Fix issues with stroke opacities passed as numpy arrays,['d21b05ae0d5ffd373d7ee72ab892589f6b26afed'],False,['mobject.py']
+f2ad9a70f7c6af3cf28cb6b50dad358b9e645b19,Small format fix,['4be7f611ec424ab9cf57651cde3ff04c3085c787'],False,['dot_cloud.py']
+65e7943ff7582d64fdc5b012f05e5679c3d6e248,fix aspect_ratio other than 16:9 issue,['d8428585f84681055fed8aa3fabfb6ae95e4a0ff'],False,"['config.py', 'constants.py', 'shaders.py']"
+f0a61beaf5e844f6478b2eade8fc8e95d3f1d81b,fix VShowPassingFlash index out of bounds issue,['d8428585f84681055fed8aa3fabfb6ae95e4a0ff'],False,['indication.py']
+2b00a9cf8020defc38832ab0e2166860c912f7d3,Fix add_curve_to,['b53ab02675c01812d477188851973c99e611ce92'],False,['vectorized_mobject.py']
+2cdb85cae90b41e5fe43abc2e63a2d8d5db2ec25,Don't assign a fixed default depth to ThreeDAxes,['0d046a7eab8c5272a40fd14a656b34abc90caed7'],False,['coordinate_systems.py']
+d3dee240c329245166013220b1b54af9066da7b9,Allow for smooth transitions between mobjects fixed and unfixed from the frame,['60b762ca4339c611c7e4d19f27d5ed3f878ecb14'],False,"['emit_gl_Position.glsl', 'vert.glsl']"
+1c72059725d244ecae0846dec7b8bb7f84b9af9e,Have surrounding rectangle match framed fixed status of what it surrounds,['d3dee240c329245166013220b1b54af9066da7b9'],False,['shape_matchers.py']
+cde709fcfada100eb1c8fc430ad773085c4718fd,Replace fix_in_frame matching for DecimalNumber.set_value to general uniform matching,['1c72059725d244ecae0846dec7b8bb7f84b9af9e'],False,['numbers.py']
+711438f625c4be9aab6b89a616963daacb215e54,"Update the types in decorator methods using @wraps
+
+This is method to address issues flagged by pyright",['cde709fcfada100eb1c8fc430ad773085c4718fd'],False,['mobject.py']
+ebe689dedece2df6b90bc73bc3e40fd8c71cc3bb,"Treat is_fixed_in_frame as a float in uniforms, to allow for transformations between",['4aef0d1bf549c9cf2f6201dc9c28d88b18a7a3a3'],False,['mobject.py']
+100b108ad18d952977f4f0e27a28267aa7b72734,"Treat Group and VGroup more like list types
+
+This may not be the best way to address it, but at least temporarily it prevents linting issues for calls like VGroup(Circle())[0].get_radius()",['7009f0f53e4edc6aa5a91e362d8990c20655b300'],False,"['mobject.py', 'vectorized_mobject.py']"
+c531e56a2f132448f6e6b5e932048e5f0336e6ef,Fix DecimalNumber.set_value font size issue,['45f8ca764348f0131a3110483b96fd9a6aa2b185'],False,['numbers.py']
+4ce8a3ba9d1135b4fde3db7c7fc992b89b7b32b6,Fix computation of normals for Surface,['d44e248277f4c7215a0689abb78a634ab5502c56'],False,['surface.py']
+27f397e0a6c6a884fb9f7cb7193fbfe3c33feee0,Have stroke width change continuously with fixed_in_frame status,['2c110790d259636e1ace5d63b7d682642a864a30'],False,['vert.glsl']
+7e6a37d4996ff43f673d63ba088d777896fa3f2e,Typo fix: make_number_changable -> make_number_changeable,['6b3834739c3a687f434a8d7070c2c3e05f1bb465'],False,"['example_scenes.py', 'tex_mobject.py']"
+ec42326618125d95dffc7c9c4654bd9d559e7eeb,Fix remover=True case for FadeTransform,['223d671eea295401f993a968628b11242ff5a5fe'],False,['fading.py']
+ab28804ae5776d480e88fb38c11593919aeee6fb,fix: `there_and_back_with_pause`,['88c7e9d2c96be1ea729b089c06cabb1bd3b2c187'],False,['rate_functions.py']
+63e98eee94aa74f4efac66c5e1cabcae414b0aff,"Update tex_templates.yml
+
+Fix the error when using Chinese, and add international typesetting support",['88c7e9d2c96be1ea729b089c06cabb1bd3b2c187'],False,['tex_templates.yml']
+0eae42977a153e1627e87d4ea929c0a9f87dc4a8,fix(animation): `time_span` doesn't work for mobjects with submobjects,['88c7e9d2c96be1ea729b089c06cabb1bd3b2c187'],False,"['animation.py', 'rotation.py']"
+d1314e5a3c95e52de28992d4da37718a90a2732a,Catch screeninfo.ScreenInfoError error,['79c89ad34d1d479afb8268328d43c2c910eeed9c'],False,['config.py']
+5aeb457bb1ae9c0a86a20279eccbe1b69e2d7e33,Hot fix for Traicing Tail,['bbc89d13e99587cd0b4fd4df1e51f5b910634617'],False,['changing.py']
+71814a118bbe5ff4718fc7325156ac8d4046cebd,Fix dot updater in graph example,['d644e3b184d52f1a432966885027fe1b3840c28c'],False,['example_scenes.py']
+4ff61ed561fed31d324dcf8613a964c7a2f7f5e0,Default approximate smoothing (non-approx has a bug in 3d),['4223bb63202e5e122e0bc95c842ae5829fe6d62d'],False,['vectorized_mobject.py']
+44ec9933b7396ee20546916237622fca5211a9fb,Small format fix,['4ff61ed561fed31d324dcf8613a964c7a2f7f5e0'],False,['vectorized_mobject.py']
+ec88673e927af5292925ce40f18f820c12bbe9df,Fix kink issue in flat stroke,['44ec9933b7396ee20546916237622fca5211a9fb'],False,['geom.glsl']
+af8e5236d2585853734f0db5f832318600aa3efa,"Merge pull request #2157 from 3b1b/video-work
+
+3d stroke bug fix","['aad2bded147cfc079a2e748ef569de04d91da6d5', 'a4858918ddd58069021c5c608fd39ef51344149a']",True,[]
+644084d9a7ddc2d69a8c030d08051320a8b7b3e8,Merge branch '3b1b:master' into fix-animation-time_span,"['0eae42977a153e1627e87d4ea929c0a9f87dc4a8', 'af8e5236d2585853734f0db5f832318600aa3efa']",True,[]
+df0ae6fdc94215c0f43f3da3b24bcd386fe51f9f,Fix missing ignore_skipping -> force_draw,['59235d3eedef07ec5c6748e1a959f3e41eb9a302'],False,['scene_file_writer.py']
+04347e7876dca60f004dcf3a0dcdd220f9e62e9f,Fix thin stroke issue for low resolutions,['df0ae6fdc94215c0f43f3da3b24bcd386fe51f9f'],False,"['frag.glsl', 'geom.glsl']"
+e2b0c2b9bfb87674075ffe940a933945bf6782aa,"Merge pull request #2160 from 3b1b/video-work
+
+Fix low resolution thin stroke issue","['0fa74a79211592b718efd6cd2fa460913ef474f7', '04347e7876dca60f004dcf3a0dcdd220f9e62e9f']",True,[]
+d8edccdab4a542781477adc1d1dd6cea59d0b94a,Fix zero stroke width issue,['108db870872c7aaa7519d52ad29cfd556c1f897a'],False,"['frag.glsl', 'geom.glsl']"
+5ff80ffc6c25768c09688dc7e6a5a4a036e07a06,Fix matplotlib color map import,['f12b143d169610b3240c92c05264c6be6fbac814'],False,['color.py']
+e61957a4e0d2b8b826b867cb33cb43df6f357eea,Fix wrong check for path_func in last commit,['a8ef9629eb34813553bc5ab9ab239b047ce48c68'],False,['mobject.py']
+d0cb5b4eead641b8bbcef2cab5f13e7ce945f4da,Fix normal orientation on Surface,['35ce4c6704c415117867a0b98d0728a4fbbca634'],False,['surface.py']
+67bedc6d1fba856f1a2348c58c4c18eae73845c8,Fix fill_depth_vert_format,['79ec791fc297ff9d8def3f6bf08c2dd23360b0db'],False,['shader_wrapper.py']
+43f1704f699c8f85bc43073bf65fe2de2ffaaad7,Fix computation of joint_angles to handle zero division case,['941513d68c4859efb63c0a7dd17af430373a3306'],False,['vectorized_mobject.py']
+ceac4fbe1a14e4883d6507abb742ea739045285d,Fix up FillArrow,['22ee13a884df4b9455f0b9989c8edf225f72c233'],False,['geometry.py']
+d870bb29deed2351d6ceb0ba2a060610be3c1aa9,Fix the non-flat stroke edge case for tangents near line of sight,['442206faadecf49e09d496e375f11c3729d7b70d'],False,['geom.glsl']
+11df2563699122acb0859e0ae273359896e437d9,Fix error rect,['cfe70ca869c3dbe0ff42305213475e8786f2c24b'],False,['scene.py']
+a08523d746375c7e648e03690be4c565cc50d284,Fix get_subpath_end_indices_from_points,['bcafcbf49051609c2eaa1d5db71c7af8cd9d7cc8'],False,['vectorized_mobject.py']
+fcc5dc00f9c6bc8f11f93d29a04d24bafb40e8d2,Treat objects fixed in frame as having flat stroke,['566fc87a60e839a7a74be0c5d986d3be7d1a7bb2'],False,"['scene.py', 'geom.glsl']"
+f86245517da4c5bb73b94c899050f41760ddefab,"Merge pull request #2147 from osMrPigHead/fix-animation-time_span
+
+fix(animation): `time_span` doesn't work for mobjects with submobjects","['12d39ef37c6b1f38266854cb3236f558024c4eef', '644084d9a7ddc2d69a8c030d08051320a8b7b3e8']",True,[]
+1e996dcd27455a2649801e292b560675cc80ad45,Fix Arrow.set_perpendicular_to_camera,['e85a1ce1b792333b535b8d457037605d8a952d3a'],False,['geometry.py']
+04d77f2bec15e3fe4a3f97cf8dc7c3e8e1a7fa66,Fix joint angle for lines,['1e996dcd27455a2649801e292b560675cc80ad45'],False,['vectorized_mobject.py']
+a5137a05f14c5af114f0ddf48717cf4d5ed8ced5,"Merge pull request #2134 from jkjkil4/fix-there_and_back_with_pause
+
+fix: `there_and_back_with_pause`","['21f9df8ccd7a206fcdddff00d4ce4a85cd3eccea', 'ab28804ae5776d480e88fb38c11593919aeee6fb']",True,[]
+9011c864fd20024ca7f26b1bce4d0d187dbcaccc,"Merge pull request #2061 from floatwoozy/dev
+
+Error effect when rendering the same ImageMobject","['6b88947151f91ee7cc88cadd5298d75e10d74fcb', '72780959212f3071ea92b199a75647d55ad6f04d']",True,[]
+9812503597b793bd426886b69dfb06f4887a05dc,"Merge pull request #2059 from germanzhu/fix_vshowpassingflash
+
+fix VShowPassingFlash index out of bounds issue","['9011c864fd20024ca7f26b1bce4d0d187dbcaccc', 'f0a61beaf5e844f6478b2eade8fc8e95d3f1d81b']",True,[]
+2178ec2b85a5e808d98694cb3319dc2b71ffc8bb,Merge branch 'master' into fix-aspect-ratio,"['65e7943ff7582d64fdc5b012f05e5679c3d6e248', '1f55832a6afe166b054a8497daf85e264582de66']",True,[]
+05a89d754e1a3c060ac3845a4493f06eb39b73c6,"Merge pull request #2056 from germanzhu/fix-aspect-ratio
+
+fix aspect_ratio other than 16:9 issue","['1f55832a6afe166b054a8497daf85e264582de66', '2178ec2b85a5e808d98694cb3319dc2b71ffc8bb']",True,[]
+6d23df0497f16d442fcc5044d5664697c4c07b3e,Clean up changes associated with fixing aspect ratio issue,['05a89d754e1a3c060ac3845a4493f06eb39b73c6'],False,"['camera.py', 'config.py', 'constants.py', 'emit_gl_Position.glsl', 'shaders.py']"
+b6e5b0f34a3f3b151beff1116dd0471d48f999d5,"Merge pull request #2036 from LinZezh1/fix_animation
+
+Remove duplicate items","['6d23df0497f16d442fcc5044d5664697c4c07b3e', 'c65b7242e43df4720cf803ef5ab5b127b9b72766']",True,[]
+9eda000a9778c733ba37497f032931a4a3e21b1d,"Merge pull request #1816 from TurkeyBilly/patch-8
+
+fix label squeezed bug","['df9acfb4d5eedeeb061ec0c16e52243b2a9da751', 'bcf610d1ad9a3e71379745451d43451d6a11f6f9']",True,[]
+3e7244b90bd0d8ecee51d457f41678d8c40544f8,Fix bad argument,['95fca885c920e469ca718e72d383f8790e3a6dca'],False,['debug.py']
+1f8ad5be167081293b394bd89b0e71442a2a6eda,Fix pfp for null curves,['217eb6b486cf0d1c8f6e0d9d6fb06593165bab3c'],False,['vectorized_mobject.py']
+f69b189f2c84a6f53a65a6a7549ea737515ce9f1,"Merge pull request #2171 from 3b1b/fix-vert-index-issue
+
+Remove use of gl_VertexID","['9eda000a9778c733ba37497f032931a4a3e21b1d', '641c03a95b2349c6f91c091e3ad3769fad49cb5c']",True,[]
+154a473a128b001c641649c3f9f0cd769d53cbf2,"Get rid of globals update locals hack
+
+It seems this issues is no longer there in the case of list constructors(?). Although it still exists for functions defined within a cell, that can be circumvented with more explicit function arguments.",['29cb6f76fe89be8ede82b3c82ebf0e93c025b3ef'],False,['scene.py']
+99493fc4f783d41988af38ad9d5f0215cfbe174a,"Fix issue with Difference
+
+https://github.com/3b1b/manim/issues/2174",['154a473a128b001c641649c3f9f0cd769d53cbf2'],False,['boolean_ops.py']
+cce4ffbb60c2722e99fb32a2fb79497ad8f9b149,"Merge pull request #2177 from 3b1b/video-work
+
+Fix issue with Difference","['81b17dd63e6bf055b67b187d302cc1518b6a407e', '99493fc4f783d41988af38ad9d5f0215cfbe174a']",True,[]
+d499544366570b67a070dcfcb303f31ce4483712,"Merge pull request #2180 from fofoni/fix-ipython-scope
+
+Fix `NameError` when a pasted function attempts to access a variable in its outer scope","['d4080b8978e94477b590c5e8f82d223b1d2395f0', '2dd0256af623cbe00bb59a5e6f2ff634193e9582']",True,[]
+04295ec177ed13ce6bdcea20f02f79fc4ce65c24,Minor Bug fixed: window's bg color now changing.,['1a65498f977aab7ed505fa7bb660399fa64c19af'],False,['camera.py']
+199395b6e35ca0a0c80c07abd31e0a1461c845de,"Fix negative winding issue
+
+https://github.com/3b1b/manim/issues/2146",['837bb14c03cd30b58ed65c0ae33eb20e1987f8d8'],False,['shader_wrapper.py']
+e1816c2ac53ea99047d47ac889c4d176d025c032,"Merge pull request #2230 from 3b1b/video-work
+
+Misc. bug fixes","['eca370f5cef0528e0e28d348730ec88549e0633b', '199395b6e35ca0a0c80c07abd31e0a1461c845de']",True,[]
+0b65e4c7b6c6aaea20c21762d2f11469c2e7b6ab,"Merge pull request #2220 from Varniex/master
+
+Minor Bug fixed: window's bg color now changing.","['371fca147be663a8f950de2893a25e608efd6a67', '04295ec177ed13ce6bdcea20f02f79fc4ce65c24']",True,[]
+e5cf0558d87943103541c12d792fbaa0114030d1,fix 3D bad overlapping,['1139b545f9e766e7282f8cf64e68e225a4f25eb1'],False,"['camera.py', 'mobject.py']"
+1738876f4395e735908b11ef464fee703e207301,fix bad 3D overlapping using z_index,['1139b545f9e766e7282f8cf64e68e225a4f25eb1'],False,['scene.py']
+003c4d86262565bb21001f74f67e6788cae62df4,"Merge pull request #2231 from MathItYT/master
+
+Fix bad 3D overlapping","['1139b545f9e766e7282f8cf64e68e225a4f25eb1', '693a859cafa8e752c4e9efed5fab330cc572610c']",True,[]
+1248abd922ece277bc4598fe8767deda78598151,"Merge pull request #2233 from mitkonikov/modifier-keys-fix
+
+Properly check modifier keys.","['314ca89a45a2d2cfa5d9503a285d6456b9edc9d6', 'dc731f8bf28894ba2a327a19077b0622dabfe468']",True,[]
+ed2f9f3305fd73dd5eb8bf7a4691fc735e2342b4,Fix import of pyplot,['1d0deb8a335490697ed013093aaee21296851319'],False,['color.py']
+1fa17030a2d668fd2a6ad0fc1b3901ff447c7cb1,"Add `reload()` command for interactive scene reloading (#2240)
+
+* Init reload command (lots of things not working yet)
+
+* Add back in class line (accidentally deleted)
+
+* Add back in key modifiers (accidentally deleted)
+
+* Unpack tuple from changed `get_module`
+
+* Init MainRunManager & respawn IPython shell
+
+* Init cleanup of scenes from manager
+
+* Restore string quotes
+
+* Still take `self.preview` into account
+
+* Remove left-over code from module experimentation
+
+* Remove double window activation
+
+* Reset scenes array in RunManager
+
+* Move self.args None check up
+
+* Use first available window
+
+* Don't use constructor for RunManager
+
+* Use self. syntax
+
+* Init moderngl context manually
+
+* Add some comments for failed attempts to reset scene
+
+* Reuse existing shell (this fixed the bug 🎉)
+
+* Remove unused code
+
+* Remove unnecessary intermediate ReloadSceneException
+
+* Allow users to finally exit
+
+* Rename main_run_manager to reload_manager
+
+* Add docstrings to `ReloadManager`
+
+* Improve reset management in window
+
+* Clarify why we use magic exit_raise command
+
+* Add comment about window reuse
+
+* Improve docstrings in ReloadManager & handle case of 0 scenes
+
+* Set scene and title earlier
+
+* Run linter suggestions",['530cb4f10465aa1b872f1ec2ba59f40195c419b7'],False,"['__main__.py', 'reload_manager.py', 'scene.py', 'window.py']"
+5d3f7308240042c28ac9e7ee9f99cd1a02d792ec,"Cleaning up some imports + Minor Bug fixed in VectorField (#2253)
+
+* cleaning up imports
+
+* sample_points -> sample_coords",['8239f1bf3510cd327c58d470b3808b5f4ce33720'],False,"['animation.py', 'composition.py', 'creation.py', 'fading.py', 'growing.py', 'indication.py', 'camera_frame.py', 'frame.py', 'geometry.py', 'matrix.py', 'numbers.py', 'brace.py', 'drawings.py', 'svg_mobject.py', 'tex_mobject.py', 'vector_field.py', 'interactive_scene.py', 'shader_wrapper.py', 'typing.py', 'shaders.py', 'window.py']"
+6196daa5ec49546a8d973b6866991586f98d0d56,"Reload user-defined modules during `reload()` (#2257)
+
+* Experiment a lot with module loading
+
+* Extract methods out of experimental mess
+
+* Fix get module return type
+
+* Only reload() modules during reload() command
+
+* Remove unnecessary default parameter
+
+* Add docstrings and logging statements
+
+* Delete unwanted printout
+
+* Improve logging messages
+
+* Extract methods to a new class ModuleLoader
+
+* Remove unused builtins import
+
+* exec_module in any case at the end
+
+* Clarify docstrings & move get_module method up in file
+
+* Add more additionally excluded modules as array
+
+* Distinguish between user-defined modules and external libraries like numpy
+
+* Improved tracked_import docstring
+
+* Remove _insert_embed suffix before logging
+
+* Fix args.is_reload not defined error
+
+* Refine logic to determine whether module is user-defined or not
+
+* Fix list vs. set type annotations
+
+* Improve docstrings & change order of early return
+
+* Fix spelling mistake of ""Reloading""
+
+* Try out custom deep reload
+
+* Make deep reload more robust
+
+* Also reload modules imported as classes
+
+* Move early return up to greatly improve performance
+
+* Clean up comments
+
+* Make methods of Module Loader ""private""
+
+* Add backticks around function in docstring
+
+---------
+
+Co-authored-by: Grant Sanderson <grant@3blue1brown.com>",['94f6f0aa963a9aa61126789101f4e15321fd3097'],False,"['config.py', 'module_loader.py', 'reload_manager.py', 'scene.py']"
+df1e067480df9c4302ed0602fe36948ee563a785,"Fix 3D overlap when animating by checking Mobject family members recursively instead of `self.mobjects` (#2254)
+
+* Add Animation.setup_scene method to make Animation more customizable
+
+* Remove Animation.setup_scene method and let scene check all mobject family members",['6196daa5ec49546a8d973b6866991586f98d0d56'],False,['scene.py']
+0692afdfec648ee6889bdadc6beeb4cff10d7fa3,Bug fix,['14c6fdc1d9941044d7bc100f1b4fd1d581e2011a'],False,['extract_scene.py']
+c51a84a6eedb296f0ba0462e280fb558729a70e3,Fixing a Cairo Bug (Windows OS),['1a14a6bd0d38ad236b056f9877af33ae407cd673'],False,"['boolean_ops.py', 'tex_mobject.py', 'text_mobject.py', 'vectorized_mobject.py']"
+bcc4235e2f6f329f872cc3df15c1956a75ba63bc,"Move embed configuration out of Scene, and get rid of error sound option",['6b3801107842ceb5be2f51863baa5c1a131baf2f'],False,"['config.py', 'default_config.yml', 'scene.py', 'scene_embed.py']"
+17f37ff02a4b89c04adc2179ab46e0efdd48ba65,"Merge pull request #2264 from Varniex/master
+
+Fixing a Cairo Bug on Windows OS","['1a14a6bd0d38ad236b056f9877af33ae407cd673', 'c51a84a6eedb296f0ba0462e280fb558729a70e3']",True,[]
+5fcb668f07fa8ddecf346bb1832da18cb4fbf7f2,fixing `get_ipython` import error,['17f37ff02a4b89c04adc2179ab46e0efdd48ba65'],False,"['scene.py', 'scene_embed.py']"
+8246d0da5daf8f3d0bfab05791a0fd7732fd2c8d,Fix bug with xelatex rendering,['1794e4d0bab7b83ca0b899f45a25bfd243033524'],False,['tex_file_writing.py']
+bac0c0c9b9348734f5de869e4fe9f0d0c1425ec1,"Merge pull request #2265 from Varniex/master
+
+Minor Import Bug Fixed + Adding Required Packages","['17f37ff02a4b89c04adc2179ab46e0efdd48ba65', '76afc42e9a72fc25245fc54e7c3ba09b5f87f556']",True,[]
+bafea89ac9d11dc168bce923a65501ec74312afe,"Update InteractiveSceneEmbed (#2267)
+
+* Comment tweak
+
+* Directly print traceback
+
+Since the shell.showtraceback is giving some issues
+
+* Make InteracrtiveSceneEmbed into a class
+
+This way it can keep track of it's internal shell; use of get_ipython has a finicky relationship with reloading.
+
+* Move remaining checkpoint_paste logic into scene_embed.py
+
+This involved making a few context managers for Scene: temp_record, temp_skip, temp_progress_bar, which seem useful in and of themselves.
+
+* Change null key to be the empty string",['eeb4fdf27009a582fb408feac16f85608168d8c2'],False,"['module_loader.py', 'scene.py', 'scene_embed.py']"
+744e695340c5691551f2650d99db71964cb292c7,"Misc. clean up (#2269)
+
+* Comment tweak
+
+* Directly print traceback
+
+Since the shell.showtraceback is giving some issues
+
+* Make InteracrtiveSceneEmbed into a class
+
+This way it can keep track of it's internal shell; use of get_ipython has a finicky relationship with reloading.
+
+* Move remaining checkpoint_paste logic into scene_embed.py
+
+This involved making a few context managers for Scene: temp_record, temp_skip, temp_progress_bar, which seem useful in and of themselves.
+
+* Change null key to be the empty string
+
+* Ensure temporary svg paths for Text are deleted
+
+* Remove unused dict_ops.py functions
+
+* Remove break_into_partial_movies from file_writer configuration
+
+* Rewrite guarantee_existence using Path
+
+* Clean up SceneFileWriter
+
+It had a number of vestigial functions no longer used, and some setup that could be made more organized.
+
+* Remove --save_pngs CLI arg (which did nothing)
+
+* Add --subdivide CLI arg
+
+* Remove add_extension_if_not_present
+
+* Remove get_sorted_integer_files
+
+* Have find_file return Path
+
+* Minor clean up
+
+* Clean up num_tex_symbols
+
+* Fix find_file
+
+* Minor cleanup for extract_scene.py
+
+* Add preview_frame_while_skipping option to scene config
+
+* Use shell.showtraceback function
+
+* Move keybindings to config, instead of in-place constants
+
+* Replace DEGREES -> DEG",['00b34f202044dd841c96c4bd60322d849226c8d7'],False,"['constants.rst', 'example_scenes.rst', 'example_scenes.py', 'indication.py', 'transform.py', 'camera_frame.py', 'config.py', 'constants.py', 'default_config.yml', 'extract_scene.py', 'coordinate_systems.py', 'geometry.py', 'matrix.py', 'mobject_update_utils.py', 'text_mobject.py', 'vectorized_mobject.py', 'interactive_scene.py', 'scene.py', 'scene_embed.py', 'scene_file_writer.py', 'dict_ops.py', 'file_ops.py', 'simple_functions.py', 'tex.py']"
+33dbf049856f0f9e42b6791d926fe04707128440,"Make checkpoint_states an instance variable of CheckpointManager (#2273)
+
+As per https://github.com/3b1b/manim/issues/2272",['744e695340c5691551f2650d99db71964cb292c7'],False,['scene_embed.py']
+f427fc67df75513be0cd3f3329e327a9a19401c3,"A few bug fixes (#2277)
+
+* Comment tweak
+
+* Directly print traceback
+
+Since the shell.showtraceback is giving some issues
+
+* Make InteracrtiveSceneEmbed into a class
+
+This way it can keep track of it's internal shell; use of get_ipython has a finicky relationship with reloading.
+
+* Move remaining checkpoint_paste logic into scene_embed.py
+
+This involved making a few context managers for Scene: temp_record, temp_skip, temp_progress_bar, which seem useful in and of themselves.
+
+* Change null key to be the empty string
+
+* Ensure temporary svg paths for Text are deleted
+
+* Remove unused dict_ops.py functions
+
+* Remove break_into_partial_movies from file_writer configuration
+
+* Rewrite guarantee_existence using Path
+
+* Clean up SceneFileWriter
+
+It had a number of vestigial functions no longer used, and some setup that could be made more organized.
+
+* Remove --save_pngs CLI arg (which did nothing)
+
+* Add --subdivide CLI arg
+
+* Remove add_extension_if_not_present
+
+* Remove get_sorted_integer_files
+
+* Have find_file return Path
+
+* Minor clean up
+
+* Clean up num_tex_symbols
+
+* Fix find_file
+
+* Minor cleanup for extract_scene.py
+
+* Add preview_frame_while_skipping option to scene config
+
+* Use shell.showtraceback function
+
+* Move keybindings to config, instead of in-place constants
+
+* Replace DEGREES -> DEG
+
+* Add arg to clear the cache
+
+* Separate out full_tex_to_svg from tex_to_svg
+
+And only cache to disk the results of full_tex_to_svg.  Otherwise, making edits to the tex_templates would not show up without clearing the cache.
+
+* Bug fix in handling BlankScene
+
+* Make checkpoint_states an instance variable of CheckpointManager
+
+As per https://github.com/3b1b/manim/issues/2272
+
+* Move resizing out of Window.focus, and into Window.init_for_scene
+
+* Make default output directory ""."" instead of """"
+
+To address https://github.com/3b1b/manim/issues/2261
+
+* Remove input_file_path arg from SceneFileWriter
+
+* Use Dict syntax in place of dict for config more consistently across config.py
+
+* Simplify get_output_directory
+
+* Swap order of preamble and additional preamble",['3d9a0cd25e4604625b9740a98c46f4c5e272a10d'],False,"['__main__.py', 'config.py', 'extract_scene.py', 'scene_file_writer.py', 'tex_file_writing.py']"
+c13d2a946b1c2fc82596da3d2db251053aab32e9,fix typos (#2270),['0c69ab6a32d4193f03ba9a604278eb3ce9699518'],False,"['constants.py', 'default_config.yml']"
+96d44bd560564882ddc6f0d81b92ca2a00b5954b,"Video work (#2284)
+
+* Comment tweak
+
+* Directly print traceback
+
+Since the shell.showtraceback is giving some issues
+
+* Make InteracrtiveSceneEmbed into a class
+
+This way it can keep track of it's internal shell; use of get_ipython has a finicky relationship with reloading.
+
+* Move remaining checkpoint_paste logic into scene_embed.py
+
+This involved making a few context managers for Scene: temp_record, temp_skip, temp_progress_bar, which seem useful in and of themselves.
+
+* Change null key to be the empty string
+
+* Ensure temporary svg paths for Text are deleted
+
+* Remove unused dict_ops.py functions
+
+* Remove break_into_partial_movies from file_writer configuration
+
+* Rewrite guarantee_existence using Path
+
+* Clean up SceneFileWriter
+
+It had a number of vestigial functions no longer used, and some setup that could be made more organized.
+
+* Remove --save_pngs CLI arg (which did nothing)
+
+* Add --subdivide CLI arg
+
+* Remove add_extension_if_not_present
+
+* Remove get_sorted_integer_files
+
+* Have find_file return Path
+
+* Minor clean up
+
+* Clean up num_tex_symbols
+
+* Fix find_file
+
+* Minor cleanup for extract_scene.py
+
+* Add preview_frame_while_skipping option to scene config
+
+* Use shell.showtraceback function
+
+* Move keybindings to config, instead of in-place constants
+
+* Replace DEGREES -> DEG
+
+* Add arg to clear the cache
+
+* Separate out full_tex_to_svg from tex_to_svg
+
+And only cache to disk the results of full_tex_to_svg.  Otherwise, making edits to the tex_templates would not show up without clearing the cache.
+
+* Bug fix in handling BlankScene
+
+* Make checkpoint_states an instance variable of CheckpointManager
+
+As per https://github.com/3b1b/manim/issues/2272
+
+* Move resizing out of Window.focus, and into Window.init_for_scene
+
+* Make default output directory ""."" instead of """"
+
+To address https://github.com/3b1b/manim/issues/2261
+
+* Remove input_file_path arg from SceneFileWriter
+
+* Use Dict syntax in place of dict for config more consistently across config.py
+
+* Simplify get_output_directory
+
+* Swap order of preamble and additional preamble
+
+* Minor stylistic tweak
+
+* Have UnitInterval pass on kwargs to NumberLine
+
+* Add simple get_dist function
+
+* Have TracedPath always update to the stroke configuration passed in
+
+* Have Mobject.match_points apply to all parts of data in pointlike_data_key
+
+* Always call Mobject.update upon adding an updater
+
+* Add Surface.uv_to_point
+
+* Make sure Surface.set_opacity takes in a recurse option
+
+* Update num_tex_symbols to account for \\{ and \\}",['39fbb677dcc86fc32075249e66a3cbaba508aa7b'],False,"['changing.py', 'mobject.py', 'number_line.py', 'surface.py', 'space_ops.py', 'tex.py', 'tex_file_writing.py']"
+24eefef5bf185f7523799b5fcf71b4a90fca8c24,"Automatically identify the class name based on the specified line number. (#2280)
+
+* identify the scene name based on the line number
+
+* resolving a minor bug in string_mobject
+
+* removing bug of string validation
+
+* Update manimlib/default_config.yml
+
+Co-authored-by: Splines <37160523+Splines@users.noreply.github.com>
+
+* Update manimlib/extract_scene.py
+
+Co-authored-by: Splines <37160523+Splines@users.noreply.github.com>
+
+* update search scene names
+
+---------
+
+Co-authored-by: Splines <37160523+Splines@users.noreply.github.com>",['96d44bd560564882ddc6f0d81b92ca2a00b5954b'],False,"['default_config.yml', 'extract_scene.py', 'probability.py', 'string_mobject.py', 'text_mobject.py']"
+db421e3981d77676db4a701df9f850fedd545cc7,"Video work (#2318)
+
+* Only use -no-pdf for xelatex rendering
+
+* Instead of tracking du and dv points on surface, track points off the surface in the normal direction
+
+This means that surface shading will not necessarily work well for arbitrary transformations of the surface. But the existing solution was flimsy anyway, and caused annoying issues with singularity points.
+
+* Have density of anchor points on arcs depend on arc length
+
+* Allow for specifying true normals and orientation of Sphere
+
+* Change miter threshold on stroke shader
+
+* Add get_start_and_end to DashedLine
+
+* Add min_total_width option to DecimalNumber
+
+* Have BackgroundRectangle.set_style absorb (and ignore) added configuration
+
+Note, this feels suboptimal
+
+* Add LineBrace
+
+* Update font_size adjustment in Tex",['7a7bf83f117034b5cdf60ae85511c1b004769651'],False,"['geometry.py', 'numbers.py', 'shape_matchers.py', 'brace.py', 'tex_mobject.py', 'three_dimensions.py', 'surface.py', 'geom.glsl', 'vert.glsl', 'vert.glsl']"
+2ddec95ce5afaae97813ea825782a7e3782e8bed,Fix --fps type conversion to int (#2299),['db421e3981d77676db4a701df9f850fedd545cc7'],False,['config.py']
+7a61a1369162b5cc154a7851900012e87be9f438,"Fix issues in number_line.py (#2310)
+
+Fix the issue that changes in decimal_number_config[""font_size""] get rewritten by number_config",['3e307926fd41f4abb0ba767e512378749b9d14c0'],False,['number_line.py']
+dbfe7ac75d76f3394535afc9fdf889cca5bff3d4,"Performance improved in `set_color_by_rgba_func` (#2316)
+
+* removing 1 in neg axis if unit_tex is specified
+
+* performance improved in `set_color_by_rgba_func`
+
+* resolving imag axis number mob in ComplexPlane",['7a61a1369162b5cc154a7851900012e87be9f438'],False,"['coordinate_systems.py', 'mobject.py', 'number_line.py']"
+be7d93cf40a54fdcb0103b5e3d5efc978958b75d,Fix path arc handling for `SVGMobject` when a matrix transform is present in the SVG (#2322),['dbfe7ac75d76f3394535afc9fdf889cca5bff3d4'],False,['svg_mobject.py']
+f4737828f65999252c0cab9824d9d34cfabf4341,"Video work (#2326)
+
+* Only use -no-pdf for xelatex rendering
+
+* Instead of tracking du and dv points on surface, track points off the surface in the normal direction
+
+This means that surface shading will not necessarily work well for arbitrary transformations of the surface. But the existing solution was flimsy anyway, and caused annoying issues with singularity points.
+
+* Have density of anchor points on arcs depend on arc length
+
+* Allow for specifying true normals and orientation of Sphere
+
+* Change miter threshold on stroke shader
+
+* Add get_start_and_end to DashedLine
+
+* Add min_total_width option to DecimalNumber
+
+* Have BackgroundRectangle.set_style absorb (and ignore) added configuration
+
+Note, this feels suboptimal
+
+* Add LineBrace
+
+* Update font_size adjustment in Tex
+
+* Add scale_factor parameter to BulletedList.fade_all_but
+
+* Minor import tweaks
+
+* Add play_sound",['be7d93cf40a54fdcb0103b5e3d5efc978958b75d'],False,"['special_tex.py', 'scene.py', 'sounds.py']"
+c7ef8404b743a272c4a905cbfac164d7ad1b41af,"Video work (#2356)
+
+* Only use -no-pdf for xelatex rendering
+
+* Instead of tracking du and dv points on surface, track points off the surface in the normal direction
+
+This means that surface shading will not necessarily work well for arbitrary transformations of the surface. But the existing solution was flimsy anyway, and caused annoying issues with singularity points.
+
+* Have density of anchor points on arcs depend on arc length
+
+* Allow for specifying true normals and orientation of Sphere
+
+* Change miter threshold on stroke shader
+
+* Add get_start_and_end to DashedLine
+
+* Add min_total_width option to DecimalNumber
+
+* Have BackgroundRectangle.set_style absorb (and ignore) added configuration
+
+Note, this feels suboptimal
+
+* Add LineBrace
+
+* Update font_size adjustment in Tex
+
+* Add scale_factor parameter to BulletedList.fade_all_but
+
+* Minor import tweaks
+
+* Add play_sound
+
+* Small if -> elif update
+
+* Always use Group for FadeTransform
+
+* Use time_spanned_alpha in ChangingDecimal
+
+* Change priority of number_config vs. self.decimal_number_config in NumberLine init
+
+* Fix clock animation
+
+* Allow sample_coords to be passed into VectorField",['f4737828f65999252c0cab9824d9d34cfabf4341'],False,"['composition.py', 'fading.py', 'numbers.py', 'number_line.py', 'drawings.py', 'vector_field.py']"
+c667136060ca443fc5778463ac1b5e1fdbcfde91,"Fix error when using `VFadeIn` (and its subclasses) (#2328)
+
+* Fix error when using VFadeIn and its subclasses
+
+* add np.floating in type checking of Mobject.set_rgba_array_by_color and VMobject.set_stroke and removing the change in VFadeIn",['66e8b045071dfff17d244e2d82ca48ca3907df08'],False,"['mobject.py', 'vectorized_mobject.py']"
+8b9ae95703e3ba66ba2f8432dda11d1a9396fefe,"Resolving minor bug in StreamLines (#2330)
+
+* resolving minor bug in StreamLines
+
+* minute changes",['c667136060ca443fc5778463ac1b5e1fdbcfde91'],False,"['config.py', 'vector_field.py']"
+bd8d2fbc99214cb0e2ee1dc1f09ab7e960c7bc81,"Update URL to pango in README.md (#2334)
+
+https://pango.gnome.org gets `ERR_NAME_NOT_RESOLVED`",['53bc83d94a8763c6a4b5fcdaa653b1049511f01c'],False,['README.md']
+a5a73cb2daa219e210b4c8541bef1f1f7f40a5a2,"Fix typos in GLSL comments and add constants `PURE_RED`, `PURE_GREEN`, `PURE_BLUE` (#2340)
+
+* Fix typos in GLSL comments
+
+* Fix typos in GLSL comments
+
+* add constants PURE_RED, PURE_GREEN, PURE_BLUE",['bd8d2fbc99214cb0e2ee1dc1f09ab7e960c7bc81'],False,"['constants.py', 'default_config.yml', 'emit_gl_Position.glsl', 'finalize_color.glsl', 'frag.glsl']"
+778773074338d5214c9d2ad59b8689cc0b475c95,Fix No matching distribution found for audioop-lts (python < 3.13) (#2283) (#2341),['a5a73cb2daa219e210b4c8541bef1f1f7f40a5a2'],False,"['requirements.txt', 'setup.cfg']"
+e81dfab0e65d30e50675b3f3ff679bc26edb7a9d,Fixed minor typos in example_scenes.py (#2351),['fd2a6a69e56f6e7a0069d0d395915ecbd7264ef0'],False,['example_scenes.py']
+cc5fbe17b9df97cad82bc2054a4eda286d1e2ba4,Fix bug with mirroring file prefixes,['d330e1db7ff4273eaaa8d58c9345a79217f55698'],False,['config.py']
